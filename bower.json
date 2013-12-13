@@ -4,6 +4,7 @@
     "underscore": "~1.5.2",
     "backbone": "~1.1.0",
     "jquery": "~1.10.2",
-    "threejs": "r63"
+    "threejs": "r63",
+    "normalize-css": "1.1.3"
   }
 }
