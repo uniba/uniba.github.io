@@ -5,6 +5,7 @@
     "backbone": "~1.1.0",
     "jquery": "~1.10.2",
     "threejs": "r63",
-    "normalize-css": "1.1.3"
+    "normalize-css": "1.1.3",
+    "tweenjs": "r12"
   }
 }
