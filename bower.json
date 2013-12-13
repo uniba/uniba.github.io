@@ -1,3 +1,6 @@
 {
-  "name": "uniba.jp"
+  "name": "uniba.jp",
+  "dependencies": {
+    "underscore": "~1.5.2"
+  }
 }
