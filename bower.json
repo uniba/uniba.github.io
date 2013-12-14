@@ -6,6 +6,8 @@
     "jquery": "~1.10.2",
     "threejs": "r63",
     "normalize-css": "1.1.3",
-    "tweenjs": "r12"
+    "tweenjs": "r12",
+    "timbre.js": "https://raw.github.com/mohayonao/timbre.js/v13.05.01/timbre.dev.js",
+    "three.css3drenderer": "https://raw.github.com/mrdoob/three.js/r63/examples/js/renderers/CSS3DRenderer.js"
   }
 }
