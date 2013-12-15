@@ -2,8 +2,41 @@
 //= require normalize-css/normalize
 //= require_self
 
-.main-container {
-  overflow: scroll;
+@import "compass/utilities";
+@import "compass/css3";
+@import "breakpoint";
+@import "font";
+
+%btn-hover {
+  display: block;
+  text-decoration: none;
+  line-height: 1;
+
+  &:hover {
+    color: #ffffff;
+    background-color: #000000;
+  }
+}
+
+body {
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  line-height: 1.4;
+}
+
+a {
+  color: #000000;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
 }
 
 .controls {
@@ -13,7 +46,337 @@
   background-color: rgba(0, 0, 0, .4);
   padding: 1em;
   color: #fff;
+  @include bp(sp) {
+    display: none;
+  }
+
   &:hover {
     background-color: rgba(0, 0, 0, .6);
+  }
+}
+
+.main-container {
+  padding: 0 60px;
+  background-color: #ffffff;
+  overflow: scroll;
+  @include bp(sp) {
+    width: 94%;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 3%;
+    @include box-sizing(border-box);
+  }
+}
+
+.title {
+  @extend %font-futura;
+  font-style: italic;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.section {
+  max-width: 900px;
+  padding: 0 0 100px 0;
+  @include bp(sp) {
+    max-width: 100%;
+    padding: 0 0 25px 0;
+    font-size: 0.65em;
+  }
+
+  .title {
+    margin: 0;
+    padding: 50px 0;
+    font-size: 2.813em;
+    @include bp(sp) {
+      padding: 10px 0;
+      font-size: 2.2em;
+    }
+  }
+}
+
+.btn {
+  border: 1px solid #000000;
+  @include box-sizing(border-box);
+
+  a {
+    @extend %btn-hover;
+    padding: 2em 0 1.8em 0;
+    text-align: center;
+    text-decoration: none;
+    @include bp(sp) {
+      padding: 1.5em 0 1.3em 0;
+    }
+  }
+}
+
+.header {
+
+  h1 {
+    margin: 0;
+    padding: 28px 0;
+    font-size: 4.875em;
+    @include bp(sp) {
+      padding: 0.2em 0 0.5em 0;
+      font-size: 2.188em;
+    }
+  }
+}
+
+.nav {
+  @extend %font-futura;
+  padding: 0 0 205px 0;
+  text-transform: uppercase;
+  @include bp(sp) {
+    padding: 0 0 50px 0;
+  }
+
+  ul {
+    @include bp(sp) {
+      border: 1px solid #000000;
+      border-bottom: none;
+      border-left: none;
+      @include box-sizing(border-box);
+      @include clearfix;
+    }
+  }
+
+  li {
+    display: inline-block;
+    padding: 0 2.5em 0 0;
+    @include bp(sp) {
+      float: left;
+      display: block;
+      width: 50%;
+      padding: 0;
+      border-left: 1px solid #000000;
+      border-bottom: 1px solid #000000;
+      @include box-sizing(border-box);
+    }
+
+    &:last-child {
+      padding: none;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    @include bp(sp) {
+      display: block;
+      padding: 0.55em 0.6em;
+    }
+
+    &:hover {
+      text-decoration: line-through;
+      @include bp(sp) {
+        color: #ffffff;
+        background-color: #000000;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+#about {
+  display: none;
+}
+
+#news {
+
+  a {
+    text-decoration: underline;
+  }
+
+  p {
+    margin-top: 0;
+  }
+}
+
+#works {
+
+}
+
+.works-grid {
+  @include clearfix;
+
+  li {
+    float: left;
+    @include bp(sp) {
+      width: 50%;
+    }
+
+    img {
+      @include bp(sp) {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+#members {
+  padding-bottom: 70px;
+}
+
+.members-grid {
+  @include clearfix;
+
+  li {
+    float: left;
+    width: 300px;
+    padding: 0 0 30px 0;
+    @include bp(sp) {
+      width: 50%;
+    }
+  }
+}
+
+.staff {
+  @include clearfix;
+
+  .figure {
+    float: left;
+
+    img {
+      @include bp(sp) {
+        width: 40px;
+        height: auto;
+      }
+    }
+  }
+
+  .staff-detail {
+    margin: 0 0 0 90px;
+    @include bp(sp) {
+      margin: 0 0 0 45px;
+    }
+
+    h4 {
+      margin: 0;
+      font-size: 1.5em;
+      font-weight: normal;
+      @include bp(sp) {
+        font-size: 1.2em;
+      }
+
+      span {
+        display: block;
+        font-size: 0.65em;
+      }
+    }
+
+    .division {
+      font-size: 0.875em;
+      @include bp(sp) {
+        font-size: 0.65em;
+      }
+    }
+  }
+}
+
+#client {
+
+}
+
+.client-grid {
+  @include pie-clearfix;
+
+  li {
+    float: left;
+    width: 299px;
+    margin: -1px 0 0 -1px;
+    border: 1px solid #000000;
+    @include bp(sp) {
+      width: 50%;
+      @include box-sizing(border-box);
+    }
+
+    img {
+      @include bp(sp) {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+#contact {
+
+  a {
+    text-decoration: none;
+  }
+}
+
+address {
+  font-style: normal;
+  line-height: 2
+}
+
+#links {
+
+  p {
+
+    @include bp(sp) {
+      border: 1px solid #000000;
+      @include box-sizing(border-box);
+    }
+
+    a {
+      @include bp(sp) {
+        display: block;
+        padding: 1.5em 0 1.3em 0;
+        text-decoration: none;
+        line-height: 1;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      &:hover {
+        @include bp(sp) {
+          color: #ffffff;
+          background-color: #000000;
+        }
+      }
+    }
+  }
+}
+
+.links-grid {
+  @include pie-clearfix;
+
+  li {
+    display: table;
+    float: left;
+    width: 149px;
+    height: 149px;
+    margin: -1px 0 0 -1px;
+    border: 1px solid #000000;
+    text-align: center;
+    @include bp(sp) {
+      width: 33%;
+      height: auto;
+    }
+
+    a {
+      @extend %btn-hover;
+      display: table-cell;
+      height: 100%;
+      vertical-align: middle;
+      @include bp(sp) {
+        padding: 3em 0; // TODO
+      }
+    }
+  }
+}
+
+.footer {
+  @extend %font-futura;
+  font-size: 1.8em;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1.6;
+  @include bp(sp) {
+    font-size: 1em;
+    line-height: 1.4;
   }
 }

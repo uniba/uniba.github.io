@@ -1,5 +1,5 @@
 ---
-title: Welcome to Middleman
+title: Uniba Inc.
 ---
 
 .debug
@@ -8,4 +8,114 @@ title: Welcome to Middleman
     %label{ :for => "3d" } 3D Mode
 
 .main-container
-  = image_tag "design.jpg"
+  .header
+    %h1.title
+      Uniba Inc.
+  .nav
+    %ul
+      %li= link_to "About", "#about"
+      %li= link_to "Works", "#works"
+      %li= link_to "Members", "#members"
+      %li= link_to "Contact", "#contact"
+      %li= link_to "Recruit", "http://example.com"
+      %li= link_to "Blog", "#"
+  #about
+    %h2.title
+      About
+    %p
+      ユニバ株式会社は、"さわれるインターネット(Embodied Virtuality)"の会社です。<br>インターネットとコンピュータを、道具ではなく、見て、触れて、遊びたおすためのメディアととらえています。<br>メディアアートとオープンテクノロジに根ざすプロダクションとして、その楽しさを追求しながら、ブランディング、キャンペーン、プロモーションの制作をしています。
+    %p
+      また社内における実験的な取り組みとして、
+      = link_to "Circuit Lab", "http://cct.la/"
+      という活動の場を設けています。
+    .btn
+      = link_to "基本情報", "#"
+
+  #news.section
+    %h2.title
+      News
+    %p
+      2013.10.15 Maker Fairt Tokyo 2013に出店します。詳細は<a href="#">こちら</a>
+    %p
+      2013.10.15 webサイトをリニューアルしました。
+    %p
+      <a href="#">最新情報はこちらから</a>
+
+  #works.section
+    %h2.title
+      Works
+    %ul.works-grid
+      - (1..9).each do
+        %li
+          = link_to "#" do
+            = image_tag "works/w_wasabeat.png", { :alt => ""}
+
+  #movie.section
+    %h2.title
+      Movie
+    .btn
+      = link_to "ユニバチャンネル", "#"
+
+  #members.section
+    %h2.title
+      Members
+    %ul.members-grid
+      - (1..18).each do
+        %li
+          .staff
+            .figure
+              <img src="http://www.gravatar.com/avatar/00000000000000000000000000000000&s=80" data-gravatar-id="jun@uniba.jp" alt="小松純" />
+            .staff-detail
+              %h4
+                %span Jun Komatsu
+                小松 純
+              .division Co Founder / Engineer
+
+  #client.section
+    %h2.title
+      Client&amp;Pertners
+    %ul.client-grid
+      - (1..8).each do
+        %li
+          = link_to "#" do
+            = image_tag "client/c_wasabeat.png", { :alt => ""}
+
+  #contact.section
+    %h2.title
+      Contact
+    %address
+      %ul
+        %li
+          = link_to "info@uniba.jp", "mailto:info@uniba.jp"
+        %li
+          03 3486 9337
+      %p
+        150-0001<br>東京都渋谷区神宮前5-34-4 ジェイハウス B1F
+      %p
+        J.HAUS B1F, 5-34-4 Jingumae,Shibuya_ku Tokyo,150-0001 JAPAN
+
+  #links.section
+    %h2.title
+      Links
+    %p
+      = link_to "Circuit Lab", "http://cct.la/"
+    %ul.links-grid
+      %li
+        = link_to "f", "#"
+      %li
+        = link_to "v", "#"
+      %li
+        = link_to "y", "#"
+      %li
+        = link_to "t", "#"
+      %li
+        = link_to "g", "#"
+
+  .footer.section
+    %small
+      Uniba Inc. Some Rights Reserved.<br>We Are Open.
+
+
+
+
+

@@ -1,0 +1,14 @@
+$bp-default: 1020px;
+$bp-sp: 640px;
+
+@mixin bp($point) {
+  @if $point == default {
+    @media only screen and (max-width: $bp-default) {
+      @content
+    }
+  } @else if $point == sp {
+    @media only screen and (max-width: $bp-sp) {
+      @content
+    }
+  }
+}
