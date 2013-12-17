@@ -56,7 +56,7 @@
         // if (this.is3D) {
           var time = Date.now() * 0.00002;
           cameraBG.lookAt( sceneBG.position );
-          for ( i = 0; i < sceneBG.children.length; i ++ ) {
+          for (var i = 0; i < sceneBG.children.length; i ++ ) {
             var object = sceneBG.children[ i ];
             if ( object instanceof THREE.ParticleSystem ) {
               object.rotation.y = time * ( i < 4 ? i + 1 : - ( i + 1 ) );
@@ -67,7 +67,7 @@
       }
 
       requestAnimationFrame(function() {
-        rendererBG.render(sceneBG, cameraBG);
+        renderBG();
         requestAnimationFrame(arguments.callee);
       });
 
