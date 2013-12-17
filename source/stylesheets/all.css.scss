@@ -59,6 +59,7 @@ img {
   padding: 0 60px;
   background-color: #ffffff;
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
   @include bp(sp) {
     width: 94%;
     min-width: 320px;
