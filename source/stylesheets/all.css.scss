@@ -56,7 +56,6 @@ img {
 }
 
 .main-container {
-  padding: 0 60px;
   background-color: #ffffff;
   overflow: scroll;
   @include bp(sp) {
@@ -66,6 +65,10 @@ img {
     padding: 0 3%;
     @include box-sizing(border-box);
   }
+}
+
+.wrapper {
+  padding: 0 60px;
 }
 
 .title {
