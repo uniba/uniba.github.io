@@ -6,3 +6,11 @@
     - 3.jpg
   date: 2013-04-01
   video_url: https://vimeo.com
+-
+  title: タイトル2
+  thumbnail_image_path:
+    - 1.jpg
+    - 2.jpg
+    - 3.jpg
+  date: 2013-04-02
+  video_url: https://vimeo.com
