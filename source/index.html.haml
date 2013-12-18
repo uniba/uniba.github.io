@@ -10,7 +10,7 @@ title: Uniba Inc.
 .main-container
   .wrapper
     .header
-      %h1.title
+      %h1.section-title
         Uniba Inc.
     .nav
       %ul
@@ -21,7 +21,7 @@ title: Uniba Inc.
         %li= link_to "Recruit", "http://example.com"
         %li= link_to "Blog", "#"
     #about
-      %h2.title
+      %h2.section-title
         About
       %p
         ユニバ株式会社は、"さわれるインターネット(Embodied Virtuality)"の会社です。<br>インターネットとコンピュータを、道具ではなく、見て、触れて、遊びたおすためのメディアととらえています。<br>メディアアートとオープンテクノロジに根ざすプロダクションとして、その楽しさを追求しながら、ブランディング、キャンペーン、プロモーションの制作をしています。
@@ -33,7 +33,7 @@ title: Uniba Inc.
         = link_to "基本情報", "#"
 
     #news.section
-      %h2.title
+      %h2.section-title
         News
       %p
         2013.10.15 Maker Fairt Tokyo 2013に出店します。詳細は<a href="#">こちら</a>
@@ -43,7 +43,7 @@ title: Uniba Inc.
         <a href="#">最新情報はこちらから</a>
 
     #works.section
-      %h2.title
+      %h2.section-title
         Works
       %ul.works-grid
         - (1..9).each do
@@ -52,13 +52,14 @@ title: Uniba Inc.
               = image_tag "works/w_wasabeat.png", { :alt => ""}
 
     #movie.section
-      %h2.title
+      %h2.section-title
         Movie
+      = partial "_partial/movie"
       .btn
         = link_to "Uniba Channel", "#"
 
     #members.section
-      %h2.title
+      %h2.section-title
         Members
       %ul.members-grid
         - (1..18).each do
@@ -73,7 +74,7 @@ title: Uniba Inc.
                 .division Co Founder / Engineer
 
     #client.section
-      %h2.title
+      %h2.section-title
         Client&amp;Pertners
       %ul.client-grid
         - (1..8).each do
@@ -82,7 +83,7 @@ title: Uniba Inc.
               = image_tag "client/c_wasabeat.png", { :alt => ""}
 
     #contact.section
-      %h2.title
+      %h2.section-title
         Contact
       %address
         %ul
@@ -96,7 +97,7 @@ title: Uniba Inc.
           J.HAUS B1F, 5-34-4 Jingumae,Shibuya_ku Tokyo,150-0001 JAPAN
 
     #links.section
-      %h2.title
+      %h2.section-title
         Links
       %p
         = link_to "Circuit Lab", "http://cct.la/"

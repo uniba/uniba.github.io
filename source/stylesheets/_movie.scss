@@ -1,0 +1,43 @@
+.box {
+  margin: 0 0 40px 0;
+  h3 {
+    display: inline-block;
+    margin: 0 0 9px 0;
+    padding: 4px 5px 2px 4px;
+    background-color: #000;
+    color: #FFF;
+    font-size: 0.9em;
+    font-family:'Futura W01 Medium';
+    font-style: italic;
+    letter-spacing: 0.1em;
+  }
+  .screenshots {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    ul {
+      width: 2330px;
+      height: 130px;
+      position: relative;
+      line-height: 0;
+      li {
+        margin: 0 -3px 0 0;
+        position: absolute;
+        @for $i from 0 through 10 {
+          &:nth-child(#{$i + 1}) {
+            left: #{233 * $i}px;
+          }
+        }
+        img {
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+  }
+  .title {
+    margin: 9px 0 0 0;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+  }
+}

@@ -6,6 +6,7 @@
 @import "compass/css3";
 @import "breakpoint";
 @import "font";
+@import "movie";
 
 %btn-hover {
   display: block;
@@ -72,7 +73,7 @@ img {
   padding: 0 60px;
 }
 
-.title {
+.section-title {
   @extend %font-futura;
   font-style: italic;
   font-weight: normal;
@@ -88,7 +89,7 @@ img {
     font-size: 0.65em;
   }
 
-  .title {
+  .section-title {
     margin: 0;
     padding: 50px 0;
     font-size: 2.813em;
