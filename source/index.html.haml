@@ -62,11 +62,7 @@ title: Uniba Inc.
     #client.section
       %h2.section-title
         Client&amp;Pertners
-      %ul.client-grid
-        - (1..8).each do
-          %li
-            = link_to "#" do
-              = image_tag "client/c_wasabeat.png", { :alt => ""}
+      = partial "_partial/client"
 
     #contact.section
       %h2.section-title

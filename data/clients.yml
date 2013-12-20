@@ -1,4 +1,32 @@
 -
+  name: SIMONE
+  image_path: c_simone.png
+  url: http://www.ilovesimone.com/
+-
   name: WASABEAT
-  image_path:
+  image_path: c_wasabeat.png
   url: http://www.wasabeat.jp/
+-
+  name: sonic jam
+  image_path: c_sonicjam.png
+  url: http://www.sonicjam.co.jp/
+-
+  name: aircord
+  image_path: c_aircord.png
+  url: http://www.aircord.co.jp/
+-
+  name: FISHGROVE
+  image_path: c_fishgrove.png
+  url: http://www.fish-g.jp/
+-
+  name: eizo
+  image_path: c_eizo.png
+  url: http://www.eizo-salon.com/
+-
+  name: amanainteractive
+  image_path: c_amanainteractive.png
+  url: http://amana.jp/amana/
+-
+  name: BEYONDE PERSOECTIVE SOLUTIONS
+  image_path: c_bps.png
+  url: http://www.bpsinc.jp/
