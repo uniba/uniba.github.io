@@ -1,16 +1,17 @@
 .movie-list
-  - data.movies.each do |item|
-    .box
-      %h3 #{ item.date }
-      .screenshots
-        = link_to item.video_url do
-          %ul
-            - item.thumbnail_image_path.each do |image|
-              %li
-                = image_tag("movie/thumb/"+image)
-      %p.title
-        = link_to item.video_url, { :target => "_blank" } do
-          #{ item.title }
+  - data.movies.each.with_index do |item, index|
+    - if index < 3
+      .box
+        %h3 #{ item.date }
+        .screenshots
+          = link_to item.video_url do
+            %ul
+              - item.thumbnail_image_path.each do |image|
+                %li
+                  = image_tag("movie/thumb/"+image)
+        %p.title
+          = link_to item.video_url, { :target => "_blank" } do
+            #{ item.title }
 
 
 

@@ -89,7 +89,7 @@
   date: 2013.05.22
   video_url: https://vimeo.com/66710397
 -
-  title: Future Semaphore ":" Uniba Exhibition 2013
+  title: Future Semaphore &#x3a; Uniba Exhibition 2013
   thumbnail_image_path:
     - future_exhibition_1.jpg
     - future_exhibition_2.jpg
@@ -134,7 +134,7 @@
   date: 2013.04.19
   video_url: https://vimeo.com/64374048
 -
-  title: Future Semaphore ":" フューチャー・セマフォア 手旗通信の未来
+  title: Future Semaphore &#x3a; フューチャー・セマフォア 手旗通信の未来
   thumbnail_image_path:
     - future_teaser_1.jpg
     - future_teaser_2.jpg
@@ -223,3 +223,468 @@
     - klangwolke_abc_mini_10.jpg
   date: 2013.03.07
   video_url: https://vimeo.com/61256172
+-
+  title: Interactive Grenade Attraction
+  thumbnail_image_path:
+    - interactive_grenade_1.jpg
+    - interactive_grenade_2.jpg
+    - interactive_grenade_3.jpg
+    - interactive_grenade_4.jpg
+    - interactive_grenade_5.jpg
+    - interactive_grenade_6.jpg
+    - interactive_grenade_7.jpg
+    - interactive_grenade_8.jpg
+    - interactive_grenade_9.jpg
+    - interactive_grenade_10.jpg
+  date: 2013.02.27
+  video_url: http://vimeo.com/60634109
+-
+  title: Dancing + Visual Projection
+  thumbnail_image_path:
+    - dancing_1.jpg
+    - dancing_2.jpg
+    - dancing_3.jpg
+    - dancing_4.jpg
+    - dancing_5.jpg
+    - dancing_6.jpg
+    - dancing_7.jpg
+    - dancing_8.jpg
+    - dancing_9.jpg
+    - dancing_10.jpg
+  date: 2013.01.31
+  video_url: http://vimeo.com/58605582
+-
+  title: 3D STEERING SYSTEM &amp; HASHI
+  thumbnail_image_path:
+    - 3d_hashi_1.jpg
+    - 3d_hashi_2.jpg
+    - 3d_hashi_3.jpg
+    - 3d_hashi_4.jpg
+    - 3d_hashi_5.jpg
+    - 3d_hashi_6.jpg
+    - 3d_hashi_7.jpg
+    - 3d_hashi_8.jpg
+    - 3d_hashi_9.jpg
+    - 3d_hashi_10.jpg
+  date: 2013.01.11
+  video_url: http://www.youtube.com/watch?v=CSZ3kjP2WSI
+-
+  title: APPLE PASSBOOK × FACE DETECTION Concept&#x3a; KAOPASS (FACE-PASS)
+  thumbnail_image_path:
+    - apple_passbook_1.jpg
+    - apple_passbook_2.jpg
+    - apple_passbook_3.jpg
+    - apple_passbook_4.jpg
+    - apple_passbook_5.jpg
+    - apple_passbook_6.jpg
+    - apple_passbook_7.jpg
+    - apple_passbook_8.jpg
+    - apple_passbook_9.jpg
+    - apple_passbook_10.jpg
+  date: 2012.12.01
+  video_url: http://vimeo.com/54669497
+-
+  title: Art of Change &#x3a; New Directions from China - DIGITAL ARCHIVE @HAYWARD ART GALLERY LONDON
+  thumbnail_image_path:
+    - hayward_1.jpg
+    - hayward_2.jpg
+    - hayward_3.jpg
+    - hayward_4.jpg
+    - hayward_5.jpg
+    - hayward_6.jpg
+    - hayward_7.jpg
+    - hayward_8.jpg
+    - hayward_9.jpg
+    - hayward_10.jpg
+  date: 2012.11.23
+  video_url: http://vimeo.com/56186665
+-
+  title: Maker Faire Tokyo 2012 @Uniba
+  thumbnail_image_path:
+    - mft2012_1.jpg
+    - mft2012_2.jpg
+    - mft2012_3.jpg
+    - mft2012_4.jpg
+    - mft2012_5.jpg
+    - mft2012_6.jpg
+    - mft2012_7.jpg
+    - mft2012_8.jpg
+    - mft2012_9.jpg
+    - mft2012_10.jpg
+  date: 2012.11.21
+  video_url: http://vimeo.com/56083432
+-
+  title: Glue Machine (from untitled)
+  thumbnail_image_path:
+    - glue_machine_1.jpg
+    - glue_machine_2.jpg
+    - glue_machine_3.jpg
+    - glue_machine_4.jpg
+    - glue_machine_5.jpg
+    - glue_machine_6.jpg
+    - glue_machine_7.jpg
+    - glue_machine_8.jpg
+    - glue_machine_9.jpg
+    - glue_machine_10.jpg
+  date: 2012.11.21
+  video_url: http://vimeo.com/56086398
+-
+  title: PLUG-IN Championship
+  thumbnail_image_path:
+    - plugin_championship_1.jpg
+    - plugin_championship_2.jpg
+    - plugin_championship_3.jpg
+    - plugin_championship_4.jpg
+    - plugin_championship_5.jpg
+    - plugin_championship_6.jpg
+    - plugin_championship_7.jpg
+    - plugin_championship_8.jpg
+    - plugin_championship_9.jpg
+    - plugin_championship_10.jpg
+  date: 2012.10.29
+  video_url: http://vimeo.com/52377747
+-
+  title: HTML5-Tweaker-Proxy
+  thumbnail_image_path:
+    - html5_tweaker_1.jpg
+    - html5_tweaker_2.jpg
+    - html5_tweaker_3.jpg
+    - html5_tweaker_4.jpg
+    - html5_tweaker_5.jpg
+    - html5_tweaker_6.jpg
+    - html5_tweaker_7.jpg
+    - html5_tweaker_8.jpg
+    - html5_tweaker_9.jpg
+    - html5_tweaker_10.jpg
+  date: 2012.09.20
+  video_url: http://vimeo.com/49835640
+-
+  title: ユニバハウス
+  thumbnail_image_path:
+    - unibahouse_1.jpg
+    - unibahouse_2.jpg
+    - unibahouse_3.jpg
+    - unibahouse_4.jpg
+    - unibahouse_5.jpg
+    - unibahouse_6.jpg
+    - unibahouse_7.jpg
+    - unibahouse_8.jpg
+    - unibahouse_9.jpg
+    - unibahouse_10.jpg
+  date: 2012.09.10
+  video_url: http://www.youtube.com/watch?v=TwLE7owbIfA
+-
+  title: Make&#x3a; Ogaki Meeting 2012 - Uniba Device Team
+  thumbnail_image_path:
+    - mom2012_1.jpg
+    - mom2012_2.jpg
+    - mom2012_3.jpg
+    - mom2012_4.jpg
+    - mom2012_5.jpg
+    - mom2012_6.jpg
+    - mom2012_7.jpg
+    - mom2012_8.jpg
+    - mom2012_9.jpg
+    - mom2012_10.jpg
+  date: 2012.09.10
+  video_url: http://www.youtube.com/watch?v=OMmEnOSz1B0
+-
+  title: I like bacons.
+  thumbnail_image_path:
+    - bacons_1.jpg
+    - bacons_2.jpg
+    - bacons_3.jpg
+    - bacons_4.jpg
+    - bacons_5.jpg
+    - bacons_6.jpg
+    - bacons_7.jpg
+    - bacons_8.jpg
+    - bacons_9.jpg
+    - bacons_10.jpg
+  date: 2012.07.10
+  video_url: http://www.screenr.com/8sn8
+-
+  title: Circulator + Cyber Pak Test
+  thumbnail_image_path:
+    - circulator_cyberpak_test_1.jpg
+    - circulator_cyberpak_test_2.jpg
+    - circulator_cyberpak_test_3.jpg
+    - circulator_cyberpak_test_4.jpg
+    - circulator_cyberpak_test_5.jpg
+    - circulator_cyberpak_test_6.jpg
+    - circulator_cyberpak_test_7.jpg
+    - circulator_cyberpak_test_8.jpg
+    - circulator_cyberpak_test_9.jpg
+    - circulator_cyberpak_test_10.jpg
+  date: 2012.07.08
+  video_url: http://www.youtube.com/watch?v=5wd0dShHaaY
+-
+  title: Uniba Inc. VI Renewal (Prototype 5 - iPad App -)
+  thumbnail_image_path:
+    - unibainc_vi_renewal_type5_1.jpg
+    - unibainc_vi_renewal_type5_2.jpg
+    - unibainc_vi_renewal_type5_3.jpg
+    - unibainc_vi_renewal_type5_4.jpg
+    - unibainc_vi_renewal_type5_5.jpg
+    - unibainc_vi_renewal_type5_6.jpg
+    - unibainc_vi_renewal_type5_7.jpg
+    - unibainc_vi_renewal_type5_8.jpg
+    - unibainc_vi_renewal_type5_9.jpg
+    - unibainc_vi_renewal_type5_10.jpg
+  date: 2012.06.26
+  video_url: http://vimeo.com/44723484
+-
+  title: "Cyber Pak Test2 (MAX/MSP + MIDI)"
+  thumbnail_image_path:
+    - circulator_cyberpak_test_maxmsp_1.jpg
+    - circulator_cyberpak_test_maxmsp_2.jpg
+    - circulator_cyberpak_test_maxmsp_3.jpg
+    - circulator_cyberpak_test_maxmsp_4.jpg
+    - circulator_cyberpak_test_maxmsp_5.jpg
+    - circulator_cyberpak_test_maxmsp_6.jpg
+    - circulator_cyberpak_test_maxmsp_7.jpg
+    - circulator_cyberpak_test_maxmsp_8.jpg
+    - circulator_cyberpak_test_maxmsp_9.jpg
+    - circulator_cyberpak_test_maxmsp_10.jpg
+  date: 2012.06.26
+  video_url: http://www.youtube.com/watch?v=tBTg6VBvwhs
+-
+  title: Cyber Pak Test (Ableton Live + MIDI)
+  thumbnail_image_path:
+    - circulator_cyberpak_test_live_1.jpg
+    - circulator_cyberpak_test_live_2.jpg
+    - circulator_cyberpak_test_live_3.jpg
+    - circulator_cyberpak_test_live_4.jpg
+    - circulator_cyberpak_test_live_5.jpg
+    - circulator_cyberpak_test_live_6.jpg
+    - circulator_cyberpak_test_live_7.jpg
+    - circulator_cyberpak_test_live_8.jpg
+    - circulator_cyberpak_test_live_9.jpg
+    - circulator_cyberpak_test_live_10.jpg
+  date: 2012.06.26
+  video_url: http://www.youtube.com/watch?v=POKnuogt_1c
+-
+  title: Uniba Inc. VI Renewal (Prototype 4)
+  thumbnail_image_path:
+    - unibainc_vi_renewal_type4_1.jpg
+    - unibainc_vi_renewal_type4_2.jpg
+    - unibainc_vi_renewal_type4_3.jpg
+    - unibainc_vi_renewal_type4_4.jpg
+    - unibainc_vi_renewal_type4_5.jpg
+    - unibainc_vi_renewal_type4_6.jpg
+    - unibainc_vi_renewal_type4_7.jpg
+    - unibainc_vi_renewal_type4_8.jpg
+    - unibainc_vi_renewal_type4_9.jpg
+    - unibainc_vi_renewal_type4_10.jpg
+  date: 2012.06.25
+  video_url: http://vimeo.com/44653424
+-
+  title: Mimic Pinterest
+  thumbnail_image_path:
+    - mimic_pinterest_1.jpg
+    - mimic_pinterest_2.jpg
+    - mimic_pinterest_3.jpg
+    - mimic_pinterest_4.jpg
+    - mimic_pinterest_5.jpg
+    - mimic_pinterest_6.jpg
+    - mimic_pinterest_7.jpg
+    - mimic_pinterest_8.jpg
+    - mimic_pinterest_9.jpg
+    - mimic_pinterest_10.jpg
+  date: 2012.06.10
+  video_url: http://vimeo.com/40175398
+-
+  title: FaceOSC over Socket.IO
+  thumbnail_image_path:
+    - faceosc_socketio_1.jpg
+    - faceosc_socketio_2.jpg
+    - faceosc_socketio_3.jpg
+    - faceosc_socketio_4.jpg
+    - faceosc_socketio_5.jpg
+    - faceosc_socketio_6.jpg
+    - faceosc_socketio_7.jpg
+    - faceosc_socketio_8.jpg
+    - faceosc_socketio_9.jpg
+    - faceosc_socketio_10.jpg
+  date: 2012.04.18
+  video_url: http://vimeo.com/40595879
+-
+  title: Typographic Perfume in Web Browser
+  thumbnail_image_path:
+    - typographic_perfume_1.jpg
+    - typographic_perfume_2.jpg
+    - typographic_perfume_3.jpg
+    - typographic_perfume_4.jpg
+    - typographic_perfume_5.jpg
+    - typographic_perfume_6.jpg
+    - typographic_perfume_7.jpg
+    - typographic_perfume_8.jpg
+    - typographic_perfume_9.jpg
+    - typographic_perfume_10.jpg
+  date: 2012.04.14
+  video_url: http://vimeo.com/40347973
+-
+  title: 音と光と映像のライブ “YEAH LIGHT!!”
+  thumbnail_image_path:
+    - yeah_light_1.jpg
+    - yeah_light_2.jpg
+    - yeah_light_3.jpg
+    - yeah_light_4.jpg
+    - yeah_light_5.jpg
+    - yeah_light_6.jpg
+    - yeah_light_7.jpg
+    - yeah_light_8.jpg
+    - yeah_light_9.jpg
+    - yeah_light_10.jpg
+  date: 2012.04.12
+  video_url: http://vimeo.com/39750812
+-
+  title: Socket.IO on Rackhub
+  thumbnail_image_path:
+    - socketio_ruckhub_1.jpg
+    - socketio_ruckhub_2.jpg
+    - socketio_ruckhub_3.jpg
+    - socketio_ruckhub_4.jpg
+    - socketio_ruckhub_5.jpg
+    - socketio_ruckhub_6.jpg
+    - socketio_ruckhub_7.jpg
+    - socketio_ruckhub_8.jpg
+    - socketio_ruckhub_9.jpg
+    - socketio_ruckhub_10.jpg
+  date: 2012.03.19
+  video_url: http://vimeo.com/38763510
+-
+  title: Automatic Sculpture Machine
+  thumbnail_image_path:
+    - automatic_sculpture_machine_1.jpg
+    - automatic_sculpture_machine_2.jpg
+    - automatic_sculpture_machine_3.jpg
+    - automatic_sculpture_machine_4.jpg
+    - automatic_sculpture_machine_5.jpg
+    - automatic_sculpture_machine_6.jpg
+    - automatic_sculpture_machine_7.jpg
+    - automatic_sculpture_machine_8.jpg
+    - automatic_sculpture_machine_9.jpg
+    - automatic_sculpture_machine_10.jpg
+  date: 2012.03.16
+  video_url: http://vimeo.com/38628332
+-
+  title: Browser based video chat (Node + Socket.IO + WebRTC)
+  thumbnail_image_path:
+    - browser_videochat_1.jpg
+    - browser_videochat_2.jpg
+    - browser_videochat_3.jpg
+    - browser_videochat_4.jpg
+    - browser_videochat_5.jpg
+    - browser_videochat_6.jpg
+    - browser_videochat_7.jpg
+    - browser_videochat_8.jpg
+    - browser_videochat_9.jpg
+    - browser_videochat_10.jpg
+  date: 2012.02.05
+  video_url: http://vimeo.com/36229857
+-
+  title: Merry Christmas 2011
+  thumbnail_image_path:
+    - merry_christmas_2011_1.jpg
+    - merry_christmas_2011_2.jpg
+    - merry_christmas_2011_3.jpg
+    - merry_christmas_2011_4.jpg
+    - merry_christmas_2011_5.jpg
+    - merry_christmas_2011_6.jpg
+    - merry_christmas_2011_7.jpg
+    - merry_christmas_2011_8.jpg
+    - merry_christmas_2011_9.jpg
+    - merry_christmas_2011_10.jpg
+  date: 2011.12.21
+  video_url: http://vimeo.com/34020867
+-
+  title: Uniball
+  thumbnail_image_path:
+    - uniball_1.jpg
+    - uniball_2.jpg
+    - uniball_3.jpg
+    - uniball_4.jpg
+    - uniball_5.jpg
+    - uniball_6.jpg
+    - uniball_7.jpg
+    - uniball_8.jpg
+    - uniball_9.jpg
+    - uniball_10.jpg
+  date: 2011.11.07
+  video_url: http://vimeo.com/31715225
+-
+  title: Realtime Web Logging Test
+  thumbnail_image_path:
+    - realtime_web_logging_test_1.jpg
+    - realtime_web_logging_test_2.jpg
+    - realtime_web_logging_test_3.jpg
+    - realtime_web_logging_test_4.jpg
+    - realtime_web_logging_test_5.jpg
+    - realtime_web_logging_test_6.jpg
+    - realtime_web_logging_test_7.jpg
+    - realtime_web_logging_test_8.jpg
+    - realtime_web_logging_test_9.jpg
+    - realtime_web_logging_test_10.jpg
+  date: 2011.08.17
+  video_url: http://www.youtube.com/watch?v=56b-jsi5jyI
+-
+  title: UnibaVI2011 Business card
+  thumbnail_image_path:
+    - unibavi2011_1.jpg
+    - unibavi2011_2.jpg
+    - unibavi2011_3.jpg
+    - unibavi2011_4.jpg
+    - unibavi2011_5.jpg
+    - unibavi2011_6.jpg
+    - unibavi2011_7.jpg
+    - unibavi2011_8.jpg
+    - unibavi2011_9.jpg
+    - unibavi2011_10.jpg
+  date: 2011.06.24
+  video_url: http://vimeo.com/25549642
+-
+  title: hair salon eizo
+  thumbnail_image_path:
+    - hairsalon_eizo_1.jpg
+    - hairsalon_eizo_2.jpg
+    - hairsalon_eizo_3.jpg
+    - hairsalon_eizo_4.jpg
+    - hairsalon_eizo_5.jpg
+    - hairsalon_eizo_6.jpg
+    - hairsalon_eizo_7.jpg
+    - hairsalon_eizo_8.jpg
+    - hairsalon_eizo_9.jpg
+    - hairsalon_eizo_10.jpg
+  date: 2012.06.11
+  video_url: http://vimeo.com/24918991
+-
+  title: Music Boxel Prototype (Processing+PeasyCam)
+  thumbnail_image_path:
+    - music_boxel_prototype_1.jpg
+    - music_boxel_prototype_2.jpg
+    - music_boxel_prototype_3.jpg
+    - music_boxel_prototype_4.jpg
+    - music_boxel_prototype_5.jpg
+    - music_boxel_prototype_6.jpg
+    - music_boxel_prototype_7.jpg
+    - music_boxel_prototype_8.jpg
+    - music_boxel_prototype_9.jpg
+    - music_boxel_prototype_10.jpg
+  date: 2011.02.07
+  video_url: http://www.youtube.com/watch?v=WtBfabWm2RM
+-
+  title: jQuery Chaining Effects plugin demo
+  thumbnail_image_path:
+    - jquery_effects_1.jpg
+    - jquery_effects_2.jpg
+    - jquery_effects_3.jpg
+    - jquery_effects_4.jpg
+    - jquery_effects_5.jpg
+    - jquery_effects_6.jpg
+    - jquery_effects_7.jpg
+    - jquery_effects_8.jpg
+    - jquery_effects_9.jpg
+    - jquery_effects_10.jpg
+  date: 2011.02.01
+  video_url: http://www.youtube.com/watch?v=cfaFyKvRo-I
