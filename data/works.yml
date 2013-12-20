@@ -1,7 +1,111 @@
 -
+  title: Living Wallet
+  date: 2013-
+  image_path:
+    - 1.jpg
+    - 2.jpg
+    - 3.jpg
+  thumbnail_image_path: w_livingwallet.png
+  video_url:
+    - <iframe width="560" height="315" src="//www.youtube.com/embed/8RivdrGJslw?rel=0" frameborder="0" allowfullscreen></iframe>
+  page_name: livingwallet
+  link_to: http://livingwallet.cct.la/
+  description: リビングウォレットは…
+-
+  title: アイドルの穴フリフリタイム
+  date: 2013-
+  image_path:
+    - 1.jpg
+    - 2.jpg
+    - 3.jpg
+  thumbnail_image_path: w_shakingidol.png
+  video_url:
+  page_name: shakingidol
+  link_to:
+  description:
+-
   title: WASABEAT
   date: 2013-04-01
   image_path:
-  thumbnail_image_path:
+    - fig_wasabeat_img01.jpg
+  thumbnail_image_path: w_wasabeat.png
+  video_url:
+  page_name: wasabeat
   link_to: https://www.wasabeat.jp/
-  description: 日本最大のダンスミュージックサイト...
+  description: |-
+    日本最大のダンスミュージック配信サイト「WASABEAT」のサイトリニューアルプロジェクトの中で、ユニバはデザイン、アプリケーション開発、管理システム開発など、音楽配信サービスとしての構築全般を行いました。設計では、閲覧者の趣向と関連したコンテンツに関心を持っていただくための「発見ができるショップフロント」や、スムーズにお買い求めいただくための「おもてなし感のある購入フロー」など、サイト像を造っていきました。
+    それらをウェブブラウザで表現するために、pjaxでのシームレスな遷移を制御するためのBackbone.jsによるフロントエンドクラス設計や、バックエンドもメンテナンス性を重視した柔軟なモジュール設計を施しています。
+-
+  title: The OUTBACK
+  date: 2013-
+  image_path:
+    - 1.jpg
+    - 2.jpg
+    - 3.jpg
+  thumbnail_image_path: w_outback.png
+  video_url:
+  page_name: outback
+  link_to:
+  description:
+-
+  title: Hayward Gallery
+  date: 2013-
+  image_path:
+    - 1.jpg
+    - 2.jpg
+    - 3.jpg
+  thumbnail_image_path: w_hayward.png
+  video_url:
+  page_name: outback
+  link_to:
+  description:
+-
+  title: PLUG-IN Chanmpionship
+  date: 2013-
+  image_path:
+    - 1.jpg
+    - 2.jpg
+    - 3.jpg
+  thumbnail_image_path: w_plugin.png
+  video_url:
+  page_name: plugin
+  link_to:
+  description:
+-
+  title: DOT SWITCH
+  date: 2013-
+  image_path:
+    - 1.jpg
+    - 2.jpg
+    - 3.jpg
+  thumbnail_image_path: w_dotswitch.png
+  video_url:
+  page_name: dotswitch
+  link_to:
+  description: |-
+    「DOT SWITCH」は、SonyとTBSの共同企画である実験番組「MAKE.TV」で使用された、インターネットを介してミュージックビデオ収録に参加できるシステムです。視聴者はミュージックビデオの収録中継をテレビで見ながら、手元にあるタブレット端末、スマートフォン、Webサイトを操作することで、ミュージックビデオで使用されているギミックを他の視聴者と共同で動かすイベントに参加できます。
+    ユニバでは「DOT SWITCH」のネットワーク構築に使用されたNode.jsの技術サポートとプロトコルの設計、及びスマートフォンやPCのWebブラウザで動作するスイッチプログラムの実装を担当しました。視聴者からのアクションを、生放送の収録現場にリアルタイムで連動させるという難しい課題に挑戦し、企画の成功に貢献することができました。
+-
+  title: UNDERCOVER
+  date: 2013-
+  image_path:
+    - 1.jpg
+    - 2.jpg
+    - 3.jpg
+  thumbnail_image_path: w_undercover.png
+  video_url:
+  page_name: undercover
+  link_to:
+  description:
+-
+  title: eizo
+  date: 2013-
+  image_path:
+    - 1.jpg
+    - 2.jpg
+    - 3.jpg
+  thumbnail_image_path: w_eizo.png
+  video_url:
+  page_name: eizo
+  link_to:
+  description:

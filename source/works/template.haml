@@ -1,0 +1,32 @@
+- content_for(:title, project.title)
+
+.works-wrapper
+  .header
+    %h1
+      = link_to "Uniba.jp", "../../"
+
+  .works-content
+    %h2
+      #{project.title}
+    %span.date
+      #{project.date}
+    .works-body
+      .works-nav
+        %ul
+          - data.works.each do |item|
+            %li
+              = link_to(item.title, "/works/"+item.page_name)
+      - if project.image_path
+        - project.image_path.each do |image|
+          = image_tag("works/project/"+image)
+
+      - if project.video_url
+        - project.video_url.each do |video|
+          #{video}
+
+      = link_to project.link_to, project.link_tom, { :class => "works-link" }
+      %p.description
+        #{project.description}
+
+    .btn
+      = link_to "Back", "../../"
