@@ -1,16 +1,225 @@
 -
-  title: Piston Machine で風を送るサイト
+  title: ホームページロボット (特報)
   thumbnail_image_path:
-    - 1.jpg
-    - 2.jpg
-    - 3.jpg
-  date: 2013-04-01
-  video_url: https://vimeo.com
+    - homepagerobo_1.jpg
+    - homepagerobo_2.jpg
+    - homepagerobo_3.jpg
+    - homepagerobo_4.jpg
+    - homepagerobo_5.jpg
+    - homepagerobo_6.jpg
+    - homepagerobo_7.jpg
+    - homepagerobo_8.jpg
+    - homepagerobo_9.jpg
+    - homepagerobo_10.jpg
+  date: 2013.08.26
+  video_url: https://vimeo.com/73190175
 -
-  title: タイトル2
+  title: ホームページロボット (Making)
   thumbnail_image_path:
-    - 1.jpg
-    - 2.jpg
-    - 3.jpg
-  date: 2013-04-02
-  video_url: https://vimeo.com
+    - homepagerobo_making_1.jpg
+    - homepagerobo_making_2.jpg
+    - homepagerobo_making_3.jpg
+    - homepagerobo_making_4.jpg
+    - homepagerobo_making_5.jpg
+    - homepagerobo_making_6.jpg
+    - homepagerobo_making_7.jpg
+    - homepagerobo_making_8.jpg
+    - homepagerobo_making_9.jpg
+    - homepagerobo_making_10.jpg
+  date: 2013.08.26
+  video_url: https://vimeo.com/73190089
+-
+  title: Uniba Motionlogo 2013
+  thumbnail_image_path:
+    - unibalogo_1.jpg
+    - unibalogo_2.jpg
+    - unibalogo_3.jpg
+    - unibalogo_4.jpg
+    - unibalogo_5.jpg
+    - unibalogo_6.jpg
+    - unibalogo_7.jpg
+    - unibalogo_8.jpg
+    - unibalogo_9.jpg
+    - unibalogo_10.jpg
+  date: 2013.07.26
+  video_url: https://vimeo.com/71139746
+-
+  title: Piston Machineで風を送るウェブサイト
+  thumbnail_image_path:
+    - piston_1.jpg
+    - piston_2.jpg
+    - piston_3.jpg
+    - piston_4.jpg
+    - piston_5.jpg
+    - piston_6.jpg
+    - piston_7.jpg
+    - piston_8.jpg
+    - piston_9.jpg
+    - piston_10.jpg
+  date: 2013.05.27
+  video_url: https://vimeo.com/67038466
+-
+  title: テバタイプ
+  thumbnail_image_path:
+    - tebatype_1.jpg
+    - tebatype_2.jpg
+    - tebatype_3.jpg
+    - tebatype_4.jpg
+    - tebatype_5.jpg
+    - tebatype_6.jpg
+    - tebatype_7.jpg
+    - tebatype_8.jpg
+    - tebatype_9.jpg
+    - tebatype_10.jpg
+  date: 2013.05.23
+  video_url: https://vimeo.com/66799725
+-
+  title: The Making of "Future Semaphore"
+  thumbnail_image_path:
+    - future_making_1.jpg
+    - future_making_2.jpg
+    - future_making_3.jpg
+    - future_making_4.jpg
+    - future_making_5.jpg
+    - future_making_6.jpg
+    - future_making_7.jpg
+    - future_making_8.jpg
+    - future_making_9.jpg
+    - future_making_10.jpg
+  date: 2013.05.22
+  video_url: https://vimeo.com/66710397
+-
+  title: Future Semaphore ":" Uniba Exhibition 2013
+  thumbnail_image_path:
+    - future_exhibition_1.jpg
+    - future_exhibition_2.jpg
+    - future_exhibition_3.jpg
+    - future_exhibition_4.jpg
+    - future_exhibition_5.jpg
+    - future_exhibition_6.jpg
+    - future_exhibition_7.jpg
+    - future_exhibition_8.jpg
+    - future_exhibition_9.jpg
+    - future_exhibition_10.jpg
+  date: 2013.05.08
+  video_url: https://vimeo.com/65720665
+-
+  title: The Making of "What is it like to be giants' eyes?"
+  thumbnail_image_path:
+    - giant_making_1.jpg
+    - giant_making_2.jpg
+    - giant_making_3.jpg
+    - giant_making_4.jpg
+    - giant_making_5.jpg
+    - giant_making_6.jpg
+    - giant_making_7.jpg
+    - giant_making_8.jpg
+    - giant_making_9.jpg
+    - giant_making_10.jpg
+  date: 2013.04.23
+  video_url: https://vimeo.com/64632770
+-
+  title: Realspace Avatar Machine
+  thumbnail_image_path:
+    - ram_1.jpg
+    - ram_2.jpg
+    - ram_3.jpg
+    - ram_4.jpg
+    - ram_5.jpg
+    - ram_6.jpg
+    - ram_7.jpg
+    - ram_8.jpg
+    - ram_9.jpg
+    - ram_10.jpg
+  date: 2013.04.19
+  video_url: https://vimeo.com/64374048
+-
+  title: Future Semaphore ":" フューチャー・セマフォア 手旗通信の未来
+  thumbnail_image_path:
+    - future_teaser_1.jpg
+    - future_teaser_2.jpg
+    - future_teaser_3.jpg
+    - future_teaser_4.jpg
+    - future_teaser_5.jpg
+    - future_teaser_6.jpg
+    - future_teaser_7.jpg
+    - future_teaser_8.jpg
+    - future_teaser_9.jpg
+    - future_teaser_10.jpg
+  date: 2013.04.11
+  video_url: https://vimeo.com/63818563
+-
+  title: Museum Survey Terminal - POLA MUSEUM ANNEX
+  thumbnail_image_path:
+    - pola_1.jpg
+    - pola_2.jpg
+    - pola_3.jpg
+    - pola_4.jpg
+    - pola_5.jpg
+    - pola_6.jpg
+    - pola_7.jpg
+    - pola_8.jpg
+    - pola_9.jpg
+    - pola_10.jpg
+  date: 2013.04.05
+  video_url: https://vimeo.com/63389168
+-
+  title: WASABEAT Renewal Site
+  thumbnail_image_path:
+    - wasabeat_re_1.jpg
+    - wasabeat_re_2.jpg
+    - wasabeat_re_3.jpg
+    - wasabeat_re_4.jpg
+    - wasabeat_re_5.jpg
+    - wasabeat_re_6.jpg
+    - wasabeat_re_7.jpg
+    - wasabeat_re_8.jpg
+    - wasabeat_re_9.jpg
+    - wasabeat_re_10.jpg
+  date: 2013.04.01
+  video_url: https://vimeo.com/65715843
+-
+  title: mimi.Neuro-Gun
+  thumbnail_image_path:
+    - mimi_neuro_gun_1.jpg
+    - mimi_neuro_gun_2.jpg
+    - mimi_neuro_gun_3.jpg
+    - mimi_neuro_gun_4.jpg
+    - mimi_neuro_gun_5.jpg
+    - mimi_neuro_gun_6.jpg
+    - mimi_neuro_gun_7.jpg
+    - mimi_neuro_gun_8.jpg
+    - mimi_neuro_gun_9.jpg
+    - mimi_neuro_gun_10.jpg
+  date: 2013.03.29
+  video_url: https://vimeo.com/62930620
+-
+  title: What is it like to be giants' eyes?
+  thumbnail_image_path:
+    - giant_1.jpg
+    - giant_2.jpg
+    - giant_3.jpg
+    - giant_4.jpg
+    - giant_5.jpg
+    - giant_6.jpg
+    - giant_7.jpg
+    - giant_8.jpg
+    - giant_9.jpg
+    - giant_10.jpg
+  date: 2013.03.20
+  video_url: https://vimeo.com/62243365
+-
+  title: Klangwolke ABC mini
+  thumbnail_image_path:
+    - klangwolke_abc_mini_1.jpg
+    - klangwolke_abc_mini_2.jpg
+    - klangwolke_abc_mini_3.jpg
+    - klangwolke_abc_mini_4.jpg
+    - klangwolke_abc_mini_5.jpg
+    - klangwolke_abc_mini_6.jpg
+    - klangwolke_abc_mini_7.jpg
+    - klangwolke_abc_mini_8.jpg
+    - klangwolke_abc_mini_9.jpg
+    - klangwolke_abc_mini_10.jpg
+  date: 2013.03.07
+  video_url: https://vimeo.com/61256172

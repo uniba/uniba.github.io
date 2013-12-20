@@ -1,6 +1,6 @@
 -
   title: Living Wallet
-  date: 2013-
+  date: 2013.
   image_path:
     - 1.jpg
     - 2.jpg
@@ -13,7 +13,7 @@
   description: リビングウォレットは…
 -
   title: アイドルの穴フリフリタイム
-  date: 2013-
+  date: 2013.
   image_path:
     - 1.jpg
     - 2.jpg
@@ -25,7 +25,7 @@
   description:
 -
   title: WASABEAT
-  date: 2013-04-01
+  date: 2013.04.01
   image_path:
     - fig_wasabeat_img01.jpg
   thumbnail_image_path: w_wasabeat.png
@@ -37,7 +37,7 @@
     それらをウェブブラウザで表現するために、pjaxでのシームレスな遷移を制御するためのBackbone.jsによるフロントエンドクラス設計や、バックエンドもメンテナンス性を重視した柔軟なモジュール設計を施しています。
 -
   title: The OUTBACK
-  date: 2013-
+  date: 2013.
   image_path:
     - 1.jpg
     - 2.jpg
@@ -49,7 +49,7 @@
   description:
 -
   title: Hayward Gallery
-  date: 2013-
+  date: 2013.
   image_path:
     - 1.jpg
     - 2.jpg
@@ -61,7 +61,7 @@
   description:
 -
   title: PLUG-IN Chanmpionship
-  date: 2013-
+  date: 2013.
   image_path:
     - 1.jpg
     - 2.jpg
@@ -73,7 +73,7 @@
   description:
 -
   title: DOT SWITCH
-  date: 2013-
+  date: 2013.
   image_path:
     - 1.jpg
     - 2.jpg
@@ -87,7 +87,7 @@
     ユニバでは「DOT SWITCH」のネットワーク構築に使用されたNode.jsの技術サポートとプロトコルの設計、及びスマートフォンやPCのWebブラウザで動作するスイッチプログラムの実装を担当しました。視聴者からのアクションを、生放送の収録現場にリアルタイムで連動させるという難しい課題に挑戦し、企画の成功に貢献することができました。
 -
   title: UNDERCOVER
-  date: 2013-
+  date: 2013.
   image_path:
     - 1.jpg
     - 2.jpg
@@ -99,7 +99,7 @@
   description:
 -
   title: eizo
-  date: 2013-
+  date: 2013.
   image_path:
     - 1.jpg
     - 2.jpg
