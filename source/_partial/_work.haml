@@ -1,0 +1,5 @@
+%ul.works-grid
+  - data.works.each do |item|
+    %li
+      = link_to("works/"+item.page_name) do
+        = image_tag "works/" + item.thumbnail_image_path, { :alt => item.title }

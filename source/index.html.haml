@@ -45,11 +45,7 @@ title: Uniba Inc.
     #works.section
       %h2.section-title
         Works
-      %ul.works-grid
-        - (1..9).each do
-          %li
-            = link_to "#" do
-              = image_tag "works/w_wasabeat.png", { :alt => ""}
+      = partial "_partial/work"
 
     #movie.section
       %h2.section-title
@@ -61,17 +57,7 @@ title: Uniba Inc.
     #members.section
       %h2.section-title
         Members
-      %ul.members-grid
-        - (1..18).each do
-          %li
-            .staff
-              .figure
-                <img src="http://www.gravatar.com/avatar/00000000000000000000000000000000&s=80" data-gravatar-id="jun@uniba.jp" alt="小松純" />
-              .staff-detail
-                %h4
-                  %span Jun Komatsu
-                  小松 純
-                .division Co Founder / Engineer
+      = partial "_partial/member"
 
     #client.section
       %h2.section-title

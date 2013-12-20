@@ -35,6 +35,7 @@
       // controls.addEventListener('change', render);
 
       var object = new THREE.CSS3DObject(this.el.querySelector('.main-container'));
+      console.log(object);
       scene.add(object);
 
       this.listenTo(options.state, 'change:3d', this.on3dchange);

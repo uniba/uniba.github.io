@@ -7,6 +7,10 @@ compass_config do |config|
   config.output_style = :expanded
 end
 
+data.works.each do |project|
+  proxy "/works/#{project.page_name}/index.html", "/works/template.html", :locals => { :project => project }, :ignore => true
+end
+
 ###
 # Page options, layouts, aliases and proxies
 ###

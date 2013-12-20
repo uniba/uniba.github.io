@@ -1,0 +1,11 @@
+%ul.members-grid
+  - data.members.each do |item|
+    %li
+      .staff
+        .figure
+          #{item.profile_image_url}
+        .staff-detail
+          %h4
+            %span #{item.name.en}
+            #{item.name.ja}
+          .division #{item.title}
