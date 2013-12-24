@@ -1,23 +1,3 @@
-.works-wrapper {
-  width: 800px;
-  padding: 0 60px 60px 60px;
-
-  .header {
-    @extend %font-futura;
-    text-transform: uppercase;
-
-    h1 {
-      padding: 15px 0;
-      font-size: 0.95em;
-      letter-spacing: normal;
-    }
-
-    a {
-      text-decoration: none;
-    }
-  }
-}
-
 .works-content {
 
   h2 {
@@ -27,17 +7,64 @@
     font-size: 2.8em;
     font-style: italic;
     letter-spacing: 0.1em;
+    @include bp(sp) {
+      padding: 0 0 6px 0;
+      font-size: 1.4em;
+    }
   }
 
   .date {
     display: block;
     font-size: 0.85em;
+    @include bp(sp) {
+      font-size: 0.65em;
+    }
   }
 }
 
 .works-body {
   padding: 50px 0;
   position: relative;
+  @include bp(sp) {
+    padding: 30px 0;
+  }
+
+  div {
+    margin-top: 60px;
+    @include bp(sp) {
+      margin-top: 15px;
+    }
+
+    &:first-child {
+      margin: 0;
+    }
+  }
+
+  .figure {
+
+    img {
+      @include bp(sp) {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .video {
+    height: 0;
+    padding-top: 25px;
+    padding-bottom: 56.25%;
+    position: relative;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
 
   .works-link {
     @extend %font-futura;
@@ -45,12 +72,20 @@
     margin: 1em 0 2em 0;
     font-size: 1.1em;
     font-style: italic;
+    @include bp(sp) {
+      margin: 1em 0;
+      font-size: 0.85em;
+    }
   }
 
   .description {
     margin: 0;
     font-size: 1.1em;
     line-height: 2;
+    @include bp(sp) {
+      font-size: 0.75em;
+      line-height: 1.8;
+    }
   }
 }
 
@@ -64,10 +99,15 @@
 .works-nav {
   width: 58px;
   height: 58px;
+  margin: 0 !important;
   border: 1px solid #000000;
   position: absolute;
   top: 50px;
   right: -100px;
+  z-index: 100;
+  @include bp(sp) {
+    display: none;
+  }
 
   &:before {
     @extend %line;

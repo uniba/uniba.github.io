@@ -73,6 +73,9 @@ img {
 
 .wrapper {
   padding: 0 60px;
+  @include bp(sp) {
+    padding: 0;
+  }
 }
 
 .section-title {
@@ -83,9 +86,11 @@ img {
 }
 
 .section {
-  max-width: 900px;
+  min-width: 900px;
+  max-width: 1500px;
   padding: 0 0 100px 0;
   @include bp(sp) {
+    min-width: 100%;
     max-width: 100%;
     padding: 0 0 25px 0;
     font-size: 0.65em;
@@ -150,7 +155,7 @@ img {
 
   li {
     display: inline-block;
-    padding: 0 2.5em 0 0;
+    padding: 0 1.5em 0 0;
     @include bp(sp) {
       float: left;
       display: block;
@@ -184,8 +189,105 @@ img {
   }
 }
 
+.sub-wrapper {
+  min-width: 800px;
+  width: 800px;
+  padding: 0 60px 60px 60px;
+  @include bp(sp) {
+    width: 94%;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 3% 20px 3%;
+  }
+
+  .header {
+    @extend %font-futura;
+    text-transform: uppercase;
+
+    h1 {
+      padding: 15px 0;
+      font-size: 0.95em;
+      letter-spacing: normal;
+      @include bp(sp) {
+        font-size: 0.75em;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
 #about {
   display: none;
+}
+
+.information-content {
+
+  h2 {
+    margin: 0;
+    padding: 18px 0 50px 0;
+    font-size: 2.6em;
+    font-weight: normal;
+    @include bp(sp) {
+      padding: 0 0 18px 0;
+      font-size: 1.4em;
+    }
+  }
+
+  dl {
+    margin: 0;
+    font-size: 1.05em;
+    line-height: 1.8;
+    @include clearfix;
+    @include bp(sp) {
+      font-size: 0.75em;
+    }
+
+    &:last-of-type {
+      padding: 40px 0;
+      @include bp(sp) {
+        padding: 16px 0;
+      }
+    }
+  }
+
+  dt {
+    float: left
+  }
+
+  dd {
+    margin: 0;
+    padding: 0 0 0 7em;
+    @include bp(sp) {
+      padding: 0 0 0 6em;
+    }
+  }
+
+  #map {
+    height: 0;
+    margin: 0 0 80px 0;
+    padding-top: 25px;
+    padding-bottom: 56.25%;
+    position: relative;
+    @include bp(sp) {
+      height: auto;
+      margin: 0 0 30px 0;
+      padding: 0;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      @include bp(sp) {
+        position: relative;
+      }
+    }
+  }
 }
 
 #news {
@@ -274,6 +376,7 @@ img {
       span {
         display: block;
         font-size: 0.65em;
+        letter-spacing: 0.1em;
       }
     }
 
@@ -281,6 +384,7 @@ img {
       font-size: 0.875em;
       @include bp(sp) {
         font-size: 0.65em;
+        letter-spacing: 0.1em;
       }
     }
   }

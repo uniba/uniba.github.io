@@ -1,6 +1,6 @@
 - content_for(:title, project.title)
 
-.works-wrapper
+.sub-wrapper
   .header
     %h1
       = link_to "Uniba.jp", "../../"
@@ -11,22 +11,26 @@
     %span.date
       #{project.date}
     .works-body
+      - if project.image_path
+        - project.image_path.each do |image|
+          .figure
+            = image_tag("works/project/"+image)
+
+      - if project.video_url
+        - project.video_url.each do |video|
+          .video
+            #{video}
+      - unless project.link_to.nil?
+        = link_to project.link_to, project.link_to, { :class => "works-link" }
+      - unless project.description.nil?
+        %p.description
+          #{project.description}
+
       .works-nav
         %ul
           - data.works.each do |item|
             %li
               = link_to(item.title, "/works/"+item.page_name)
-      - if project.image_path
-        - project.image_path.each do |image|
-          = image_tag("works/project/"+image)
-
-      - if project.video_url
-        - project.video_url.each do |video|
-          #{video}
-
-      = link_to project.link_to, project.link_tom, { :class => "works-link" }
-      %p.description
-        #{project.description}
 
     .btn
       = link_to "Back", "../../"

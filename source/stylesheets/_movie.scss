@@ -19,6 +19,11 @@
       height: 130px;
       position: relative;
       line-height: 0;
+      @include bp(sp) {
+        width: 100%;
+        height: auto;
+        min-height: 130px;
+      }
       li {
         margin: 0 -3px 0 0;
         position: absolute;
@@ -27,11 +32,23 @@
             left: #{233 * $i}px;
           }
         }
+        @include bp(sp) {
+          position: static;
+          @for $i from 1 through 10 {
+            &:nth-child(#{$i + 1}) {
+              display: none;
+            }
+          }
+        }
         img {
           width: 232px;
           height: 130px;
           margin: 0;
           padding: 0;
+          @include bp(sp) {
+            width: 100%;
+            height: auto;
+          }
         }
       }
     }
