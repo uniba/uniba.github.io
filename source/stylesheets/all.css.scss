@@ -479,9 +479,10 @@ address {
       @extend %btn-hover;
       display: table-cell;
       height: 100%;
+      font-size: 3em;
       vertical-align: middle;
       @include bp(sp) {
-        padding: 3em 0; // TODO
+        padding: 1em 0;
       }
     }
   }

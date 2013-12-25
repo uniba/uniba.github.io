@@ -6,6 +6,7 @@
     %meta{ :name => "viewport", :content => "width=device-width", :id => "viewport-meta"}
     %title= current_page.data.title || yield_content(:title)
     = stylesheet_link_tag "all"
+    = stylesheet_link_tag "fonts/font-awesome"
     = javascript_include_tag "http://typesquare.com/accessor/script/typesquare.js?QBFWygYczgk%3D"
     :javascript
       var width = 1020
