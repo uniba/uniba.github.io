@@ -14,6 +14,7 @@
   .screenshots {
     overflow-x: hidden;
     overflow-y: hidden;
+    @extend %colorize-on-hover;
     ul {
       width: 2330px;
       height: 130px;

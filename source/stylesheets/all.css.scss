@@ -1,5 +1,6 @@
 
 //= require normalize-css/normalize
+//= require jquery.fancybox/source/jquery.fancybox
 //= require_self
 
 @import "compass/utilities";
@@ -10,8 +11,6 @@
 @import "works";
 @import "debug";
 
-@import "../../bower_components/jquery.fancybox/source/jquery.fancybox";
-
 %btn-hover {
   display: block;
   text-decoration: none;
@@ -20,6 +19,13 @@
   &:hover {
     color: #ffffff;
     background-color: #000000;
+  }
+}
+
+%colorize-on-hover {
+  -webkit-filter: invert(1) brightness(.6) invert(1) contrast(2.5) grayscale(1);
+  &:hover {
+    -webkit-filter: grayscale(0);
   }
 }
 
@@ -343,6 +349,8 @@ img {
   @include clearfix;
 
   li {
+    @extend %colorize-on-hover;
+
     float: left;
     @include bp(sp) {
       width: 50%;
@@ -386,6 +394,7 @@ img {
     float: left;
 
     img {
+      @extend %colorize-on-hover;
       @include bp(sp) {
         width: 40px;
         height: auto;
@@ -432,6 +441,7 @@ img {
   @include pie-clearfix;
 
   li {
+    @extend %colorize-on-hover;
     float: left;
     width: 299px;
     margin: -1px 0 0 -1px;
