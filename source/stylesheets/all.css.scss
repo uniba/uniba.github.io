@@ -207,6 +207,7 @@ img {
     h1 {
       padding: 15px 0;
       font-size: 0.95em;
+      font-weight: normal;
       letter-spacing: normal;
       @include bp(sp) {
         font-size: 0.75em;
@@ -233,6 +234,7 @@ img {
     @include bp(sp) {
       padding: 0 0 18px 0;
       font-size: 1.4em;
+      font-weight: normal;
     }
   }
 
@@ -489,11 +491,9 @@ address {
   @extend %font-futura;
   font-size: 1.8em;
   font-style: italic;
-  font-weight: bold;
   line-height: 1.6;
   @include bp(sp) {
     font-size: 1em;
-    font-weight: normal;
     line-height: 1.4;
   }
 }
