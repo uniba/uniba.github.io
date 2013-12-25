@@ -10,6 +10,8 @@
 @import "works";
 @import "debug";
 
+@import "../../bower_components/jquery.fancybox/source/jquery.fancybox";
+
 %btn-hover {
   display: block;
   text-decoration: none;
@@ -114,6 +116,7 @@ img {
   a {
     @extend %btn-hover;
     padding: 2em 0 1.8em 0;
+    background-color: #ffffff;
     text-align: center;
     text-decoration: none;
     @include bp(sp) {
@@ -222,6 +225,35 @@ img {
 
 #about {
   display: none;
+
+  .section-title {
+    margin: 0;
+    font-size: 2.813em;
+    @include bp(sp) {
+      font-size: 1.6em;
+    }
+  }
+
+  p {
+    font-size: 1.4em;
+    line-height: 2;
+    letter-spacing: 0.15em;
+    @include bp(sp) {
+      font-size: 0.8em;
+      line-height: 1.4;
+    }
+  }
+
+  .btn {
+
+    a {
+      padding: 1.1em 0 1em 0;
+      font-size: 1.5em;
+      @include bp(sp) {
+        font-size: 0.8em;
+      }
+    }
+  }
 }
 
 .information-content {
@@ -496,5 +528,81 @@ address {
   @include bp(sp) {
     font-size: 1em;
     line-height: 1.4;
+  }
+}
+
+// overwrite
+.fancybox-overlay {
+  background: none;
+}
+
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+  background: none;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background: none;
+  }
+}
+
+
+.fancybox-opened .fancybox-skin {
+  box-shadow: none;
+}
+
+.fancybox-skin {
+  padding: 30px !important;
+  border: 1px solid #000000;
+  @include border-radius(0);
+  background-color: #ffffff;
+  @include bp(sp) {
+    padding: 5% !important;
+  }
+}
+
+.fancybox-close {
+  width: 78px;
+  height: 78px;
+  border: 1px solid #000000;
+  top: -1px;
+  right: -1px;
+  @include bp(sp) {
+    width: 38px;
+    height: 38px;
+  }
+
+  &:before,
+  &:after {
+    content: " ";
+    display: block;
+    width: 65px;
+    height: 0px;
+    border-top: 1px solid #000000;
+    position: absolute;
+    top: 38px;
+    left: 6px;
+    @include bp(sp) {
+      width: 32px;
+      top: 19px;
+      left: 3px;
+    }
+  }
+
+  &:before {
+    @include transform(rotate(-45deg));
+  }
+
+  &:after {
+    @include transform(rotate(45deg));
+  }
+
+  &:hover {
+    background-color: #000000;
+
+    &:before,
+    &:after {
+      border-color: #ffffff;
+    }
   }
 }

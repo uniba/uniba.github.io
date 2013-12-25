@@ -15,7 +15,7 @@ title: Uniba Inc.
     .nav
       %ul
         %li
-          = link_to "#about" do
+          = link_to "#about", { :class => "fancybox" } do
             %span &nbsp;About&nbsp;
         %li
           = link_to "#works" do
@@ -34,16 +34,17 @@ title: Uniba Inc.
             %span &nbsp;Blog&nbsp;
 
     #about
-      %h2.section-title
-        About
-      %p
-        ユニバ株式会社は、"さわれるインターネット(Embodied Virtuality)"の会社です。<br>インターネットとコンピュータを、道具ではなく、見て、触れて、遊びたおすためのメディアととらえています。<br>メディアアートとオープンテクノロジに根ざすプロダクションとして、その楽しさを追求しながら、ブランディング、キャンペーン、プロモーションの制作をしています。
-      %p
-        また社内における実験的な取り組みとして、
-        = link_to "Circuit Lab", "http://cct.la/"
-        という活動の場を設けています。
-      .btn
-        = link_to "基本情報", "#"
+      .about-content
+        %h2.section-title
+          About
+        %p
+          ユニバ株式会社は、"さわれるインターネット(Embodied Virtuality)"の会社です。<br>インターネットとコンピュータを、道具ではなく、見て、触れて、遊びたおすためのメディアととらえています。<br>メディアアートとオープンテクノロジに根ざすプロダクションとして、その楽しさを追求しながら、ブランディング、キャンペーン、プロモーションの制作をしています。
+        %p
+          また社内における実験的な取り組みとして、
+          = link_to "Circuit Lab", "http://cct.la/"
+          という活動の場を設けています。
+        .btn
+          = link_to "基本情報", "information/index.html"
 
     #news.section
       %h2.section-title
