@@ -10,7 +10,6 @@
     :javascript
       var width = 1020
       if(navigator.userAgent.indexOf('iPad') > -1) document.getElementById('viewport-meta').setAttribute( 'content', 'width='+width );
-      console.log(width)
     =# javascript_include_tag "all"
   %body(ontouchstart=" "){ :class => page_classes }
     = yield
