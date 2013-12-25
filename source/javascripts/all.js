@@ -13,6 +13,15 @@
 
 (function(exports) {
 
+  $(".fancybox").fancybox({
+    padding: 0,
+    maxWidth: 958,
+    topRatio: 0.5,
+    leftRatio: 0.5
+  });
+
+  return;
+
   var state = exports.state = new exports.State();
   var router = exports.router = new exports.Router();
   Backbone.history.start();
@@ -26,10 +35,3 @@
   });
 
 }).call(this, this.u || (this.u = {}));
-
-$(".fancybox").fancybox({
-  padding: 0,
-  maxWidth: 958,
-  topRatio: 0.5,
-  leftRatio: 0.5
-});
