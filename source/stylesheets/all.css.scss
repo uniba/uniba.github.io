@@ -182,8 +182,12 @@ img {
 
   span {
     display: block;
-    padding: 0.55em 0.6em;
+    background-color: #ffffff;
     color: lighten(#000000, 70%);
+    @include bp(sp) {
+      padding: 0.55em 0.6em;
+      background-color: transparent;
+    }
   }
 
   a {
@@ -203,6 +207,7 @@ img {
       span {
         @include bp(sp) {
           color: #ffffff;
+          background-color: transparent;
         }
       }
     }
@@ -212,6 +217,16 @@ img {
       color: #000000;
       padding: 0;
     }
+  }
+}
+
+.nav-fixed {
+  position: fixed;
+  top: 25px;
+  z-index: 50;
+
+  & + #news {
+    padding-top: 205px + 22px;
   }
 }
 

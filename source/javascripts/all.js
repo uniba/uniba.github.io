@@ -13,6 +13,15 @@
 
 (function(exports) {
 
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 140) {
+      $('.nav').addClass("nav-fixed");
+    } else {
+      $('.nav').removeClass("nav-fixed");
+    }
+    return false;
+  });
+
   $(".fancybox").fancybox({
     padding: 0,
     maxWidth: 958,
