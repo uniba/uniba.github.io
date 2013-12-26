@@ -128,6 +128,9 @@ header {
     font-family:'Futura W01 Medium';
     font-style: italic;
     letter-spacing: 0.1em;
+    @include breakpoint(sp) { 
+      padding: 4px 4px 3px 4px;
+    }
   }
   .screenshots {
 /*     height: 130px; */

@@ -1,3 +1,4 @@
+if(!navigator.userAgent.match(/(iPhone|iPad|Android)/)) {
 $(function(){
 	// アンカーリンク時は動作させない
 	var hashName = location.hash;
@@ -80,4 +81,5 @@ function viewCheck(name, MSIE, objFlg, objH)
 			$(this).fadeIn(300);
 		}
 	});
+}
 }
