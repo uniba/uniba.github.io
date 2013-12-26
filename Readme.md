@@ -1,7 +1,7 @@
 
 # uniba.jp
 
-Cooporate site of Uniba Inc.
+Corporate site of Uniba Inc.
 
 ## Installation
 
