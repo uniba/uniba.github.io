@@ -30,7 +30,7 @@ title: Uniba Inc.
           = link_to "http://example.com", { :target => "_blank" } do
             %span &nbsp;Recruit&nbsp;
         %li
-          = link_to "#" do
+          = link_to "http://blog.uniba.jp/", { :target => "_blank" } do
             %span &nbsp;Blog&nbsp;
 
     #about
@@ -54,7 +54,7 @@ title: Uniba Inc.
       %p
         2013.12.26 uniba.jpをリニューアルしました。
       %p
-        <a href="#">最新情報はこちらから</a>
+        = link_to "最新情報はこちらから", "https://www.facebook.com/UnibaInc", { :target => "_blank" }
 
     #works.section
       %h2.section-title
@@ -99,19 +99,22 @@ title: Uniba Inc.
         = link_to "Circuit Lab", "http://cct.la/"
       %ul.links-grid
         %li
-          = link_to "#" do
+          = link_to "https://www.facebook.com/UnibaInc", { :target => "_blank" } do
             %i.fa.fa-facebook
         %li
-          = link_to "#" do
+          = link_to "https://twitter.com/unibainc", { :target => "_blank" } do
+            %i.fa.fa-twitter
+        %li
+          = link_to "https://vimeo.com/uniba", { :target => "_blank" } do
             %i.fa.fa-vimeo-square
         %li
-          = link_to "#" do
+          = link_to "http://www.youtube.com/user/unibajp", { :target => "_blank" } do
             %i.fa.fa-youtube
         %li
-          = link_to "#" do
+          = link_to "http://blog.uniba.jp/", { :target => "_blank" } do
             %i.fa.fa-tumblr
         %li
-          = link_to "#" do
+          = link_to "https://github.com/uniba", { :target => "_blank" } do
             %i.fa.fa-github
 
     .footer.section
