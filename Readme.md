@@ -11,7 +11,7 @@ With node.js oriviously installed:
 
 Clone repository and solve dependencies.
 
-    $ git clone git@github.com:uniba/uniba.github.com.git
+    $ git clone git@github.com:uniba/uniba.github.io.git
     $ cd uniba.github.com
     $ bundle install --path vendor/bundle
 
