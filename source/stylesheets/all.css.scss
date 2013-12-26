@@ -222,6 +222,7 @@ img {
 }
 
 .nav-fixed {
+  padding: 0;
   position: fixed;
   top: 25px;
   z-index: 50;
@@ -450,6 +451,7 @@ img {
 
     h4 {
       margin: 0;
+      padding: 0 0 0.25em 0;
       font-size: 1.5em;
       font-weight: normal;
       @include bp(sp) {
