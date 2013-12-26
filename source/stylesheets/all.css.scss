@@ -181,6 +181,8 @@ img {
   }
 
   span {
+    display: block;
+    padding: 0.55em 0.6em;
     color: lighten(#000000, 70%);
   }
 
@@ -194,14 +196,21 @@ img {
     &:hover {
       text-decoration: line-through;
       @include bp(sp) {
-        color: #ffffff;
         background-color: #000000;
         text-decoration: none;
+      }
+
+      span {
+        @include bp(sp) {
+          color: #ffffff;
+        }
       }
     }
 
     span {
+      display: inline;
       color: #000000;
+      padding: 0;
     }
   }
 }
