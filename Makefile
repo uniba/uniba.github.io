@@ -2,11 +2,11 @@
 deploy: clean bower build
 	bundle exec middleman deploy
 
-server: bower
+server: bundle bower
 	open http://0.0.0.0:4567
 	bundle exec middleman server
 
-build: bower
+build: bundle bower
 	bundle exec middleman build
 
 clean:
@@ -14,5 +14,8 @@ clean:
 
 bower:
 	bower install
+
+bundle:
+	bundle install --path vendor/bundle
 
 .PHONY: build
