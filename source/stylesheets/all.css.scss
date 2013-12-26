@@ -25,7 +25,7 @@
 %colorize-on-hover {
   -webkit-filter: invert(1) brightness(.6) invert(1) contrast(2.5) grayscale(1);
   &:hover {
-    -webkit-filter: grayscale(0);
+    -webkit-filter: none;
   }
 }
 
