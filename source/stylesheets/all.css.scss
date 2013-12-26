@@ -155,10 +155,10 @@ img {
 
   ul {
     @include bp(sp) {
+      width: 100%;
       border: 1px solid #000000;
       border-bottom: none;
       border-left: none;
-      @include box-sizing(border-box);
       @include clearfix;
     }
   }
@@ -511,7 +511,7 @@ img {
 
 address {
   font-style: normal;
-  line-height: 2
+  line-height: 2;
 }
 
 #links {
