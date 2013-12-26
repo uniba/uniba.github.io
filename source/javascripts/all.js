@@ -4,6 +4,7 @@
 //= require backbone/backbone
 //= require tweenjs/build/tween.min
 //= require threejs/build/three
+//= require jquery.easing/js/jquery.easing.min
 //= require jquery.fancybox/source/jquery.fancybox
 //= require timbre.js/index
 //= require ./views/app_view
@@ -44,3 +45,13 @@
   });
 
 }).call(this, this.u || (this.u = {}));
+
+
+$(function() {
+  $(".nav .page-scroll").click(function() {
+    var $target = $(this.hash);
+    var offset = $target.offset().top;
+    $('html, body').stop().animate({scrollTop: offset}, 1000, 'easeOutExpo');
+    return false;
+  });
+});

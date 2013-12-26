@@ -18,19 +18,19 @@ title: Uniba Inc.
           = link_to "#about", { :class => "fancybox" } do
             %span &nbsp;About&nbsp;
         %li
-          = link_to "#works" do
+          = link_to "#works", { :class => "page-scroll" } do
             %span &nbsp;Works&nbsp;
         %li
-          = link_to "#members" do
+          = link_to "#members", { :class => "page-scroll" } do
             %span &nbsp;Members&nbsp;
         %li
-          = link_to "#contact" do
+          = link_to "#contact", { :class => "page-scroll" } do
             %span &nbsp;Contact&nbsp;
         %li
           =# link_to "http://example.com", { :target => "_blank" } do
           %span &nbsp;Recruit&nbsp;
         %li
-          = link_to "http://blog.uniba.jp/", { :target => "_blank" } do
+          = link_to "http://blog.uniba.jp/", { :class => "page-scroll", :target => "_blank" } do
             %span &nbsp;Blog&nbsp;
 
     #news.section
@@ -66,7 +66,7 @@ title: Uniba Inc.
         Movie
       = partial "_partial/movie"
       .btn
-        = link_to "Uniba Channel", "http://uniba.jp/movie", { :target => "_blank" }
+        = link_to "Uniba Channel", "/movies/index.html", { :target => "_blank" }
 
     #members.section
       %h2.section-title

@@ -224,9 +224,16 @@ img {
   position: fixed;
   top: 25px;
   z-index: 50;
+  @include bp(sp) {
+    position: relative;
+    top: auto;
+  }
 
   & + #news {
     padding-top: 205px + 22px;
+    @include bp(sp) {
+      padding-top: 0;
+    }
   }
 }
 
