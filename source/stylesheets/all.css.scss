@@ -222,11 +222,12 @@ img {
 }
 
 .nav-fixed {
-  padding: 0;
+  padding-bottom: 0;
   position: fixed;
   top: 25px;
   z-index: 50;
   @include bp(sp) {
+    padding-bottom: 50px;
     position: relative;
     top: auto;
   }
