@@ -1,6 +1,7 @@
 
 deploy: clean bower build
 	bundle exec middleman deploy
+	open http://uniba.jp
 
 server: bundle bower
 	open http://0.0.0.0:4567
