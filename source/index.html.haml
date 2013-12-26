@@ -21,8 +21,8 @@ title: Uniba Inc.
           = link_to "#works", { :class => "page-scroll" } do
             %span &nbsp;Works&nbsp;
         %li
-          = link_to "#members", { :class => "page-scroll" } do
-            %span &nbsp;Members&nbsp;
+          = link_to "#movie", { :class => "page-scroll" } do
+            %span &nbsp;Movies&nbsp;
         %li
           = link_to "#contact", { :class => "page-scroll" } do
             %span &nbsp;Contact&nbsp;
@@ -41,7 +41,7 @@ title: Uniba Inc.
       %p
         2013.12.26 uniba.jpをリニューアルしました。
       %p
-        = link_to "最新情報はこちらから", "https://www.facebook.com/UnibaInc", { :target => "_blank" }
+        = link_to "最新情報はFacebookから", "https://www.facebook.com/UnibaInc", { :target => "_blank" }
 
     #about
       .about-content
@@ -63,10 +63,10 @@ title: Uniba Inc.
 
     #movie.section
       %h2.section-title
-        Movie
+        Movies
       = partial "_partial/movie"
       .btn
-        = link_to "Uniba Channel", "/movies/index.html", { :target => "_blank" }
+        = link_to "More Movies", "/movies/index.html", { :target => "_blank" }
 
     #members.section
       %h2.section-title

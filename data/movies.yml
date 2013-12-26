@@ -14,21 +14,6 @@
   date: 2013.08.26
   video_url: https://vimeo.com/73190175
 -
-  title: ホームページロボット (Making)
-  thumbnail_image_path:
-    - homepagerobo_making_1.jpg
-    - homepagerobo_making_2.jpg
-    - homepagerobo_making_3.jpg
-    - homepagerobo_making_4.jpg
-    - homepagerobo_making_5.jpg
-    - homepagerobo_making_6.jpg
-    - homepagerobo_making_7.jpg
-    - homepagerobo_making_8.jpg
-    - homepagerobo_making_9.jpg
-    - homepagerobo_making_10.jpg
-  date: 2013.08.26
-  video_url: https://vimeo.com/73190089
--
   title: Uniba Motionlogo 2013
   thumbnail_image_path:
     - unibalogo_1.jpg
@@ -43,6 +28,36 @@
     - unibalogo_10.jpg
   date: 2013.07.26
   video_url: https://vimeo.com/71139746
+-
+  title: Future Semaphore &#x3a; Uniba Exhibition 2013
+  thumbnail_image_path:
+    - future_exhibition_1.jpg
+    - future_exhibition_2.jpg
+    - future_exhibition_3.jpg
+    - future_exhibition_4.jpg
+    - future_exhibition_5.jpg
+    - future_exhibition_6.jpg
+    - future_exhibition_7.jpg
+    - future_exhibition_8.jpg
+    - future_exhibition_9.jpg
+    - future_exhibition_10.jpg
+  date: 2013.05.08
+  video_url: https://vimeo.com/65720665
+-
+  title: ホームページロボット (Making)
+  thumbnail_image_path:
+    - homepagerobo_making_1.jpg
+    - homepagerobo_making_2.jpg
+    - homepagerobo_making_3.jpg
+    - homepagerobo_making_4.jpg
+    - homepagerobo_making_5.jpg
+    - homepagerobo_making_6.jpg
+    - homepagerobo_making_7.jpg
+    - homepagerobo_making_8.jpg
+    - homepagerobo_making_9.jpg
+    - homepagerobo_making_10.jpg
+  date: 2013.08.26
+  video_url: https://vimeo.com/73190089
 -
   title: Piston Machineで風を送るウェブサイト
   thumbnail_image_path:
@@ -88,21 +103,6 @@
     - future_making_10.jpg
   date: 2013.05.22
   video_url: https://vimeo.com/66710397
--
-  title: Future Semaphore &#x3a; Uniba Exhibition 2013
-  thumbnail_image_path:
-    - future_exhibition_1.jpg
-    - future_exhibition_2.jpg
-    - future_exhibition_3.jpg
-    - future_exhibition_4.jpg
-    - future_exhibition_5.jpg
-    - future_exhibition_6.jpg
-    - future_exhibition_7.jpg
-    - future_exhibition_8.jpg
-    - future_exhibition_9.jpg
-    - future_exhibition_10.jpg
-  date: 2013.05.08
-  video_url: https://vimeo.com/65720665
 -
   title: The Making of "What is it like to be giants' eyes?"
   thumbnail_image_path:
