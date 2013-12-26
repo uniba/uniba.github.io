@@ -180,6 +180,10 @@ img {
     }
   }
 
+  span {
+    color: lighten(#000000, 70%);
+  }
+
   a {
     text-decoration: none;
     @include bp(sp) {
@@ -194,6 +198,10 @@ img {
         background-color: #000000;
         text-decoration: none;
       }
+    }
+
+    span {
+      color: #000000;
     }
   }
 }
