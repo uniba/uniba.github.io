@@ -1,0 +1,57 @@
+%header
+  %h1
+    = link_to "http://uniba.jp" do
+      Uniba.jp
+  %h2.title
+    Uniba Channel
+  %ul
+    - data.channelCategory.each do |category|
+      - if channelData.category_name == category.category_name
+        %li.active
+          = link_to "/movies_dev/#{category.page_name}.html" do
+            #{category.category_name}
+      - else
+        %li
+          = link_to "/movies_dev/#{category.page_name}.html" do
+            #{category.category_name}
+
+  %table
+    - data.channelCategory.each.with_index do |category,index|
+      - if index%2 == 0
+        %tr
+      %td
+        #{index}
+        = link_to "/movies_dev/#{category.page_name}.html" do
+          #{category.category_name}
+
+#container
+  - if channelData.category_name == "ALL"
+    - movieData = data.movies.sort{|a,b| b.date <=> a.date}
+    - movieData.each do |item|
+      .box
+        %h3 #{ item.date }
+        .screenshots
+          = link_to item.video_url do
+            %ul
+              - item.thumbnail_image_path.each do |image|
+                %li
+                  = image_tag("movie/thumb/"+image, :width => 232,:height => 130)
+        %p.title
+          = link_to item.video_url, { :target => "_blank" } do
+            #{ item.title }
+  - else
+    - movieData = data.movies.sort{|a,b| b.date <=> a.date}
+    - movieData.each do |item|
+      - if channelData.category_name == item.category_name
+        .box
+          %h3 #{ item.date }
+          .screenshots
+            = link_to item.video_url do
+              %ul
+                - item.thumbnail_image_path.each do |image|
+                  %li
+                    = image_tag("movie/thumb/"+image, :width => 232,:height => 130)
+          %p.title
+            = link_to item.video_url, { :target => "_blank" } do
+              #{ item.title }
+

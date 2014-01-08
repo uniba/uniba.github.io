@@ -2,6 +2,9 @@
 # Compass
 ###
 
+### chnage path if develop this changes...
+page "/movies/*", :layout => :movie
+
 # Change Compass configuration
 compass_config do |config|
   config.output_style = :expanded
@@ -9,6 +12,10 @@ end
 
 data.works.each do |project|
   proxy "/works/#{project.page_name}/index.html", "/works/template.html", :locals => { :project => project }, :ignore => true
+end
+
+data.channelCategory.each do |category|
+  proxy "/movies/#{category.page_name}.html", "/movies/template.html", :locals => { :channelData => category }, :ignore => true
 end
 
 ###
