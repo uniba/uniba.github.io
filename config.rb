@@ -5,6 +5,8 @@
 ### chnage path if develop this changes...
 page "/movies/*", :layout => :movie
 
+### ignore tmp files...
+ignore "/temp"
 # Change Compass configuration
 compass_config do |config|
   config.output_style = :expanded
