@@ -8,11 +8,11 @@
     - data.channelCategory.each do |category|
       - if channelData.category_name == category.category_name
         %li.active
-          = link_to "/movies_dev/#{category.page_name}.html" do
+          = link_to "/movies/#{category.page_name}.html" do
             #{category.category_name}
       - else
         %li
-          = link_to "/movies_dev/#{category.page_name}.html" do
+          = link_to "/movies/#{category.page_name}.html" do
             #{category.category_name}
 
   %table
@@ -21,7 +21,7 @@
         %tr
       %td
         #{index}
-        = link_to "/movies_dev/#{category.page_name}.html" do
+        = link_to "/movies/#{category.page_name}.html" do
           #{category.category_name}
 
 #container
