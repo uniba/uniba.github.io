@@ -53,10 +53,6 @@ if(!navigator.userAgent.match(/(iPhone|iPad|Android)/)) {
 		}
 	}
 
-	//grobal method
-	 var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-	 window.requestAnimationFrame = requestAnimationFrame;
-
 	// 表示判定
 	function viewCheck(name, MSIE, objFlg, objH)
 	{
@@ -122,7 +118,6 @@ if(!navigator.userAgent.match(/(iPhone|iPad|Android)/)) {
 	//hover でスライド
 	function slideFilms($el,end){
 		var pos = $el.data('pos');
-		var w = $(container)
 		//check now position...
 		if(window.visibleW - end > pos){
 			console.log(window.visibleW*2 - end , pos);

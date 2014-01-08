@@ -1,3 +1,17 @@
+%ie8nth{
+  $str: " ";
+  $target:'+ *';
+  ul{
+    @for $i from 1 through 10 {
+      $g: $str + $target;
+      > *:first-child #{$g} {
+        left: #{233 * $i}px;
+      }
+      $str: $g;
+    }
+  }
+}
+
 .box {
   margin: 0 0 40px 0;
   h3 {
@@ -15,6 +29,7 @@
     overflow-x: hidden;
     overflow-y: hidden;
     @extend %colorize-on-hover;
+    @extend %ie8nth;
     ul {
       width: 2330px;
       height: 130px;

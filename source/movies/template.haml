@@ -1,4 +1,4 @@
-%header
+#header
   %h1
     = link_to "http://uniba.jp" do
       Uniba.jp
@@ -20,7 +20,6 @@
       - if index%2 == 0
         %tr
       %td
-        #{index}
         = link_to "/movies/#{category.page_name}.html" do
           #{category.category_name}
 

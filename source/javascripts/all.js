@@ -55,3 +55,49 @@ $(function() {
     return false;
   });
 });
+
+$(function(){
+  window.visibleW = $('#movie').width(); 
+  var animationID;
+  var $target;
+  var end;
+  //init...
+  $('.screenshots ul').each(function(index, el) {
+    var end = $(this).innerWidth();
+    $(this).data("pos",0).data('end',end);
+  });
+  $('.screenshots ul').on({
+    'mouseenter':function(){
+      $target = $(this);
+      end = $(this).data('end');
+      animationID = setInterval(function(){slideFilms($target,end)},1000/24);
+    },
+    'mouseleave':function(){
+      clearInterval(animationID);
+      if ($(this).hasClass('END')) {
+        $(this).animate({
+          'margin-left': 0},
+          300, function(){
+            $(this).removeClass('END');
+            $(this).data('pos', 0);
+        });
+      }
+    }
+  });
+  $(window).resize(function(event) {
+    window.visibleW = $('#moive').width(); 
+  });
+  //hover でスライド
+  function slideFilms($el,end){
+    var pos = $el.data('pos');
+    //check now position...
+    if(window.visibleW - end > pos){
+      console.log(window.visibleW*2 - end , pos);
+      $el.addClass('END');
+      return;
+    }
+    console.log(window.visibleW - end , pos);
+    $el.css('margin-left',pos-10);
+    $el.data('pos',pos-10);
+  }
+});

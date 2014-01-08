@@ -34,6 +34,20 @@
   }
 }
 
+%ie8nth{
+  $str: " ";
+  $target:'+ *';
+  ul{
+    @for $i from 1 through 10 {
+      $g: $str + $target;
+      > *:first-child #{$g} {
+        left: #{233 * $i}px;
+      }
+      $str: $g;
+    }
+  }
+}
+
 body {
   @extend %body-font;
   font-size: 1em;

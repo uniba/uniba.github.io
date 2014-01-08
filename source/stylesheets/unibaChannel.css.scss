@@ -27,12 +27,30 @@
   }
 }
 
+%ie8nth{
+  $str: " ";
+  $target:'+ *';
+  ul{
+    @for $i from 1 through 10 {
+      $g: $str + $target;
+      > *:first-child #{$g} {
+        left: #{233 * $i}px;
+      }
+      $str: $g;
+    }
+  }
+}
+
 a {
   color: #000;
   text-decoration: none;
   &:hover {
     text-decoration: line-through;
   }
+}
+
+html{
+  overflow-x: hidden;
 }
 
 body {
@@ -42,9 +60,10 @@ body {
   @include breakpoint(sp) {
     padding: 10px 10px 0 10px;
   }
+  overflow-x: hidden;
 }
 
-header {
+#header {
   margin: 0 0 180px 0;
   @include breakpoint(sp) {
     margin: 0 0 30px 0;
@@ -81,12 +100,13 @@ header {
   }
   ul {
     overflow: hidden;
+    @include pie-clearfix;
     @include breakpoint(sp) {
       display: none;
     }
     li {
       padding: 0 1.5em 0 0;
-      display: inline-block;
+      float: left;
       text-transform: uppercase;
       font-size: 1em;
       font-family:'Futura';
@@ -128,8 +148,11 @@ header {
 }
 
 .box {
+  position: relative;
   margin: 0 0 40px 0;
   h3 {
+    width: 86px\9;
+    height: 14px\9;
     display: inline-block;
     margin: 0 0 9px 0;
     padding: 4px 6px 3px 4px;
@@ -144,7 +167,8 @@ header {
     }
   }
   .screenshots {
-/*     height: 130px; */
+    /* height: 130px; */
+    position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
     @include breakpoint(tablet) {
@@ -156,6 +180,7 @@ header {
       overflow: hidden;
     }
     @extend %colorize-on-hover;
+    @extend %ie8nth;
     ul {
       width: 2330px;
       height: 130px;
