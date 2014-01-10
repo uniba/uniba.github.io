@@ -1,9 +1,12 @@
-
 # uniba.jp
 
 Corporate site of Uniba Inc.
 
 ## Installation
+
+1st: Middleman install
+
+    $ gem install middleman
 
 With node.js oriviously installed:
 
