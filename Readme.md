@@ -1,21 +1,18 @@
+
 # uniba.jp
 
 Corporate site of Uniba Inc.
 
 ## Installation
 
-1st: Middleman install
-
-    $ gem install middleman
-
-With node.js oriviously installed:
+With [node.js](http://nodejs.org/) priviously installed:
 
     $ npm install -g bower
 
 Clone repository and solve dependencies.
 
     $ git clone git@github.com:uniba/uniba.github.io.git
-    $ cd uniba.github.com
+    $ cd uniba.github.io
     $ bundle install --path vendor/bundle
 
 ## Workflow
