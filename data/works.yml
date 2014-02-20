@@ -1,4 +1,16 @@
 -
+  title: MAZDA SHAKIN&apos; RACER
+  date: 2013.11.10
+  image_path:
+    - w_shakinracer01.jpg
+    - w_shakinracer02.jpg
+  thumbnail_image_path: w_shakinracer.png
+  video_url:
+    - <iframe width="560" height="315" src="//www.youtube.com/embed/3CR2nWNYT18?rel=0" frameborder="0" allowfullscreen></iframe>
+  page_name: shakinracer
+  link_to: http://www.mazda.co.jp/carlife/app/shakinracer/
+  description: マツダ様向けのイベント／ウェブ両展開のゲームアプリ企画。最大4人対戦でスマートフォンをシェイクすることでエンジンを動かし車が前に進むレースゲーム。ユニバはスマートフォン側のアプリ(HTMLアプリ)と、サーバサイドのシステム、Flash側のゲームロジック部分の実装を担当。
+-
   title: Living Wallet
   date: 2013.08.12
   image_path:
