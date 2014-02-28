@@ -73,6 +73,8 @@
     margin: 1em 0 2em 0;
     font-size: 1.1em;
     font-style: italic;
+    word-break: break-all;
+    word-wrap: break-word;
     @include bp(sp) {
       margin: 1em 0;
       font-size: 0.85em;
