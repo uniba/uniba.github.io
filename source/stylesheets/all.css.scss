@@ -378,6 +378,21 @@ img {
     text-decoration: underline;
   }
 
+  dl {
+    margin: 0;
+    @include pie-clearfix;
+
+    dt {
+      float: left;
+      width: 8em;
+    }
+
+    dd {
+      margin: 0 0 1em 0;
+      padding-left: 8em;
+    }
+  }
+
   p {
     margin-top: 0;
   }
