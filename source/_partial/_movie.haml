@@ -8,7 +8,7 @@
             %ul
               - item.thumbnail_image_path.each do |image|
                 %li
-                  = image_tag("movie/thumb/"+image)
+                  %img{:src => "/movies/img/thumb/"+image }
         %p.title
           = link_to item.video_url, { :target => "_blank" } do
             #{ item.title }
