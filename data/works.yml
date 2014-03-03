@@ -1,6 +1,6 @@
 -
   title: MAZDA SHAKIN&apos; RACER
-  date: 2013.11.10
+  date: 2013.11
   image_path:
     - w_shakinracer01.jpg
     - w_shakinracer02.jpg
@@ -12,7 +12,7 @@
   description: マツダ様向けのイベント／ウェブ両展開のゲームアプリ企画。最大4人対戦でスマートフォンをシェイクすることでエンジンを動かし車が前に進むレースゲーム。ユニバはスマートフォン側のアプリ(HTMLアプリ)と、サーバサイドのシステム、Flash側のゲームロジック部分の実装を担当。
 -
   title: Living Wallet
-  date: 2013.08.12
+  date: 2013.08
   image_path:
     - w_living_wallet01.jpg
     - w_living_wallet02.jpg
@@ -25,7 +25,7 @@
   description: 「Living Wallet」は正しくお金を使うための、「考える財布」です。
 -
   title: アイドルの穴フリフリタイム
-  date: 2013.07.06
+  date: 2013.07
   image_path:
     - w_shakingidol01.jpg
     - w_shakingidol02.jpg
@@ -36,7 +36,7 @@
   description:
 -
   title: WASABEAT
-  date: 2013.04.01
+  date: 2013.04
   image_path:
     - fig_wasabeat_img01.jpg
   thumbnail_image_path: w_wasabeat.png
@@ -49,7 +49,7 @@
     それらをウェブブラウザで表現するために、pjaxでのシームレスな遷移を制御するためのBackbone.jsによるフロントエンドクラス設計や、バックエンドもメンテナンス性を重視した柔軟なモジュール設計を施しています。
 -
   title: SUBARU OUTBACK | BOXER DIESEL LINEAR TRONICAL
-  date: 2013.03.05
+  date: 2013.03
   image_path:
     - w_outback01.jpg
     - w_outback02.jpg
@@ -63,7 +63,7 @@
     アートディレクション／デザインは、DRAWING AND MANUAL社。
 -
   title: HAYWARD GALLERY &#x3a; DIGITAL ARCHIVE
-  date: 2012.11.23
+  date: 2012.11
   image_path:
   thumbnail_image_path: w_hayward.png
   video_url:
@@ -73,7 +73,7 @@
   description:
 -
   title: PLUG-IN Championship
-  date: 2012.10.29
+  date: "2012.10"
   image_path:
     - w_plugin01.jpg
   thumbnail_image_path: w_plugin.png
@@ -84,7 +84,7 @@
   description:
 -
   title: DOT SWITCH
-  date: 2012.03.05
+  date: 2012.03
   image_path:
     - w_dotswitch01.jpg
   thumbnail_image_path: w_dotswitch.png
@@ -98,7 +98,7 @@
     ユニバでは「DOT SWITCH」のネットワーク構築に使用されたNode.jsの技術サポートとプロトコルの設計、及びスマートフォンやPCのWebブラウザで動作するスイッチプログラムの実装を担当しました。視聴者からのアクションを、生放送の収録現場にリアルタイムで連動させるという難しい課題に挑戦し、企画の成功に貢献することができました。
 -
   title: UNDERCOVER
-  date: 2011.10.22
+  date: "2011.10"
   image_path:
     - w_undercover01.jpg
     - w_undercover02.jpg
@@ -113,7 +113,7 @@
     JavaScriptを駆使した斬新なフロントエンドの実装のみならず、タブレット端末での閲覧にも配慮したレスポンシブなWebデザインやCMSの組み込みといったサポートも行っており、新規的なWeb表現と共に、閲覧者やクライアントに適したWebサービスの提供にユニバは力を注いでいます。
 -
   title: EIZO SALON
-  date: 2011.09.29
+  date: 2011.09
   image_path:
     - w_eizo01.jpg
     - w_eizo02.jpg
