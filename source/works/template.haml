@@ -21,7 +21,7 @@
           .video
             #{video}
       - unless project.link_to.nil?
-        = link_to project.link_to, project.link_to, { :class => "works-link" }
+        = link_to project.link_to, project.link_to, { :class => "works-link", :target => '_blank' }
       - unless project.description.nil?
         %p.description
           #{project.description}
