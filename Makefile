@@ -17,6 +17,6 @@ bower:
 	bower install
 
 bundle:
-	bundle install --path vendor/bundle
+	ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future bundle install --path vendor/bundle
 
 .PHONY: build
