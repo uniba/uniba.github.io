@@ -1,4 +1,26 @@
 -
+  title: NTT DOCOMO Docomodake
+  date: 2014.02
+  image_path:
+    - w_docomodake01.jpg
+    - w_docomodake02.jpg
+  thumbnail_image_path: w_docomodake.png
+  page_name: docomodake
+  link_to: http://docomodake.net/
+  description: NTTドコモのキャラクター「ドコモダケ」のオフィシャルサイト のリニューアルに向けて、フロントの構築を担当しました。
+-
+  title: adidas 地球一周試し履き
+  date: 2014.03
+  image_path:
+    - w_adidas01.jpg
+    - w_adidas02.jpg
+  thumbnail_image_path: w_adidas.png
+  video_url:
+    - <iframe width="560" height="315" src="//http://www.youtube.com/embed/S6AkF_tMdQk?rel=0" frameborder="0" allowfullscreen></iframe>
+  page_name: adidas
+  link_to: http://adidas.jp/running/boost/campaign/
+  description: adidasのランニングシューズの試し履きキャンペーン用「地球一周マシン」の足踏みセンサーの開発を担当しました。全国各地で展開し、長期に渡って多くの人に店頭で体験してもらうイベントで、耐久性とロバスト性が問われるものでした。地球一周マシーンの上でboostの試し履きをすると、ステップやジャンプによって様々な国の美しい道を走ることが出来ます。キャンペーン期間中は全国の店舗で実際に体験することが出来ます。
+-
   title: ondo inc.
   date: 2014.03
   image_path:
@@ -135,14 +157,3 @@
     アパレルブランド「UNDERCOVER」のブランドサイトの立ち上げ、HTML/CSS/JavaScriptを用いたオーサリングを担当させて頂きました。「ハッキング」をテーマに、既存のWebサイトとは一線を画した「背景画像が外部サイト」「コンテンツの情報は全てポップアップウィンドウで表示」などの斬新なサイト構成を実現しています。
 
     JavaScriptを駆使した斬新なフロントエンドの実装のみならず、タブレット端末での閲覧にも配慮したレスポンシブなWebデザインやCMSの組み込みといったサポートも行っており、新規的なWeb表現と共に、閲覧者やクライアントに適したWebサービスの提供にユニバは力を注いでいます。
--
-  title: EIZO SALON
-  date: 2011.09
-  image_path:
-    - w_eizo01.jpg
-    - w_eizo02.jpg
-  thumbnail_image_path: w_eizo.png
-  video_url:
-  page_name: eizo
-  link_to: http://www.eizo-salon.com/
-  description:
