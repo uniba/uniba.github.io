@@ -1,4 +1,16 @@
 -
+  title: SnapLite
+  date: 2014.05
+  image_path:
+    - w_snaplite01.jpg
+    - w_snaplite02.jpg
+    - w_snaplite_sp.png
+    - w_snaplite_app.png
+  thumbnail_image_path: w_snaplite.png
+  page_name: snaplite
+  link_to: http://snaplite.jp/
+  description: PFU様の新製品「SnapLite」のプロジェクトの中で、ユニバはアプリのUI設計と、公式サイトおよびブログのデザイン・実装を主に担当しました。ブログやSNSでのユーザーコミュニケーションプランにも関わることで、オンラインプロモーションにおける世界観の統一を提案しました。デザイン面においては、Webフォントを採用することで、カタログをはじめとする紙媒体と統一感を持たせています。
+-
   title: NTT DOCOMO Docomodake
   date: 2014.02
   image_path:
