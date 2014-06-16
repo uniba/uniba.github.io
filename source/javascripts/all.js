@@ -30,6 +30,14 @@
     leftRatio: 0.5
   });
 
+  $('body').ready( function () {
+    var worksDoms = $('.works-grid').children('li').children('a');
+    for (var i = 0; i < worksDoms.length; i++) {
+      var effectView = new exports.EffectView(worksDoms[i]);
+      effectView.render();
+    };
+  });
+
   return;
 
   var state = exports.state = new exports.State();
