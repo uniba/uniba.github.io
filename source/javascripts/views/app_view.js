@@ -3,6 +3,7 @@
 //= require ./plane_view
 //= require ./background_view
 //= require ./audio_view
+//= require ./effect_view
 
 (function(exports) {
 

@@ -406,18 +406,22 @@ img {
   @include clearfix;
 
   li {
-    @extend %colorize-on-hover;
-
     float: left;
     @include bp(sp) {
       width: 50%;
     }
 
     img {
+      -webkit-filter: invert(1) brightness(.6) invert(1) contrast(2.5) grayscale(1);
       @include bp(sp) {
         width: 100%;
         height: auto;
       }
+    }
+
+    canvas {
+      position: absolute;
+      z-index: 10;
     }
   }
 }
