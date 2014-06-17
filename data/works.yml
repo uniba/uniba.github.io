@@ -1,4 +1,15 @@
 -
+  title: パズ億 デジタルキャンペーン
+  date: 2014.03
+  image_path:
+    - w_pazuoku01.jpg
+    - w_pazuoku02.jpg
+    - w_pazuoku03.jpg
+  thumbnail_image_path: w_pazuoku.png
+  page_name: pazuoku
+  link_to: http://www.mbga.jp/lp/game/puzzoku/
+  description: DeNA様の痛快パズルゲーム「パズ億」の "お金に変身！豪遊キャンペーン！” サイトのフロントエンド・サーバサイド構築を担当しました。特徴である「はじけて爽快」を表現するため、 本編の演出をWebに最適化。手軽にゲームを体験しながら、豪華賞品の当たる抽選に挑戦できます。※キャンペーンは4/18に終了しています
+-
   title: Red Bull X-Fighters 2014 OSAKA
   date: 2014.05
   video_url:
@@ -53,7 +64,7 @@
     - w_ondo01.jpg
     - w_ondo02.jpg
   thumbnail_image_path: w_ondo.jpg
-  video_url: 
+  video_url:
   page_name: ondo
   link_to: http://ondo-inc.jp/
   description: 「世の中に、ondoあるデザインを」がコンセプトの広告制作会社「ondo inc.」のコーポレートサイトの構築を担当しました。
