@@ -33,9 +33,24 @@
   $('body').ready( function () {
     var worksDoms = $('.works-grid').children('li').children('a');
     for (var i = 0; i < worksDoms.length; i++) {
-      var effectView = new exports.EffectView(worksDoms[i]);
+      var effectView = new exports.EffectView(worksDoms[i], 300, 300);
       effectView.render();
     };
+
+    var clientDoms = $('.client-grid').children('li').children('a');
+    for (var i = 0; i < clientDoms.length; i++) {
+      var effectView = new exports.EffectView(clientDoms[i], 296, 156);
+      effectView.division = 15;
+      effectView.render();
+    };
+
+    var membersDoms = $('.members-grid').children('li').children('.staff').children('.figure');
+    for (var i = 0; i < membersDoms.length; i++) {
+      var effectView = new exports.EffectView(membersDoms[i], 80, 80);
+      effectView.division = 12;
+      effectView.render();
+    };
+
   });
 
   return;
