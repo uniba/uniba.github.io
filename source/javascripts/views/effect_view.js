@@ -2,9 +2,9 @@
 
 (function(exports) {
 
-  exports.EffectView = EffectView = function(_parent) {
-    this.width = 300;
-    this.height = 300;
+  exports.EffectView = EffectView = function(_parent, _width, _height) {
+    this.width = _width;
+    this.height = _height;
     this.division = 31;
     this.timer = undefined;
     this.animateCount = 0;
@@ -39,7 +39,7 @@
 
   EffectView.prototype.animate = function (_that) {
     self = _that;
-    self.ctx.clearRect(0, 0, width, 600);
+    self.ctx.clearRect(0, 0, self.width, self.height);
     
     self.ctx.save();
     self.ctx.beginPath();
@@ -49,14 +49,14 @@
       } else {
         self.waveLines[i] = (self.waveLines[i - 1] * 0.68  + self.waveLines[i] * 0.32);
       }
-      self.ctx.lineTo(i * self.height / (self.division - 1), self.waveLines[i]);
+      self.ctx.lineTo(i * self.width / (self.division - 1), self.waveLines[i]);
     };
     self.ctx.lineTo(self.width, self.height);
     self.ctx.lineTo(0, self.height);
     self.ctx.closePath();
     self.ctx.fill();
     self.ctx.clip();
-    self.ctx.drawImage(self.img, 0, 0);
+    self.ctx.drawImage(self.img, 0, 0, self.width, self.height);
     self.ctx.restore();
     clearTimeout(self.timer);
     if (self.division >  self.animateCount) {

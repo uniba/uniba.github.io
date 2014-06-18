@@ -29,6 +29,12 @@
   }
 }
 
+canvas {
+  margin: 0px;
+  position: absolute;
+  z-index: 1;
+}
+
 body {
   @extend %body-font;
   font-size: 1em;
@@ -418,11 +424,6 @@ img {
         height: auto;
       }
     }
-
-    canvas {
-      position: absolute;
-      z-index: 10;
-    }
   }
 }
 
@@ -503,7 +504,6 @@ img {
   @include pie-clearfix;
 
   li {
-    @extend %colorize-on-hover;
     float: left;
     width: 299px;
     margin: -1px 0 0 -1px;
@@ -514,10 +514,16 @@ img {
     }
 
     img {
+      -webkit-filter: invert(1) brightness(.6) invert(1) contrast(2.5) grayscale(1);
       @include bp(sp) {
         width: 100%;
         height: auto;
       }
+    }
+
+    canvas {
+      margin-top: 1px;
+      margin-left: 1px;
     }
   }
 }
