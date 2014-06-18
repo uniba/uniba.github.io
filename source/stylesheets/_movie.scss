@@ -14,7 +14,7 @@
   .screenshots {
     overflow-x: hidden;
     overflow-y: hidden;
-    @extend %colorize-on-hover;
+    -webkit-filter: opacity(90%) grayscale(1);
     ul {
       width: 2330px;
       height: 130px;
