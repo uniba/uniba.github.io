@@ -418,7 +418,7 @@ img {
     }
 
     img {
-      -webkit-filter: invert(1) brightness(.6) invert(1) contrast(2.5) grayscale(1);
+      -webkit-filter: opacity(90%) grayscale(1);
       @include bp(sp) {
         width: 100%;
         height: auto;
