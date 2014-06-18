@@ -15,6 +15,9 @@
     overflow-x: hidden;
     overflow-y: hidden;
     -webkit-filter: opacity(90%) grayscale(1);
+    &:hover {
+      -webkit-filter: none;
+    }
     ul {
       width: 2330px;
       height: 130px;
