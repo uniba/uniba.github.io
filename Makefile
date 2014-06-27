@@ -8,7 +8,7 @@ server: bundle bower
 	bundle exec middleman server
 
 build: bundle bower
-	bundle exec middleman build
+	bundle exec middleman build --verbose
 
 clean:
 	rm -frv publish
