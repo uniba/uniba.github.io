@@ -1,6 +1,6 @@
 - content_for(:title, project.title)
 - content_for(:og_title, project.title)
-- content_for(:og_description, project.description)
+- content_for(:og_description, strip_tags(project.description))
 - content_for(:og_url, "http://uniba.jp/works/#{project.page_name}/")
 - if project.image_path.present?
   - content_for(:og_image, "http://uniba.jp/images/works/project/#{project.image_path.first}")
