@@ -3,11 +3,12 @@
   h2 {
     @extend %font-futura;
     margin: 0;
-    padding: 12px 0;
+    padding: 12px 0 24px 0;
     font-size: 2.8em;
     font-style: italic;
     font-weight: normal;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
+    line-height: 1.2;
     @include bp(sp) {
       padding: 0 0 6px 0;
       font-size: 1.4em;
@@ -15,8 +16,10 @@
   }
 
   .date {
-    display: block;
-    font-size: 0.85em;
+    font-family:'Futura W01 Medium';
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 0.1em;
     @include bp(sp) {
       font-size: 0.65em;
     }
@@ -24,7 +27,7 @@
 }
 
 .works-body {
-  padding: 50px 0;
+  padding: 30px 0 50px 0;
   position: relative;
   @include bp(sp) {
     padding: 30px 0;
@@ -32,6 +35,7 @@
 
   div {
     margin-top: 60px;
+    letter-spacing: 0.08em;
     @include bp(sp) {
       margin-top: 15px;
     }
@@ -42,7 +46,6 @@
   }
 
   .figure {
-
     img {
       @include bp(sp) {
         width: 100%;
@@ -66,27 +69,72 @@
     }
   }
 
+  h3 {
+    @extend %font-futura;
+    font-style: italic;
+    font-weight: bold;
+	  margin: 2.5em 0 0.4em 0;
+    letter-spacing: 0.1em;
+    font-size: 0.9em;
+    color: #FFF;
+      span {
+	  	  display: inline-block;
+			  padding: 4px 5px 2px 4px;
+			  background-color: #000;  
+      }    
+    }
 
   .works-link {
-    @extend %font-futura;
-    display: inline-block;
-    margin: 1em 0 2em 0;
-    font-size: 1.1em;
-    font-style: italic;
+    margin: 0;
+    font-size: 1.0em;
+    line-height: 2;
     word-break: break-all;
     word-wrap: break-word;
     @include bp(sp) {
       margin: 1em 0;
-      font-size: 0.85em;
+      font-size: 0.72em;
+    }
+  }
+
+  .link_suffix {
+    margin: 0 0 0 5px;
+    font-size: 0.85em;
+    color: #999;
+    @include bp(sp) {
+      font-size: 0.65em;
+    }
+  }
+
+  .credit {
+	  margin: 10px 0 0 0;
+  }
+  .credit ul {
+    margin: 0;
+    font-size: 0.95em;
+    line-height: 1.8;
+    letter-spacing: 0.08em;
+    @include bp(sp) {
+      font-size: 0.72em;
+      line-height: 1.8;
+    }
+  }
+  
+  .outline {
+    margin: 10px 0 0 0;
+    font-size: 1.0em;
+    line-height: 2;
+    @include bp(sp) {
+      font-size: 0.72em;
+      line-height: 1.8;
     }
   }
 
   .description {
-    margin: 0;
-    font-size: 1.1em;
+    margin: 10px 0 0 0;
+    font-size: 1.0em;
     line-height: 2;
     @include bp(sp) {
-      font-size: 0.75em;
+      font-size: 0.72em;
       line-height: 1.8;
     }
   }
@@ -105,13 +153,12 @@
   margin: 0 !important;
   border: 1px solid #000000;
   position: absolute;
-  top: 50px;
+  top: 30px;
   right: -100px;
   z-index: 100;
   @include bp(sp) {
     display: none;
   }
-
   &:before {
     @extend %line;
     height: 8px;
@@ -120,7 +167,6 @@
     border-right: none;
     border-left: none;
   }
-
   &:after {
     @extend %line;
     margin-top: 8px;
@@ -145,15 +191,17 @@
     top: -1px;
     right: -1px;
     font-size: 0.85em;
-    line-height: 2;
+    line-height: 1.2;
+    li {    
+      margin: 0 0 12px 0;
+      a {
+        color: #ffffff;
+        text-decoration: none;
 
-    a {
-      color: #ffffff;
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: line-through;
+        &:hover {
+          text-decoration: line-through;
+        }
       }
-    }
+    }      
   }
 }

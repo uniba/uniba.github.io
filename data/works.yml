@@ -1,5 +1,5 @@
 -
-  title: Red Bull X-Fighters 2014 OSAKA 現地キャンペーン
+  title: Red Bull X-Fighters 2014 OSAKA
   date: 2014.05
   video_url:
     - <iframe width="800" height="450" src="//www.youtube.com/embed/GfFAD7wYpys?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -12,33 +12,14 @@
   page_name: rbxfvenue
   link_to: http://majideyabai.com/
   link_suffix: ※キャンペーンは終了しました
-  description: Red Bull X-Fighters 2014 OSAKA 会場向けインスタレーションの企画・制作・設営・運用をすべてパッケージで制作しました。 <a href="./rbxf">"#マジでヤバい"プロジェクト</a> からの連動企画として、今までシェアしてもらったトリックやコメントだけでなく、現地限定のURL(xf283.com)からのシェアや、キャンペーンガールが持つiPadから投稿された写真やコメントなど、サーバと連動してほぼリアルタイムに日本地図上に表示する演出を行いました。<br>日本地図はThree.jsを用いて日本地図や投稿された場所などを表現したフルHDのコンテンツを制作しました。また隣にVideoタグでトリックムービーを表示するコンテンツを連動させ、80インチのディスプレイ2台でブラウザベースのフルHDコンテンツを表示し、来場者を楽しませました。<br>現地限定のURLやiPadからの投稿をするとその場でRed Bull X-Fighters限定手ぬぐいをもらえるというキャンペーンも行い、来場者3万人のうち、3500人あまりのお客様にキャンペーンに参加してもらうことが出来、手ぬぐいも限定数終了という盛況で幕を閉じることが出来ました。<br><br>バックエンドはNode.jsでローカルのサーバを用意し、そこから2つのブラウザに対してWebSocketでシーン遷移や新しい投稿の通知などを行い、2つのディスプレイのコンテンツを制御する仕組みを構築しました。ローカルサーバは定期的にmajideyabai.comのDBと同期し、限定URLやiPadからの投稿もすぐに反映されるようなシステムとなっています。
--
-  title: パズ億 デジタルキャンペーン
-  date: 2014.03
-  image_path:
-    - w_pazuoku01.jpg
-    - w_pazuoku02.jpg
-    - w_pazuoku03.jpg
-  thumbnail_image_path: w_pazuoku.png
-  page_name: pazuoku
-  link_to: http://www.mbga.jp/lp/game/puzzoku/
-  description: DeNA様の痛快パズルゲーム「パズ億」の "お金に変身！豪遊キャンペーン！” サイトのフロントエンド・サーバサイド構築を担当しました。特徴である「はじけて爽快」を表現するため、 本編の演出をWebに最適化。手軽にゲームを体験しながら、豪華賞品の当たる抽選に挑戦できます。※キャンペーンは4/18に終了しています
--
-  title: Red Bull X-Fighters 2014 OSAKA Webキャンペーン
-  date: 2014.05
-  video_url:
-    - <iframe width="800" height="450" src="//www.youtube.com/embed/WR8a7vky2v4?rel=0" frameborder="0" allowfullscreen></iframe>
-  image_path:
-    - w_rbxf_01.png
-    - w_rbxf_02.png
-    - w_rbxf_03.png
-    - w_rbxf_04.png
-  thumbnail_image_path: w_rbxf.png
-  page_name: rbxf
-  link_to: http://majideyabai.com/
-  link_suffix: ※キャンペーンは終了しました
-  description: Red Bull Japan様のキャンペーン「Red Bull X-Fighters "#マジでヤバい"プロジェクト」の企画からサイトデザイン、システム全般を担当させていただきました。<br />Red Bull X-Fightersは、モトクロスバイクでジャンプしながら回転やひねりなどの「トリック」を決めてその技の難易度や完成度を競う競技で、フリースタイルモトクロス (FMX) というジャンルのスポーツです。FMXを知らない人でも、そのトリックの「マジでヤバい」を体感してもらうために、スマートフォンやPCで majideyabai.com にアクセスすると、様々なトリックの動画を楽しむことができます。さらに、位置情報を使ったシェアによって全国のFMXファンを可視化し、ファンの裾野を広げることを目指しました。<br />特にユーザー数が多いと思われるスマホ版では、iPhoneやAndroidでもブラウザ上で全画面で動画を再生しながら遊べるようにするため、cssのtransitionを用いて連番画像を次々切り替えることで動画のように見せるという手法を用い、動画ファイルやアニメーションGIFでは不可能な体験を可能にしています。
+  outline: キャンペーンの企画、現地設営・運営、フロントエンド実装、サーバサイドシステム開発
+  credit: 
+    - "Client: Red Bull Japan"
+    - "Direction: Shinichi Fukuma (Uniba)"
+    - "Design: Haruma Kikuchi (Uniba)"
+    - "Front-end Development: Jun Mori, Koichiro Mori, Shinichi Fukuma (Uniba)"
+    - "Back-end Development: Daichi Sato, Seiya Konno (Uniba)"
+  description: Red Bull X-Fighters 2014 OSAKA 会場向けインスタレーションの企画・制作・設営・運用を、すべてパッケージで制作しました。<a href="./rbxf"> "#マジでヤバい" プロジェクト</a> の連動企画として、イベント当日までにシェアされたトリックやコメントに加え、現地限定のURL (xf283.com) からのシェアや、キャンペーンガールが持つiPadから投稿された写真やコメントなど、サーバと連動してほぼリアルタイムに日本地図上に表示するという演出を行いました。<br>日本地図や投稿された場所などを表現したフルHDのコンテンツは、Three.jsを用いて制作しました。また、Videoタグでトリックムービーを表示するコンテンツを連動させて80インチのディスプレイ2台でブラウザベースのフルHDコンテンツを表示し、来場者を楽しませました。<br>現地限定のURLやiPadから投稿をするとその場でRed Bull X-Fighters限定手ぬぐいをもらえるというキャンペーンも行い、来場者30,000人のうち3,500人あまりのお客様に参加いただき、手ぬぐいも限定数終了という盛況で幕を閉じることができました。<br>バックエンドはNode.jsでローカルのサーバを用意し、そこから2つのブラウザに対してWebSocketでシーン遷移や新しい投稿の通知などを行い、2つのディスプレイのコンテンツを制御する仕組みを構築しました。ローカルサーバは定期的に majideyabai.com のDBと同期し、限定URLやiPadからの投稿もすぐに反映されるようなシステムとなっています。
 -
   title: SnapLite
   date: 2014.05
@@ -50,29 +31,57 @@
   thumbnail_image_path: w_snaplite.png
   page_name: snaplite
   link_to: http://snaplite.jp/
-  description: PFU様の新製品「SnapLite」のプロジェクトの中で、ユニバはアプリのUI設計と、公式サイトおよびブログのデザイン・実装を主に担当しました。ブログやSNSでのユーザーコミュニケーションプランにも関わることで、オンラインプロモーションにおける世界観の統一を提案しました。デザイン面においては、Webフォントを採用することで、カタログをはじめとする紙媒体と統一感を持たせています。
+  outline: アプリUI設計、サイト・ブログのデザインおよびフロントエンド実装、ユーザコミュニケーション提案
+  credit: 
+    - "Client: PFU / PFU LIMITED"
+    - "Production: TENT / Hatch / Shinpei Onishi / Uniba Inc."
+    - "Direction: TENT"
+    - "Project Management: Haruma Kikuchi, Yui Gokita (Uniba)"
+    - "Design (App UI / Website): Tetsuro Shimura (Uniba)"
+    - "Design (Blog): Saki Uchiyama (Uniba)"
+    - "Front-end Development: Jun Mori, Ryo Murayama, Keiichi Tanifuji (Uniba)"
+  description: PFU様の新製品 "SnapLite" のプロジェクトで、アプリのUI設計と、公式サイトおよびブログのデザイン・実装を主に担当しました。ブログやSNSでのユーザーコミュニケーションプランにも携わることで、オンラインプロモーションにおける世界観の統一を提案しました。デザイン面においては、Webフォントを採用することで、カタログをはじめとする紙媒体と統一感を持たせています。
 -
-  title: NTT DOCOMO Docomodake
-  date: 2014.02
+  title: Red Bull X-Fighters 2014 OSAKA Campaign Web
+  date: 2014.04
+  video_url:
+    - <iframe width="800" height="450" src="//www.youtube.com/embed/WR8a7vky2v4?rel=0" frameborder="0" allowfullscreen></iframe>
   image_path:
-    - w_docomodake01.jpg
-    - w_docomodake02.jpg
-  thumbnail_image_path: w_docomodake.png
-  page_name: docomodake
-  link_to: http://docomodake.net/
-  description: NTTドコモのキャラクター「ドコモダケ」のオフィシャルサイト のリニューアルに向けて、フロントの構築を担当しました。
+    - w_rbxf_01.png
+    - w_rbxf_02.png
+    - w_rbxf_03.png
+    - w_rbxf_04.png
+  thumbnail_image_path: w_rbxf.png
+  page_name: rbxf
+  link_to: http://majideyabai.com/
+  link_suffix: ※キャンペーンは終了しました
+  outline: キャンペーンの企画、サイトデザイン、フロントエンド実装、サーバサイドシステム開発
+  credit: 
+    - "Client: Red Bull Japan"
+    - "Direction: Shinichi Fukuma (Uniba)"
+    - "Design: Kentaro Mizutani (Uniba)"
+    - "Front-end Development: Jun Mori (Uniba)"
+    - "Back-end Development: Daichi Sato (Uniba)"
+  description: Red Bull Japan様のキャンペーン Red Bull X-Fighters "#マジでヤバい" プロジェクトの企画からサイトデザイン、システム全般を担当しました。<br>Red Bull X-Fightersは、モトクロスバイクでジャンプしながら回転やひねりなどの「トリック」を決めてその技の難易度や完成度を競う競技で、フリースタイルモトクロス (FMX) というジャンルのスポーツです。スマートフォンやPCで majideyabai.com にアクセスすると、様々なトリックの動画を楽しむことができ、トリックの「マジでヤバ」さを感じることができます。さらに、位置情報を使ったシェアによって全国のFMXファンを可視化し、ファンの裾野を広げることを目指しました。<br>特にユーザー数が多いと思われるスマホ版では、iPhoneやAndroidでもブラウザ上で全画面で動画を再生しながら遊べるようにするため、cssのtransitionを用いて連番画像を次々切り替えることで動画のように見せるという手法を用い、動画ファイルやアニメーションGIFでは不可能な体験を可能にしています。
 -
-  title: adidas 地球一周試し履き
+  title: Puzzoku Digital Campaign
   date: 2014.03
   image_path:
-    - w_adidas01.jpg
-    - w_adidas02.jpg
-  thumbnail_image_path: w_adidas.png
-  video_url:
-    - <iframe width="800" height="450" src="//www.youtube.com/embed/S6AkF_tMdQk?rel=0" frameborder="0" allowfullscreen></iframe>
-  page_name: adidas
-  link_to: http://adidas.jp/running/boost/campaign/
-  description: adidasのランニングシューズの試し履きキャンペーン用「地球一周マシン」の足踏みセンサーの開発を担当しました。全国各地で展開し、長期に渡って多くの人に店頭で体験してもらうイベントで、耐久性とロバスト性が問われるものでした。地球一周マシーンの上でboostの試し履きをすると、ステップやジャンプによって様々な国の美しい道を走ることが出来ます。キャンペーン期間中は全国の店舗で実際に体験することが出来ます。
+    - w_pazuoku01.jpg
+    - w_pazuoku02.jpg
+    - w_pazuoku03.jpg
+  thumbnail_image_path: w_pazuoku.png
+  page_name: pazuoku
+  link_to: http://www.mbga.jp/lp/game/puzzoku/
+  link_suffix: ※キャンペーンは終了しました
+  outline: フロントエンド実装、サーバサイドシステム開発
+  credit: 
+    - "Client: DeNA"
+    - "Agency: HAKUHODO i-studio Inc."
+    - "Planning: HAKUHODO i-studio Inc. / Haruma Kikuchi (Uniba)"
+    - "Back-end Development: Seiya Konno, Ryo Murayama  (Uniba)"
+    - "Front-end Development: Seiya Konno, Kentaro Mizutani, Noriyuki Shimizu (Uniba)"
+  description: DeNA様の痛快パズルゲーム「パズ億」の "お金に変身！豪遊キャンペーン！" サイトのフロントエンド・サーバサイド構築を担当しました。ゲームの特徴である「はじけて爽快」を表現するため、本編の演出をWebに最適化。手軽にゲームを体験しながら、豪華賞品の当たる抽選に挑戦できます。
 -
   title: ondo inc.
   date: 2014.03
@@ -83,7 +92,51 @@
   video_url:
   page_name: ondo
   link_to: http://ondo-inc.jp/
-  description: 「世の中に、ondoあるデザインを」がコンセプトの広告制作会社「ondo inc.」のコーポレートサイトの構築を担当しました。
+  outline: フロントエンド実装
+  credit: 
+    - "Client: ondo inc."
+    - ""
+    - ""
+    - ""
+    - ""
+    - ""
+    - ""
+    - "" 
+  description: 「世の中に、ondoあるデザインを」がコンセプトの広告制作会社 ondo inc. のコーポレートサイトの構築を担当しました。
+-
+  title: Docomodake Official Site
+  date: 2014.02
+  image_path:
+    - w_docomodake01.jpg
+    - w_docomodake02.jpg
+  thumbnail_image_path: w_docomodake.png
+  page_name: docomodake
+  link_to: http://docomodake.net/
+  outline: フロントエンド実装
+  credit: 
+    - "Client: NTT docomo"
+    - "Production: RYDEN inc."
+    - "Technical Direction: Rei Kawai (Uniba)"
+    - "Front-end Development: Noriyuki Shimizu, Seiya Konno, Ryo Murayama, Keiichi Tanifuji (Uniba)"
+  description: NTTドコモ様のキャラクター "ドコモダケ" のオフィシャルサイトのリニューアルにあたり、フロントの構築を担当しました。<br>コンテンツが大量にあるサイトのため、テンプレートシステムを利用し、管理・構築作業の省力化を図っています。
+-
+  title: adidas Boost Campaign
+  date: 2014.02
+  image_path:
+    - w_adidas01.jpg
+    - w_adidas02.jpg
+  thumbnail_image_path: w_adidas.png
+  video_url:
+    - <iframe width="800" height="450" src="//www.youtube.com/embed/S6AkF_tMdQk?rel=0" frameborder="0" allowfullscreen></iframe>
+  page_name: adidas
+  link_to: http://adidas.jp/running/boost/campaign/
+  outline:
+  credit: 
+    - "Client: adidas"
+    - "Agency: HAKUHODO i-studio Inc."
+    - "Production: Uniba inc."
+    - "Hardware / Software Development: Rei Kawai, Koichiro Mori (Uniba)"
+  description: adidas様のランニングシューズboostの試し履きキャンペーン用 "地球一周マシーン" の足踏みセンサーの開発を担当しました。地球一周マシーンの上でboostの試し履きをすると、ステップやジャンプによって様々な国の美しい道を走ることができます。全国各地で展開し、長期に渡って多くの人に店頭で体験してもらうイベントで、耐久性とロバスト性が問われるものでした。
 -
   title: SPACE SHOWER TV MVA<br>BEST YOUR CHOICE Winner&apos;s Objet
   date: 2014.02
@@ -96,7 +149,14 @@
     - <iframe width="560" height="315" src="//www.youtube.com/embed/bvfZt3otPJg?rel=0" frameborder="0" allowfullscreen></iframe>
   page_name: mva2014
   link_to: http://mva.jp/
-  description: スペースシャワーTVが主催するMUSIC VIDEO AWARDSの部門の一つである「BEST YOUR CHOICE」用オブジェのモデリング及び切削制御を担当。オブジェの形は、投票が進むにつれてFlash上でリアルタイムに次々と形を変え、最終的に生成された形がメッセージとともにリアルなアルミ切削モデルとして制作されます。 最大5軸のマシニングセンタを用いて金属加工するというかなり専門性の高い世界を、Webという誰もが触れられる世界と結びつけ、工業界の魅力の片鱗を味わうことが出来ます。
+  outline:
+  credit: 
+    - "Client: SPACE SHOWER TV"
+    - "Production: SHIFTBRAIN inc. / Uniba inc."
+    - "Direction: Shinichi Fukuma (Uniba)"
+    - "Modeling: Hideyuki Saito (Uniba)"
+    - "Programming: Kentaro Mizutani (Uniba)"
+  description: スペースシャワーTV様が主催するMUSIC VIDEO AWARDSの部門の一つである「BEST YOUR CHOICE」用オブジェのモデリング及び切削制御を担当しました。オブジェは投票が進むにつれてFlash上でリアルタイムに形を変え、最終的に生成された形がメッセージとともにリアルなアルミ切削モデルとして制作されます。 最大5軸のマシニングセンタを用いて金属加工するという専門性の高い世界を、Webという誰もが触れられる世界と結びつけ、工業界の魅力の片鱗に触れることができるものとなりました。
 -
   title: MAZDA SHAKIN&apos; RACER
   date: 2013.11
@@ -108,10 +168,36 @@
     - <iframe width="560" height="315" src="//www.youtube.com/embed/3CR2nWNYT18?rel=0" frameborder="0" allowfullscreen></iframe>
   page_name: shakinracer
   link_to: http://www.mazda.co.jp/carlife/app/shakinracer/
-  description: マツダ様向けのイベント／ウェブ両展開のゲームアプリ企画。最大4人対戦でスマートフォンをシェイクすることでエンジンを動かし車が前に進むレースゲーム。ユニバはスマートフォン側のアプリ(HTMLアプリ)と、サーバサイドのシステム、Flash側のゲームロジック部分の実装を担当。
+  outline: アプリ実装、フロントエンド実装、サーバサイドシステム開発
+  credit: 
+    - "Client: Mazda Motor Corporation"
+    - "Creative Agency: ENJIN inc. / amana inc."
+    - "Production: Uniba inc."
+    - "Flash Develpment: unouplus"
+    - "Application Development: Kentaro Mizutani, Seiya Konno (Uniba)"
+  description: マツダ様の東京モーターショーにおける展示ブースでのイベント / ウェブ両展開のゲームアプリ企画に参加しました。最大4人対戦でスマートフォンをシェイクすることでエンジンを動かし車を前に進めるレースゲームです。ユニバはスマートフォン側のアプリ (HTMLアプリ) と、サーバサイドのシステム、Flash側のゲームロジック部分の実装を担当しました。
+-
+  title: wiz tv FuriFuri Time
+  date: 2013.07
+  image_path:
+    - w_shakingidol01.jpg
+    - w_shakingidol02.jpg
+  thumbnail_image_path: w_shakingidol.png
+  video_url:
+  page_name: shakingidol
+  link_to: http://www.furi2.tv/
+  outline: アプリデザインおよび実装、サーバサイドシステム開発、管理システム開発
+  credit: 
+    - "Client: Nippon Television Network Corporation"
+    - "Production: Uniba inc."
+    - "Direction: Rei Kawai (Uniba)"
+    - "Front-end Development: Koichiro Mori, Hideyuki Saito, Shinichi Fukuma (Uniba) / SHIFTBRAIN Inc."
+    - "Back-end Development: Sei Kataoka, Keisuke Ogawa, Daichi Sato (Uniba)"
+    - "Design: Tetsuro Shimura (Uniba) / SHIFTBRAIN Inc."
+  description: 日本テレビ様のテレビ放送連動アプリ、フリフリTV (<a href="http://www.furi2.tv/" target="_blank">http://www.furi2.tv/</a>) でアクションをした時に表示されるキャンペーンサイトを構築しました。<br>番組の放送中の特定のタイミングに合わせてアプリを立ち上げてスマホを振ると、特設キャンペーンサイトにアクセスできます。<br>飛んだ先での企画は番組によって様々ですが、共通の仕組みとして扱えるようにバックエンドを抽象化し、また、放送中にアクセスが集中する特殊なアクセスパターンに対応するため、インフラをAWS上で構築し、時間に応じて増減させるなどの措置を行っています。
 -
   title: Living Wallet
-  date: 2013.08
+  date: 2013.06
   image_path:
     - w_living_wallet01.jpg
     - w_living_wallet02.jpg
@@ -121,18 +207,16 @@
     - <iframe width="560" height="315" src="//www.youtube.com/embed/8RivdrGJslw?rel=0" frameborder="0" allowfullscreen></iframe>
   page_name: livingwallet
   link_to: http://livingwallet.cct.la/
-  description: 「Living Wallet」は正しくお金を使うための、「考える財布」です。
--
-  title: アイドルの穴フリフリタイム
-  date: 2013.07
-  image_path:
-    - w_shakingidol01.jpg
-    - w_shakingidol02.jpg
-  thumbnail_image_path: w_shakingidol.png
-  video_url:
-  page_name: shakingidol
-  link_to: http://genic.tv/furifuri/
-  description:
+  outline:
+  credit: 
+    - "Client: Dentsu"
+    - "Production: Uniba inc."
+    - "Technical Direction: Rei Kawai (Uniba)"
+    - "System Design: Rei Kawai (Uniba)"
+    - "Hardware / Software Development: Rei Kawai (Uniba)"
+    - "Back-end Development: Daichi Sato (Uniba)"
+    - "Craft: Yui Gokita (Uniba)"
+  description: 電通コミュニケーション・デザイン・センター様と協同で、経済状況に連動して動く財布を開発しました。<br>持ち主の財政状態が厳しいときは、財布を手に取ろうとすると逃げます。つかまってしまった時は、助けを求めて叫びます。そして、給料日を越えてお金に余裕があるときは、経済のためにamazonの売上げランキングを読み上げながらすり寄ってきます。ユーザーの財政状況の読み取りには、家計簿アプリZaimのAPIを利用しています。<br>Yahoo! JAPAN インターネット クリエイティブアワード 2013 にて<a href="http://creative-award.yahoo.co.jp/prize/2013/s01.html" target="_blank">Creative Hack賞</a>を受賞しました。
 -
   title: WASABEAT
   date: 2013.04
@@ -142,12 +226,18 @@
   video_url:
   page_name: wasabeat
   link_to: https://www.wasabeat.jp/
+  outline: デザイン、フロントエンド実装、アプリケーション開発、管理システム開発
+  credit: 
+    - "Client: TDMS"
+    - "Production: Uniba inc."
+    - "Direction: Haruma Kikuchi (Uniba)"
+    - "Front-end Development: Youta Shiraishi, Noriyuki Shimizu, Ryo Murayama (Uniba)"
+    - "Back-end Development: Seiya Konno, Keisuke Ogawa, Jun Komatsu (Uniba)"
+    - "Design: Haruma Kikuchi, Tetsuro Shimura, Saki Uchiyama (Uniba)"
   description: |-
-    日本最大のダンスミュージック配信サイト「WASABEAT」のサイトリニューアルプロジェクトの中で、ユニバはデザイン、アプリケーション開発、管理システム開発など、音楽配信サービスとしての構築全般を行いました。設計では、閲覧者の趣向と関連したコンテンツに関心を持っていただくための「発見ができるショップフロント」や、スムーズにお買い求めいただくための「おもてなし感のある購入フロー」など、サイト像を造っていきました。
-
-    それらをウェブブラウザで表現するために、pjaxでのシームレスな遷移を制御するためのBackbone.jsによるフロントエンドクラス設計や、バックエンドもメンテナンス性を重視した柔軟なモジュール設計を施しています。
+    日本最大のダンスミュージック配信サイト "WASABEAT" のサイトリニューアルプロジェクトの中で、デザイン、アプリケーション開発、管理システム開発など、音楽配信サービスとしての構築全般を行いました。設計では、閲覧者の趣向と関連したコンテンツに関心を持っていただくための「発見ができるショップフロント」や、スムーズにお買い求めいただくための「おもてなし感のある購入フロー」など、サイト像をつくっていきました。<br>それらをウェブブラウザで表現するために、pjaxでのシームレスな遷移を制御するためのBackbone.jsによるフロントエンドクラス設計や、バックエンドもメンテナンス性を重視した柔軟なモジュール設計を施しています。
 -
-  title: SUBARU OUTBACK | BOXER DIESEL LINEAR TRONICAL
+  title: SUBARU OUTBACK “Wonder Trip” 
   date: 2013.03
   image_path:
     - w_outback01.jpg
@@ -156,20 +246,16 @@
   video_url:
   page_name: outback
   link_to: http://www.subaru-global.com/special/2013outback/
+  outline: フロントエンド実装
+  credit: 
+    - "Client: Fuji Heavy Industries Ltd."
+    - "Production: Drawing and Manual inc. / Uniba inc."
+    - "Art Direction: Tetsuro Tsuji (Drawing and Manual inc.)"
+    - "Design: Tomoya Kamiko (Drawing and Manual inc.)"
+    - "Creative Direction: Kenji Ito (Kickstart), Sho Omachi (FOCUS)"
+    - "Front-end Development: Noriyuki Shimizu, Seiya Konno (Uniba)"
   description: |-
-    SUBARU OUTBACKのグローバルのプロモーションで制作したWebサイト。
-    スクロールに連動して、ミニチュアの車が家の中のいろいろなシーンを走っていくギミックを実装。
-    アートディレクション／デザインは、DRAWING AND MANUAL社。
--
-  title: HAYWARD GALLERY &#x3a; DIGITAL ARCHIVE
-  date: 2012.11
-  image_path:
-  thumbnail_image_path: w_hayward.png
-  video_url:
-    - <iframe src="//player.vimeo.com/video/56186665" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  page_name: hayward
-  link_to:
-  description:
+    SUBARU OUTBACKのグローバルのプロモーションで制作したWebサイトです。スクロールに連動して、ミニチュアの車が家の中のいろいろなシーンを走っていくギミックを実装しました。<br>ドイツの世界的なデザインアワード、iF Communication Designn Award 2014 の <a href="http://exhibition.ifdesign.de/entrydetails_en.html?beitrag_id=124305" target="_blank">キャンペーンサイト部門</a> にて賞をいただきました。
 -
   title: PLUG-IN Championship
   date: "2012.10"
@@ -180,9 +266,38 @@
     - <iframe width="560" height="315" src="//www.youtube.com/embed/A3t2WLYPbCk?rel=0" frameborder="0" allowfullscreen></iframe>
   page_name: plugin
   link_to: http://plugin.toyota-digital.com/
-  description:
+  outline: アプリ実装、サーバサイドシステム開発
+  credit: 
+    - "Client: TOYOTA MOTOR SALES & MARKETING CORPORATION"
+    - "Agency: PARTY"
+    - "Production: A4A"
+    - "Creative Director: Qanta Shimizu (PARTY)"
+    - "Art Director / Designer: Tadahiro Gunji, Tomoyuki Arima (Nippon Design Center)"
+    - "App Development (iOS) : Jun Komatsu, Elder Andre (Uniba)"
+    - "App Development (Android) : Misako Hidaka, Keisuke Igata (Bravetechnology)"
+    - "Backendsystem Development: Rei Kawai, Sei Kataoka (Uniba)"
+    - "HTML Coding (Web) : Noriyuki Shimizu (Uniba)"
+  description: TOYOTA様のPHVのグローバル向けプロモーションツールです。スマートフォンで充電する瞬間をつかったゲームを実現しています。ユニバはアプリの実装とサーバサイド開発、モバイルのコーディングを担当しました。
 -
-  title: DOT SWITCH
+  title: Hayward Art Gallery "Art of Change" Digital Archive
+  date: 2012.09
+  image_path:
+  thumbnail_image_path: w_hayward.png
+  video_url:
+    - <iframe src="//player.vimeo.com/video/56186665" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  page_name: hayward
+  link_to:
+  outline: WebGLベースのアーティスト情報閲覧端末の開発
+  credit: 
+    - "Client: Hayward Art Gallery"
+    - "Creative supervisor: Takayoshi Kishimoto"
+    - "Art Direction / Design: Land Ahoy"
+    - "Technical Direction / UI Design / Development: Subaru Sakurai (BETA)"
+    - "Sound: Angus Keith, Yuhi Nakano"
+    - "Development: Haruma Kikuchi, Seiya Konno (Uniba)"
+  description: Hayward Art Galleryにて行われた "Art of Change" 展向けのデジタルアーカイブ閲覧システムです。<br>WebGL (three.js) ベースでつくられており、100種類以上の作品詳細を閲覧できます。展示の開始/終了時間に合わせて自動的に起動/終了を行うようになっています。モデリングツール等を用いて、素材データをthree.jsから使えるよう変換を行いました。
+-
+  title: DOT SWITCH Branding Campaign
   date: 2012.03
   image_path:
     - w_dotswitch01.jpg
@@ -191,10 +306,15 @@
     - <iframe width="560" height="315" src="//www.youtube.com/embed/NqF1uYbLJiU?rel=0" frameborder="0" allowfullscreen></iframe>
   page_name: dotswitch
   link_to: http://www.sony.co.jp/united/makedotbelieve/ds/
+  outline: ネットワーク技術サポートとプロトコルの設計、スマートフォン/PC向けスイッチプログラムの実装
+  credit: 
+    - "Client: Sony"
+    - "Creative Agency: PARTY"
+    - "Production (Web): Bascule / FISHGROVE CO.,LTD. / Uniba inc."
+    - "Front-end Development: Koichiro Mori, Hideyuki Saito (Uniba)"
+    - "Back-end Development: Jun Konatsu, Seiya Konno (Uniba)"
   description: |-
-    「DOT SWITCH」は、SonyとTBSの共同企画である実験番組「MAKE.TV」で使用された、インターネットを介してミュージックビデオ収録に参加できるシステムです。視聴者はミュージックビデオの収録中継をテレビで見ながら、手元にあるタブレット端末、スマートフォン、Webサイトを操作することで、ミュージックビデオで使用されているギミックを他の視聴者と共同で動かすイベントに参加できます。
-
-    ユニバでは「DOT SWITCH」のネットワーク構築に使用されたNode.jsの技術サポートとプロトコルの設計、及びスマートフォンやPCのWebブラウザで動作するスイッチプログラムの実装を担当しました。視聴者からのアクションを、生放送の収録現場にリアルタイムで連動させるという難しい課題に挑戦し、企画の成功に貢献することができました。
+    "DOT SWITCH" は、SonyとTBSの共同企画である実験番組「MAKE.TV」で使用された、インターネットを介してミュージックビデオ収録に参加できるシステムです。視聴者はミュージックビデオの収録中継をテレビで見ながら、手元にあるタブレット端末、スマートフォン、Webサイトを操作することで、ミュージックビデオで使用されているギミックを他の視聴者と共同で動かすイベントに参加できます。<br>ユニバでは "DOT SWITCH" のネットワーク構築に使用されたNode.jsの技術サポートとプロトコルの設計、及びスマートフォンやPCのWebブラウザで動作するスイッチプログラムの実装を担当しました。視聴者からのアクションを、生放送の収録現場にリアルタイムで連動させるという難しい課題に挑戦し、企画の成功に貢献することができました。
 -
   title: UNDERCOVER
   date: "2011.10"
@@ -206,7 +326,12 @@
   video_url:
   page_name: undercover
   link_to: http://www.undercoverism.com/
+  outline: フロントエンド実装
+  credit: 
+    - "Client: UNDERCOVER"
+    - "Art Direction / Design: SIMONE inc."
+    - "Technical Direction: Jun Komatsu (Uniba)"
+    - "Front-end Development: Noriyuki Shimizu, Ryo Murayama (Uniba)"
+    - "Server-side Development: Daichi Sato (Uniba)"
   description: |-
-    アパレルブランド「UNDERCOVER」のブランドサイトの立ち上げ、HTML/CSS/JavaScriptを用いたオーサリングを担当させて頂きました。「ハッキング」をテーマに、既存のWebサイトとは一線を画した「背景画像が外部サイト」「コンテンツの情報は全てポップアップウィンドウで表示」などの斬新なサイト構成を実現しています。
-
-    JavaScriptを駆使した斬新なフロントエンドの実装のみならず、タブレット端末での閲覧にも配慮したレスポンシブなWebデザインやCMSの組み込みといったサポートも行っており、新規的なWeb表現と共に、閲覧者やクライアントに適したWebサービスの提供にユニバは力を注いでいます。
+    アパレルブランド "UNDERCOVER" のブランドサイトの立ち上げ、HTML/CSS/JavaScriptを用いたオーサリングを担当しました。「ハッキング」をテーマに、「背景画像が外部サイト」「コンテンツの情報は全てポップアップウィンドウで表示」といった斬新なサイト構成を実現しました。JavaScriptを駆使したフロントエンドの実装に加え、タブレット端末での閲覧にも配慮したレスポンシブなWebデザインやCMSの組み込みといったサポートも行いました。
