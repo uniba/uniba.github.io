@@ -4,10 +4,10 @@
   video_url:
     - <iframe width="800" height="450" src="//www.youtube.com/embed/GfFAD7wYpys?rel=0" frameborder="0" allowfullscreen></iframe>
   image_path:
-    - w_rbxf_venue_01.jpg
-    - w_rbxf_venue_02.jpg
-    - w_rbxf_venue_03.png
-    - w_rbxf_venue_04.png
+    - w_rbxf_venue01.jpg
+    - w_rbxf_venue02.jpg
+    - w_rbxf_venue03.png
+    - w_rbxf_venue04.png
   thumbnail_image_path: w_rbxf_venue.png
   page_name: rbxfvenue
   link_to: http://majideyabai.com/
@@ -24,17 +24,16 @@
   title: SnapLite
   date: 2014.05
   image_path:
-    - w_snaplite01.jpg
-    - w_snaplite02.jpg
-    - w_snaplite_sp.png
-    - w_snaplite_app.png
+    - w_snaplite01.png
+    - w_snaplite02.png
+    - w_snaplite03.png
   thumbnail_image_path: w_snaplite.png
   page_name: snaplite
   link_to: http://snaplite.jp/
   outline: アプリUI設計、サイト・ブログのデザインおよびフロントエンド実装、ユーザコミュニケーション提案
   credit: 
     - "Client: PFU / PFU LIMITED"
-    - "Production: TENT / Hatch / Shinpei Onishi / Uniba Inc."
+    - "Production: TENT / Hatch / Uniba Inc."
     - "Direction: TENT"
     - "Project Management: Haruma Kikuchi, Yui Gokita (Uniba)"
     - "Design (App UI / Website): Tetsuro Shimura (Uniba)"
@@ -47,10 +46,8 @@
   video_url:
     - <iframe width="800" height="450" src="//www.youtube.com/embed/WR8a7vky2v4?rel=0" frameborder="0" allowfullscreen></iframe>
   image_path:
-    - w_rbxf_01.png
-    - w_rbxf_02.png
-    - w_rbxf_03.png
-    - w_rbxf_04.png
+    - w_rbxf01.png
+    - w_rbxf02.png
   thumbnail_image_path: w_rbxf.png
   page_name: rbxf
   link_to: http://majideyabai.com/
@@ -67,9 +64,7 @@
   title: Puzzoku Digital Campaign
   date: 2014.03
   image_path:
-    - w_pazuoku01.jpg
-    - w_pazuoku02.jpg
-    - w_pazuoku03.jpg
+    - w_pazuoku01.png
   thumbnail_image_path: w_pazuoku.png
   page_name: pazuoku
   link_to: http://www.mbga.jp/lp/game/puzzoku/
@@ -86,8 +81,7 @@
   title: ondo inc.
   date: 2014.03
   image_path:
-    - w_ondo01.jpg
-    - w_ondo02.jpg
+    - w_ondo01.png
   thumbnail_image_path: w_ondo.jpg
   video_url:
   page_name: ondo
@@ -95,20 +89,15 @@
   outline: フロントエンド実装
   credit: 
     - "Client: ondo inc."
-    - ""
-    - ""
-    - ""
-    - ""
-    - ""
-    - ""
-    - "" 
+    - "Direction: Keiichi Tanifuji (Uniba)"
+    - "Design Assistant: Saki Uchiyama (Uniba)"
+    - "Front-end Development: Jun Mori (Uniba)"
   description: 「世の中に、ondoあるデザインを」がコンセプトの広告制作会社 ondo inc. のコーポレートサイトの構築を担当しました。
 -
   title: Docomodake Official Site
   date: 2014.02
   image_path:
-    - w_docomodake01.jpg
-    - w_docomodake02.jpg
+    - w_docomodake01.png
   thumbnail_image_path: w_docomodake.png
   page_name: docomodake
   link_to: http://docomodake.net/
@@ -180,8 +169,8 @@
   title: wiz tv FuriFuri Time
   date: 2013.07
   image_path:
-    - w_shakingidol01.jpg
-    - w_shakingidol02.jpg
+    - w_shakingidol01.png
+    - w_shakingidol02.png
   thumbnail_image_path: w_shakingidol.png
   video_url:
   page_name: shakingidol
@@ -221,7 +210,7 @@
   title: WASABEAT
   date: 2013.04
   image_path:
-    - fig_wasabeat_img01.jpg
+    - fig_wasabeat01.png
   thumbnail_image_path: w_wasabeat.png
   video_url:
   page_name: wasabeat
@@ -240,8 +229,8 @@
   title: SUBARU OUTBACK “Wonder Trip” 
   date: 2013.03
   image_path:
-    - w_outback01.jpg
-    - w_outback02.jpg
+    - w_outback01.png
+    - w_outback02.png
   thumbnail_image_path: w_outback.png
   video_url:
   page_name: outback
@@ -319,13 +308,14 @@
   title: UNDERCOVER
   date: "2011.10"
   image_path:
-    - w_undercover01.jpg
-    - w_undercover02.jpg
-    - w_undercover03.jpg
+    - w_undercover01.png
+    - w_undercover02.png
+    - w_undercover03.png
   thumbnail_image_path: w_undercover.png
   video_url:
   page_name: undercover
   link_to: http://www.undercoverism.com/
+  link_suffix: ※現在はリニューアルされています
   outline: フロントエンド実装
   credit: 
     - "Client: UNDERCOVER"
