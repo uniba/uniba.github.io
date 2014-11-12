@@ -1,4 +1,21 @@
 -
+  title: Philip K. Dick Brand Official Site
+  date: "2014.10"
+  image_path:
+    - w_pkd01.png
+    - w_pkd02.png
+    - w_pkd03.png
+  thumbnail_image_path: w_pkd.png
+  page_name: pkd
+  link_to: http://pkd.jp/
+  outline: サイトのデザインおよびフロントエンド実装
+  credit: 
+    - "Client: Hayakawa Publishing Corporation"
+    - "Art Direction: Hiroaki Doi (POSITRON)"
+    - "Design (Website): Tetsuro Shimura (Uniba)"
+    - "Front-end Development: Noriyuki Shimizu, Jun Mori, Seiya Konno (Uniba)"
+  description: Philip K. Dick Estate 公認の〈PKD〉ブランド・オフィシャル・サイトのデザインと構築を担当しました。〈PKD〉は、アメリカのSF作家フィリップ・K・ディックの翻訳作品を多く出版する早川書房様が立ち上げたブランドで、PKD作品の新装幀を手がけるポジトロンの土井宏明氏をプロダクト・デザイナーに迎え、ディックの作品世界をイメージした先鋭的なプロダクト展開を行います。<br>サイトには、作品に登場するシーンをもとに、細かなギミックをふんだんに盛り込んでいます。<br>デザイン面においては、映画「ブレードランナー」をイメージして、テレビノイズの質感を採用しました。ポイントカラーとギミックを、プロダクトのモチーフとなった作品に合わせて変更できるような設計にしています。
+-
   title: Red Bull X-Fighters 2014 OSAKA
   date: 2014.05
   video_url:
