@@ -1,4 +1,23 @@
 -
+  title: ONE TOKYO APP
+  date: "2014.11"
+  image_path:
+    - w_onetokyo01.png
+    - w_onetokyo02.png
+  thumbnail_image_path: w_onetokyo.png
+  page_name: onetokyo
+  link_to: https://itunes.apple.com/jp/app/id927278350
+  outline: iOSアプリの共同企画、UIデザイン、実装、サーバサイドプログラムの実装、サービスの運用
+  credit: 
+    - "Client: Tokyo Marathon Foundation"
+    - "Agency: Dentsu Inc."
+    - "Art Direction: Haruma Kikuchi (Uniba)"
+    - "Technical Direction: Seiya Konno (Uniba)"
+    - "Design (UI): Haruma Kikuchi, Tetsuro Shimura, Hideyuki Saito (Uniba)"
+    - "Development (iOS): Sei Kataoka, Koichiro Mori (Uniba)"
+    - "Development (Server): Ryo Murayama, Seiya Konno (Uniba)"
+  description: 東京マラソン財団さまの公式ランニングアプリ「ONE TOKYO APP for iPhone」の企画・開発を行いました。このアプリはONE TOKYO会員さまを対象に「ランナー同士はライバルでもあり仲間でもある」というテーマのもと企画しました。アプリを使って、ビギナーからベテランまで近い実力のランナーとの記録を競ったり、GPSを使って自分が走ったランニングコースの共有をすることができます。<br>アプリのUI設計は、ペーパープロトタイピングとProttというプロトタイピングサービスを併用し、iOSアプリ本体はSwiftで実装しています。<br>ランの記録を保持しておくサーバサイドプログラムの実装はRubyにて行いました。またサービスの構築・運用はAmazon Web Serivice (AWS) にて行っております。
+-
   title: Philip K. Dick Brand Official Site
   date: "2014.10"
   image_path:
@@ -215,7 +234,7 @@
   link_to: http://livingwallet.cct.la/
   outline:
   credit: 
-    - "Client: Dentsu"
+    - "Client: Dentsu Inc."
     - "Production: Uniba inc."
     - "Technical Direction: Rei Kawai (Uniba)"
     - "System Design: Rei Kawai (Uniba)"
