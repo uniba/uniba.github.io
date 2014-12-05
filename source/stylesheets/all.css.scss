@@ -144,6 +144,17 @@ img {
   }
 }
 
+.ribbon-datara {
+  width: 201px;
+  height: 315px;
+  position: absolute;
+  top: 0;
+  left: 800px;
+  @include bp(sp) {
+    display: none;
+  }
+}
+
 .header {
 
   h1 {
