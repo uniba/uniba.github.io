@@ -17,12 +17,6 @@
     ja: 河合 伶
   profile_image_url: <img src="https://gravatar.com/avatar/15be82b46d1529fd3ddd4d12f24ba533" data-gravatar-id="rei@uniba.jp" alt="河合 伶">
 -
-  title: Manager
-  name:
-    en: Yui Gokita
-    ja: 五木田 唯衣
-  profile_image_url: <img src="https://gravatar.com/avatar/342a12d80907543927d180a3ea158153" data-gravatar-id="yui@uniba.jp" alt="五木田 唯衣">
--
   title: Developer
   name:
     en: Seiya Konno
@@ -76,12 +70,6 @@
     en: Koichiro Mori
     ja: 森 浩一郎
   profile_image_url: <img src="images/member/m_koichiro.png" alt="森 浩一郎">
--
-  title: Designer
-  name:
-    en: Saki Uchiyama
-    ja: 内山 彩希
-  profile_image_url: <img src="https://gravatar.com/avatar/88722669a4c3c8c17ab2ed4c6b4d5b0a" data-gravatar-id="saki@uniba.jp" alt="内山 彩希">
 -
   title: Front-End Engineer
   name:
