@@ -22,8 +22,8 @@ title: Uniba Inc.
           = link_to "#about", { :class => "fancybox" } do
             %span &nbsp;About&nbsp;
         %li
-          = link_to "#works", { :class => "page-scroll" } do
-            %span &nbsp;Works&nbsp;
+          = link_to "Works", "http://works.uniba.jp"
+            
         %li
           = link_to "#movie", { :class => "page-scroll" } do
             %span &nbsp;Movies&nbsp;
@@ -54,19 +54,6 @@ title: Uniba Inc.
           という活動の場を設けています。
         .btn
           = link_to "基本情報", "information/index.html"
-
-    #works.section
-      %h2.section-title
-        Works
-      = partial "_partial/work"
-
-    #movie.section
-      %h2.section-title
-        Movies
-      = partial "_partial/movie"
-      .btn
-        = link_to "More Movies", "/movies/index.html", { :target => "_blank" }
-
     #members.section
       %h2.section-title
         Members
@@ -76,6 +63,13 @@ title: Uniba Inc.
       %h2.section-title
         Client&amp;Partners
       = partial "_partial/client"
+
+    #movie.section
+      %h2.section-title
+        Movies
+      = partial "_partial/movie"
+      .btn
+        = link_to "More Movies", "/movies/index.html", { :target => "_blank" }
 
     #contact.section
       %h2.section-title
