@@ -1,0 +1,134 @@
+#wrap-inner{
+
+  min-width: 980px;
+
+  h2,h1,#enter-container,#copyright{
+    font-weight: bold;
+  }
+
+  h2{
+    font-size: 20px;
+    line-height: 20px;
+    float: left;
+    padding: 11px 13px 6px 15px;
+  }
+  h1{
+    width: 910px;
+    font-size: 167px;
+    margin-left: 1px;
+    margin-top: 55px;
+    margin-bottom: 18px;
+    line-height: 117px;
+    padding: 30px 0px 1px 2px;
+  }
+
+  #title{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-top: -110px;
+    margin-left: -440px;
+
+    #enter-container{
+      a{
+        z-index:500;
+        position: absolute;
+        #enter-button{
+          z-index: 500;
+          position: absolute;
+          width: 413px;
+          height: 64px;
+          float: right;
+          font-size: 78px;
+          padding: 9px 10px 8px 0px;
+          &:hover{
+            z-index:500;
+            position: absolute;
+          }
+        }
+      }
+    }
+
+  }
+
+  #copyright{
+    position: absolute;
+    bottom: 17px;
+    left: 50%;
+    margin-left: -442px;
+    padding: 10px 10px 7px 10px;
+    #site-design{
+      margin-top: 6px;
+    }
+  }
+
+}
+
+@include respond-to('smartphone'){
+  #wrap-inner{
+
+    min-width: 100%;
+
+    h2,h1,#enter-container,#copyright{
+      font-weight: bold;
+    }
+
+    h2{
+      font-size: 20px;
+      line-height: 20px;
+      float: left;
+      padding: 11px 13px 6px 10px;
+    }
+    h1{
+      width: auto;
+      font-size: 100px;
+      margin-left: 0px;
+      margin-top: 35px;
+      margin-bottom: 18px;
+      line-height: 107px;
+      padding: 30px 0px 1px 2px;
+    }
+
+    #title{
+      position: absolute;
+      top:0%;
+      left: 0%;
+      margin-top: 0px;
+      margin-left: 0px;
+
+      #enter-container{
+        a{
+          z-index:500;
+          position: absolute;
+          #enter-button{
+            z-index: 500;
+            position: absolute;
+            width: auto;
+            height: 64px;
+            float: right;
+            font-size: 78px;
+            padding: 9px 10px 8px 2px;
+            &:hover{
+              z-index:500;
+              position: absolute;
+            }
+          }
+        }
+      }
+
+    }
+
+    #copyright{
+      position: absolute;
+      bottom: 17px;
+      left: 0;
+      margin-left: 0;
+      padding: 10px 10px 7px 10px;
+      width: auto;
+      #site-design{
+        margin-top: 6px;
+      }
+    }
+
+  }
+}

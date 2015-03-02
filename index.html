@@ -1,173 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width" id="viewport-meta" name="viewport">
-    <title>ユニバ株式会社 UNIBA INC.</title>
-    <meta content="ユニバ株式会社は「さわれるインターネット(Embodied Virtuality)」の会社です。" name="description">
-    <meta content="UNIBA INC." property="og:title">
-    <meta content="ユニバ株式会社は「さわれるインターネット(Embodied Virtuality)」の会社です。" property="og:description">
-    <meta content="website" property="og:type">
-    <meta content="http://uniba.jp/" property="og:url">
-    <meta content="http://uniba.jp/assets/img/share.png" property="og:image">
-    <meta content="uniba.jp" itemprop="name">
-    <meta content="ユニバ株式会社は「さわれるインターネット(Embodied Virtuality)」の会社です。" itemprop="description">
-    <meta content="http://uniba.jp/share/share.png" itemprop="image">
-    <link href="/share/favicon.ico" rel="shortcut icon">
-    <link href="/share/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
-  </head>
-  <body>
-    <h1><a href="index.html">UNIBA INC.</a></h1>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1" />
+	<link rel="stylesheet" href="css/css.css">
 
-    <ul>
-      <li><a href="about.html">About</a></li>
-      <li><a href="service.html">Service</a></li>
-      <li><a href="recruit.html">Recruit</a></li>
-    </ul>
-    <ul>
-      <li><a href="http://works.uniba.jp/" target="_blank" >Works</a></li>
-      <li><a href="http://blog.uniba.jp/" target="_blank" >Blog</a></li>
-    </ul>
 
-    <h2>News</h2>
-      <dl>
-        <dt>2014.12.24</dt>
-        <dd>年末年始は12月27日(土)〜1月4日(日)まで、休業させていただきます。今年も大変お世話になりました！</dd>
-        <dt>2014.11.21</dt>
-        <dd>東京マラソン財団さまの公式ランニングアプリ<a href="works/onetokyo/">ONE TOKYO APP</a>を制作しました。<a href="https://itunes.apple.com/jp/app/id927278350" target="_blank">App Store</a>よりダウンロードが可能です。</dd>
-        <dt>2014.07.17</dt>
-        <dd>弊社主催の勉強会を毎月開催しております。今月の「<a href="http://connpass.com/event/7493/" target="_blank">月刊ライトニングトーク 2014年6月+7月号</a>」は7月24日19時から21cafeさんにて開催いたします。</dd>
-      </dl>
-      <p><a target="_blank" href="https://www.facebook.com/UnibaInc">Facebook</a></p>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="build/three.min.js"></script>
+	<script src="lib/loaders/ColladaLoader.js"></script>
+	<script src="lib/controls/TrackballControls.js"></script>
+	<script src="lib/renderers/CSS3DRenderer.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
 
-    <h2>Members</h2>
-      <ul>
-        <li>
-          <img src="https://gravatar.com/avatar/3026aa33e9d2bf0bd672a7714b988e1d" data-gravatar-id="jun@uniba.jp" alt="小松純">
-          <h4>Jun Komatsu<br>小松 純</h4>
-          <p class="division">Co-Founder / Engineer</p>
-        </li>
-        <li>
-          <img src="https://gravatar.com/avatar/0d22cf6120bdd1f4f70e9845a2c14793" data-gravatar-id="haruma@uniba.jp" alt="菊地玄摩">
-          <h4>Haruma Kikuchi<br>菊地 玄摩</h4>
-          <p class="division">CEO / Designer</p>
-        </li>
-        <li>
-          <img src="https://gravatar.com/avatar/15be82b46d1529fd3ddd4d12f24ba533" data-gravatar-id="rei@uniba.jp" alt="河合伶">
-          <h4>Ryo Kawai<br>河合 伶</h4>
-          <p class="division">Co-Founder / Director</p>
-        </li>
-        <li>
-          <img src="https://gravatar.com/avatar/8d37978c8f6a038622dff392549869c0" data-gravatar-id="seiya@uniba.jp" alt="今野聖也">
-          <h4>Seiya Konno<br>今野 聖也</h4>
-          <p class="division">Developer</p>
-        </li>
-        <li>
-          <img src="https://gravatar.com/avatar/73a2a123292b96a4958b92de9bdacdcf" alt="清水 規行">
-          <h4>Noriyuki Shimizu<br>清水 規行</h4>
-          <p class="division">Front-End Engineer</p>
-        </li>
-        <li>
-          <img src="https://gravatar.com/avatar/12ec69cf9761cb69eb3bae883e77d7a7" data-gravatar-id="ryo@uniba.jp" alt="村山遼">
-          <h4>Ryo Murayama<br>村山 遼</h4>
-          <p class="division">Developer</p>
-        </li>
-        <li>
-          <img src="https://gravatar.com/avatar/8b495f4b0b134eb7331a5b82eafd72fb" data-gravatar-id="tetsuro@uniba.jp" alt="志村 徹朗">
-          <h4>Tetsuro Shimura<br>志村 徹朗</h4>
-          <p class="division">Designer</p>
-        </li>
-        <li>
-          <img src="http://en.gravatar.com/userimage/25594420/3ac89cefd59dad3c6e09069c797e6061.png" alt="谷藤 圭一">
-          <h4>Keiichi Tanifuji<br>谷藤圭一</h4>
-          <p class="division">Director</p>
-        </li>
-        <li>
-          <img src="https://gravatar.com/avatar/bf12c9ff61a4f7f07f8773d0bb504770" data-gravatar-id="hideyuki@uniba.jp" alt="齋藤 秀行">
-          <h4>Hideyuki Saito<br>齋藤 秀行</h4>
-          <p class="division">Developer</p>
-        </li>
-        <li>
-          <img src="http://www.gravatar.com/avatar/d717ce05047855e67612c35a651cbce5.png" alt="佐藤 大地">
-          <h4>Daichi Sato<br>佐藤 大地</h4>
-          <p class="division">Developer</p>
-        </li>
-        <li>
-          <img src="images/member/m_sei.png" alt="片岡 聖">
-          <h4>Sei Kataoka<br>片岡 聖</h4>
-          <p class="division">Developer</p>
-        </li>
-        <li>
-          <img src="images/member/m_koichiro.png" alt="森 浩一郎">
-          <h4>Koichiro Mori<br>森 浩一郎</h4>
-          <p class="division">Developer</p>
-        </li>
-        <li>
-          <img src="http://www.gravatar.com/avatar/0c62634362e3fbaa9a970dbc3070b562.png" alt="森 惇">
-          <h4>Jun Mori<br>森 淳</h4>
-          <p class="division">Front-End Engineer</p>
-        </li>
-      </ul>
-
-    <h2>Client&amp;Partners</h2>
-      <ul class="client-grid">
-        <li><a target="_blank" href="http://www.shiftbrain.co.jp/">SHIFTBRAIN</a></li>
-        <li><a target="_blank" href="http://liginc.co.jp/">LIG</a></li>
-        <li><a target="_blank" href="http://spec-management.jp">SPEC</a></li>
-        <li><a target="_blank" href="http://www.the-positron.jp/">POSITRON</a></li>
-        <li><a target="_blank" href="http://www.tokyo42195.org/tokyo_marathon_foundation/">東京マラソン財団</a></li>
-        <li><a target="_blank" href="http://www.bunnyhop.jp/">バニーホップ</a></li>
-        <li><a target="_blank" href="http://homunculus.jp/">ホムンクルス</a></li>
-        <li><a target="_blank" href="http://www.xbs.co.jp/">CROSSBORDERS</a></li>
-        <li><a target="_blank" href="http://www.grandbase.jp/">GRANDBASE</a></li>
-        <li><a target="_blank" href="http://azimuth.jp/">azimuth</a></li>
-        <li><a target="_blank" href="http://www.hakuhodo.co.jp/">hakuhodo</a></li>
-        <li><a target="_blank" href="http://www.i-studio.co.jp/">hakuhodo i-studio</a></li>
-        <li><a target="_blank" href="http://www.dentsu.co.jp/">dentsu</a></li>
-        <li><a target="_blank" href="http://www.nhk.or.jp/">NHK</a></li>
-        <li><a target="_blank" href="http://www.ntv.co.jp/">日本テレビ</a></li>
-        <li><a target="_blank" href="http://www.bascule.co.jp/">Bascule</a></li>
-        <li><a target="_blank" href="http://www.ryden.co.jp/">RYDEN</li>
-        <li><a target="_blank" href="http://www.wasabeat.jp/">WASABEAT</li>
-        <li><a target="_blank" href="http://www.sonicjam.co.jp/">Sonic Jam</li>
-        <li><a target="_blank" href="http://www.aircord.co.jp/">aircord</li>
-        <li><a target="_blank" href="http://www.fish-g.jp/">FISHGROVE</li>
-        <li><a target="_blank" href="http://www.eizo-salon.com/">eizo</li>
-        <li><a target="_blank" href="http://amana.jp/">amana interactive</a></li>
-        <li><a target="_blank" href="http://www.bpsinc.jp/">BEYONDE PERSPECTIVE SOLUTIONS</a></li>
-        <li><a target="_blank" href="http://www.redbull.com/">Red Bull Japan</a></li>
-      </ul>
-
-    <p>UNIBA INC. 2003 - 2015</p>
-
-    <p>Cover Art: <a target="_blank" href="http://okikata.org/">Akihiko Taniguchi</a>, Site Design: <a target="_blank" href="http://tkmab.com/">Takumi Abe</a></p>
-
-    <ul class="links-grid">
-      <li><a target="_blank" href="https://www.facebook.com/UnibaInc">Facebook</a></li>
-      <li><a target="_blank" href="https://twitter.com/unibainc">Twitter</a></li>
-      <li><a target="_blank" href="https://vimeo.com/uniba">Vimeo</a></li>
-      <li><a target="_blank" href="http://www.youtube.com/user/unibajp">YouTube</a></li>
-      <li><a target="_blank" href="http://blog.uniba.jp/">Tumblr</a></li>
-      <li><a target="_blank" href="https://github.com/uniba">GitHub</a></li>
-    </ul>
-
-    <address>
-      <ul>
-        <li><a href="mailto:info@uniba.jp">info@uniba.jp</a></li>
-        <li>TEL 03 3486 9337</li>
-        <li>FAX 03 6427 4787</li>
-      </ul>
-      <p>150-0001<br>東京都渋谷区神宮前5-34-4 ジェイハウス B1F</p>
-      <p>J.HAUS B1F, 5-34-4 Jingumae, Shibuya-ku Tokyo, 150-0001 JAPAN</p>
-      <p><a target="_blank" href="https://goo.gl/maps/8wFlG">Google Map</a>
-    </address>
-
-  </body>
-  <script>
-    var _gaq=[['_setAccount','UA-22139995-1'],['_setDomainName','uniba.jp'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==document.location.protocol?'https://':'http://')+'stats.g.doubleclick.net/dc.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
+	
+	<script src="js/ion.sound.min.js"></script>
+	<script src="js/js.js"></script>
+</head>
+<body>
+	<div id="map"></div>
+	<div id="svp" class="backmap"></div>
+	<a style="text-decoration:none; font-weight:bold; color: #fff;" href="http://tkmab.com/project/uniba/inbrowser/">
+		<div id="site-link" style="position:fixed; bottom:10px; left:10px; padding:10px; z-index:10000; background-color: #3126f5;">
+			in Browser >>
+		</div>
+	</a>
+</body>
 </html>
