@@ -1,6 +1,0 @@
-%ul.client-grid
-  - data.clients.each do |item|
-    %li
-      = link_to item.url, { :target => "_blank" } do
-        %canvas.effect-wave
-        = image_tag( "client/"+item.image_path, { :alt => item.name })
