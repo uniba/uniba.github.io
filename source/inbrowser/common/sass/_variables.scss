@@ -1,0 +1,185 @@
+//////////////////////////////
+// COLORS
+//////////////////////////////
+
+$black: #000;
+$white: #fff;
+
+//////////////////////////////
+// UTILS
+//////////////////////////////
+
+// override compass's clearfix
+@mixin clearfix{
+  &:before,
+  &:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    clear: both;
+  }
+  & { zoom: 1; }
+}
+
+// border box-sizing
+@mixin border-box{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@mixin content-box{
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+//sprite image
+@mixin sprite-image{
+  font-size: 1px;
+  line-height: 1px;
+  vertical-align: top;
+  text-indent: -10000px;
+  overflow: hidden;
+  display: block;
+}
+
+.clearfix{
+  @include clearfix;
+}
+
+// for box-sizing
+.border-box{
+  @include border-box;
+}
+.content-box{
+  @include content-box;
+}
+
+// float
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float: right;
+}
+.pull-center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// text-align
+.align-center{
+  text-align: center;
+}
+.align-left{
+  text-align: left;
+}
+.align-right{
+  text-align: right;
+}
+
+// strong
+.strong{
+  font-weight: bold;
+}
+
+//////////////////////////////
+// RESPONSIVE
+//////////////////////////////
+
+// responsive mixins
+$break-small: 640px;
+$break-midium: 935px;
+$break-normal: 980px;
+$break-large: 1024px;
+
+@mixin respond-to($media) {
+  @if $media == smartphone {
+    @media only screen and (max-width: $break-small) { @content; }
+  }
+  @else if $media == tablet {
+    @media only screen and (min-width: $break-small + 1) and (max-width: $break-large - 1) { @content; }
+  }
+  @else if $media == pc-midium {
+    @media only screen and (max-width: $break-midium) { @content; }
+  }
+  @else if $media == pc-normal {
+    @media only screen and (max-width: $break-normal) { @content; }
+  }
+  @else if $media == pc-large {
+    @media only screen and (min-width: $break-large) { @content; }
+  }
+}
+
+//////////////////////////////
+// GRID
+//////////////////////////////
+
+$column-padding-left: 40px;
+$column-padding-right: 40px;
+$column-width: 80px;
+
+@for $i from 1 through 16 {
+  .column#{$i} {
+    width: $column-width * $i;
+    @include border-box;
+  }
+  .column#{$i}-half {
+    width: $column-width * ($i + 0.5);
+    @include border-box;
+  }
+  // @include respond-to(smartphone) {
+  //   .offset#{$i} {
+  //       margin-left: 0;
+  //   }
+  //   .column#{$i} {
+  //     width: 100%;
+  //     float: none;
+  //   }
+  //   .offset-right#{$i} {
+  //     margin-right: 0;
+  //   }
+  // }
+
+  .offset#{$i} {
+    margin-left: $column-width * $i;
+  }
+  .offset-right#{$i} {
+    margin-right: $column-width * $i;
+  }
+}
+
+
+
+//////////////////////////////
+// TYPOGRAPHY
+//////////////////////////////
+
+$font-size: 12px;
+$line-height: 21px;
+$cap-height: 18px;
+
+.mac .indent-half-em{
+  margin-left: 0.5em;
+}
+.mac .indent-minus-half-em{
+  margin-left: -0.5em;
+}
+
+// --- FONT FAMILY ---
+@mixin font-helvetica{
+  font-family: Helvetica,Arial,'YuGothic','游ゴシック','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',Sans-serif;
+}
+@mixin font-sans-serif{
+  font-family:'YuGothic','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',Sans-serif;
+}
+@mixin font-serif{
+  font-family: Georgia,"Hiragino Mincho Pro","Hiragino Mincho ProN","ＭＳ Ｐ明朝",serif;
+}
+

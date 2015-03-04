@@ -1,0 +1,102 @@
+#wrap-inner{
+  padding: 0px 40px 0 40px;
+  max-width: 980px;
+  margin: 0 auto;
+  @include box-sizing(border-box);
+  z-index:500;
+  #header{
+    h1{
+      font-weight: bold;
+      margin-bottom: 37px;
+      float: left;
+      padding: 10px 10px 7px 10px;
+      a{
+        font-size: 12px;
+      }
+    }
+
+    #glb-nav{
+      font-weight: bold;
+      margin-bottom: 70px;
+      ul{
+        li{
+          float: left;
+          margin-right: 10px;
+          margin-bottom: 10px;
+          padding: 9px 10px 4px 10px;
+          a{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  #contents{
+    padding-bottom: 268px;
+  }
+  #footer{
+    position: absolute;
+    bottom: 0;
+    height: 208px;
+    .links-grid{
+      li{
+        float: left;
+        font-weight: bold;
+        margin-right: 10px;
+        padding: 10px 7px 7px 10px;
+      }
+    }
+    address{
+      margin-top: 20px;
+
+      ul{
+        float: left;
+        margin-right: 10px;
+        li{
+          margin-bottom: 10px;
+          padding: 10px 9px 8px 10px;
+        }
+      }
+    }
+    #copyright{
+      margin-top: 10px;
+      p{
+        float: left;
+        margin-right: 10px;
+        padding: 10px 10px 7px 10px;
+      }
+    }
+  }
+}
+
+  @include respond-to('smartphone'){
+    #wrap-inner{
+      padding: 0px 20px;
+      #header{
+        #glb-nav{
+          margin-bottom: 30px;
+        }
+      }
+      #contents{
+        padding-bottom: 40px;
+      }
+      #footer{
+        position: relative;
+        bottom: 40px;
+        height: auto;
+        .links-grid{
+          li{
+            margin-bottom: 10px;
+          }
+        }
+        address{
+          margin-top: 10px;
+          ul{
+            float: left;
+            margin-right: 0px;
+          }
+        }
+      }
+    }
+  }
+

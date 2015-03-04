@@ -1,0 +1,95 @@
+#wrap-inner{
+   
+  #about-text{
+    font-size: 18px;
+    line-height: 32px;
+    width: 51.2%;
+    letter-spacing: -0.02em;
+    float: left;
+    padding: 4px 10px 3px 10px;
+    span{
+      letter-spacing: 0.02em;
+    }
+  }
+
+  #about-company{
+    float: right;
+    width: 41.3%;
+    padding: 12px 0px 0px 10px;
+    dl{
+      dt{
+        font-weight: bold;
+        float: left;
+        text-align: right;
+        width: 48px;
+        margin-bottom: 10px;
+      }
+      dd{
+        float: right;
+        width: 305px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  @include respond-to('pc-midium'){
+    #about-company{
+    float: right;
+    width: 41.3%;
+    padding: 12px 0px 0px 10px;
+      dl{
+        dt{
+          font-weight: bold;
+          clear: both;
+          text-align: left;
+          width: 48px;
+          margin-bottom: 10px;
+        }
+        dd{
+          clear: both;
+          width: 100%;
+          text-align: left;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  @include respond-to('smartphone'){
+
+    #about-text{
+      font-size: 18px;
+      line-height: 32px;
+      width: auto;
+      letter-spacing: -0.02em;
+      float: none;
+      padding: 4px 10px 3px 10px;
+      margin-bottom: 20px;
+      span{
+        letter-spacing: 0.02em;
+      }
+    }
+
+    #about-company{
+    float: none;
+    width: auto;
+    padding: 10px 10px 0px 10px;
+      dl{
+        dt{
+          font-weight: bold;
+          clear: both;
+          text-align: left;
+          width: 48px;
+          margin-bottom: 10px;
+        }
+        dd{
+          clear: both;
+          width: 100%;
+          text-align: left;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+}
