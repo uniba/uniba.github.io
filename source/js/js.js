@@ -1,7 +1,7 @@
 var this_url = location.href;
 
 //表示するサイトのURL
-this_url = "http://tkmab.com/project/uniba/inbrowser/";
+this_url = "/";
 
 
 var ua = navigator.userAgent;
@@ -88,7 +88,7 @@ $(function(){
 	if(device == "sp" || device == "tab"){
 		ion.sound({
 			sounds: [
-			{	
+			{
 				name: _random
 			}],
 			volume: 0.5,
@@ -128,7 +128,7 @@ function kick(){
 
 				init();
 				animate();
-			},onProgress2); 
+			},onProgress2);
 
 		},onProgress1);
 	}else if(device == "sp"){
@@ -154,7 +154,7 @@ function kick(){
 
 				init();
 				animate();
-			}); 
+			});
 
 		});
 	}
@@ -166,7 +166,7 @@ function init() {
 	camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 1000000 );
 	camera.position.set( 0, 0, 1000 );
 	var look = new THREE.Vector3( 0, 0, 0 );
-	
+
 	//controls = new THREE.TrackballControls( camera );
 
 	scene = new THREE.Scene();
@@ -201,7 +201,7 @@ function init() {
 	scene.add( dae2 );
 	//scene.add( mesh );
 
-	
+
 	scene.add( new THREE.AmbientLight( 0x000000 ) );
 
 	var directionalLight = new THREE.DirectionalLight(/*Math.random() * 0xffffff*/0xffffff );
@@ -228,9 +228,9 @@ function init() {
 
 	setTimeout( function(){
 		if(device == "pc" || device == "tab"){
-			$("div.p_0").append("<div class ='iframe_wrap'><iframe src='"+this_url+"' style='width:1024px;height:600px; border:0;'></iframe></div>");
+			$("div.p_0").append("<div class ='iframe_wrap'><iframe src='/inbrowser/' style='width:1024px;height:600px; border:0;'></iframe></div>");
 		}else if(device == "sp"){
-			$("div.p_0").append("<div class ='iframe_wrap'><iframe src='"+this_url+"' style='width:375px;height:627px; border:0;'></iframe></div>");
+			$("div.p_0").append("<div class ='iframe_wrap'><iframe src='/inbrowser/' style='width:375px;height:627px; border:0;'></iframe></div>");
 		}
 		setcursor();
 	},0);
@@ -248,7 +248,7 @@ function init() {
 			tar_camy = (Math.random()-0.2)*3000;
 			tar_camz = 900 + Math.random()*5000;
 		}
-		
+
 	},3000)
 
 	$("#loading").remove();
@@ -274,7 +274,7 @@ function animate() {
 	camera.position.set( camx, camy, camz );
 	camera.lookAt({x:0,y:0,z:0});
 
-	
+
 	renderer.render( scene, camera );
 	renderer2.render( scene2, camera );
 
@@ -302,7 +302,7 @@ var panorama;
 var sightseeing;
 
 function setmap(_lat, _lang){
-	
+
 	//35.715274,139.776022
 	var latlang;
 	if(_lat){
@@ -326,7 +326,7 @@ function setmap(_lat, _lang){
 	if(device == "sp"){
 		panorama.setPov({heading:0, pitch:90, zoom:2.8});
 	}
-	
+
 	//
 	kick();
 
@@ -361,8 +361,8 @@ function getpos(){
 
 			},
 			function(error){
-				//UNKNOWN_ERROR				
-				//PERMISSION_DENIED			
+				//UNKNOWN_ERROR
+				//PERMISSION_DENIED
 				//POSITION_UNAVAILABLE
 				//TIMEOUT
 				var errorInfo = [
