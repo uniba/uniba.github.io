@@ -522,41 +522,6 @@ body {
   -webkit-font-smoothing: none; }
   /* line 46, ../sass/style.scss */
   body#firstpage {
-    @-ms-keyframes spin {
-      /* line 90, ../sass/_canvas.scss */
-      from {
-        -ms-transform: rotate(0deg); }
-
-      /* line 91, ../sass/_canvas.scss */
-      to {
-        -ms-transform: rotate(360deg); } }
-
-    @-moz-keyframes spin {
-      /* line 94, ../sass/_canvas.scss */
-      from {
-        -moz-transform: rotate(0deg); }
-
-      /* line 95, ../sass/_canvas.scss */
-      to {
-        -moz-transform: rotate(360deg); } }
-
-    @-webkit-keyframes spin {
-      /* line 98, ../sass/_canvas.scss */
-      from {
-        -webkit-transform: rotate(0deg); }
-
-      /* line 99, ../sass/_canvas.scss */
-      to {
-        -webkit-transform: rotate(360deg); } }
-
-    @keyframes spin {
-      /* line 102, ../sass/_canvas.scss */
-      from {
-        transform: rotate(0deg); }
-
-      /* line 105, ../sass/_canvas.scss */
-      to {
-        transform: rotate(360deg); } }
  }
     /* line 1, ../sass/_canvas.scss */
     body#firstpage body {
