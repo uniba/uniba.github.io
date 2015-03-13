@@ -16,3 +16,5 @@ gem "middleman-deploy", "~> 0.1.4"
 gem "haml"
 
 gem "slack-notifier"
+
+gem "rake"
