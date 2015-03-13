@@ -1,6 +1,6 @@
 
 deploy: clean build
-	bundle exec middleman deploy
+	bundle exec rake deploy
 	open http://uniba.jp
 
 server: bundle
