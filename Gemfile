@@ -14,3 +14,5 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 gem "middleman-deploy", "~> 0.1.4"
 
 gem "haml"
+
+gem "slack-notifier"

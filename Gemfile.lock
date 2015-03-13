@@ -87,6 +87,7 @@ GEM
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
     sass (3.4.13)
+    slack-notifier (1.1.0)
     sprockets (2.10.1)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -111,4 +112,5 @@ DEPENDENCIES
   middleman (~> 3.2.0)
   middleman-deploy (~> 0.1.4)
   middleman-livereload (~> 3.1.0)
+  slack-notifier
   wdm (~> 0.1.0)
