@@ -26,24 +26,24 @@
     position: absolute;
     top:50%;
     left: 50%;
-    margin-top: -110px;
+    margin-top: -110px - 80px;
     margin-left: -440px;
 
     #enter-container{
       a{
         z-index:500;
-        position: absolute;
-        #enter-button{
+        // position: absolute;
+        .enter-button{
           z-index: 500;
-          position: absolute;
+          // position: absolute;
           width: 413px;
           height: 64px;
-          float: right;
+          // float: right;
           font-size: 78px;
           padding: 9px 10px 8px 0px;
           &:hover{
             z-index:500;
-            position: absolute;
+            // position: absolute;
           }
         }
       }
@@ -98,19 +98,20 @@
 
       #enter-container{
         a{
+          display: block;
           z-index:500;
-          position: absolute;
-          #enter-button{
+          // position: absolute;
+          .enter-button{
             z-index: 500;
-            position: absolute;
+            // position: absolute;
             width: auto;
             height: 64px;
-            float: right;
+            // float: right;
             font-size: 78px;
             padding: 9px 10px 8px 2px;
             &:hover{
               z-index:500;
-              position: absolute;
+              // position: absolute;
             }
           }
         }
