@@ -8,6 +8,7 @@ server: bundle
 	bundle exec middleman server
 
 build: bundle
+	cd ./source/inbrowser && bundle exec compass compile --time
 	bundle exec middleman build --verbose
 
 clean:
