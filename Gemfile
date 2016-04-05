@@ -20,3 +20,5 @@ gem "slack-notifier"
 gem "rake"
 
 gem "compass"
+
+gem "rake"
