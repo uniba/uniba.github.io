@@ -18,3 +18,5 @@ gem "haml"
 gem "slack-notifier"
 
 gem "rake"
+
+gem "compass"

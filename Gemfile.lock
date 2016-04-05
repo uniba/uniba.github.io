@@ -109,6 +109,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  compass
   haml
   middleman (~> 3.2.0)
   middleman-deploy (~> 0.1.4)
@@ -116,3 +117,6 @@ DEPENDENCIES
   rake
   slack-notifier
   wdm (~> 0.1.0)
+
+BUNDLED WITH
+   1.10.6
