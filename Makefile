@@ -4,6 +4,7 @@ deploy: clean build
 	open http://uniba.jp
 
 server: bundle
+	( cd ./source/inbrowser && bundle exec compass watch ) &
 	open http://0.0.0.0:4567
 	bundle exec middleman server
 
