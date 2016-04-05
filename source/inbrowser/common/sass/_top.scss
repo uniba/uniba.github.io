@@ -43,6 +43,7 @@
           padding: 9px 10px 8px 0px;
           &:hover{
             z-index:500;
+            @include opacity(0.8);
             // position: absolute;
           }
         }
