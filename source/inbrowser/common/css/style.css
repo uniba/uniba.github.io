@@ -672,12 +672,17 @@ body {
       margin-top: -190px;
       margin-left: -440px; }
       /* line 33, ../sass/_top.scss */
-      body div#top #wrap-inner #title #enter-container a {
+      body div#top #wrap-inner #title #enter-container .enter-button {
+        font-size: 78px;
+        color: #ffffff;
+        z-index: 500; }
+      body div#top #wrap-inner #title #enter-container .enter-button a {
+        font-size: 78px;
         z-index: 500; }
         /* line 36, ../sass/_top.scss */
-        body div#top #wrap-inner #title #enter-container a .enter-button {
+        body div#top #wrap-inner #title #enter-container enter-button a {
           z-index: 500;
-          width: 413px;
+          width: 800px;
           height: 64px;
           font-size: 78px;
           padding: 9px 10px 8px 0px; }
