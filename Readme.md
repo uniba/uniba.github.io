@@ -13,12 +13,39 @@ Clone repository and solve dependencies.
     $ cd uniba.github.io
     $ bundle install --path vendor/bundle
 
-## Workflow
+### 作業ブランチについて
 
-To make preview server.
+- デフォルトブランチは **middleman**  
+※何かを編集する際は必ずこのブランチで！
+- **master** ブランチは公開用
 
-    $ make server
+### 編集ファイルについて
+
+何かを編集する際は、'/source/'のなかをいじるが、
+'/source/' 直下は uniba.jpトップであり、基本的にはいじらない。
+
+uniba.jp の主なコンテンツは http://uniba.jp/inbrowser/ なので、
+実質、 '/source/inbrowser/' 内のファイルを編集する。
+スタイリングは '/source/inbrowser/common/sass' 内の.scss ファイルを編集。
+
+Sass -> CSS (cssをアップデートするときは)
+
+    $ cd source/inbrowser
+    $ bundle exec compass compile
+
+## To make preview server.
+
+    make server
 
 ## Deployment
 
-    $ make deploy
+masterブランチへコピーする。http://uniba.jp から見えるようになる
+
+    make deploy
+
+## Notice
+
+- middleman ブランチで作業し、middleman ブランチにpushすること。  
+※ middleman ブランチに push せずに、make deploy してしまうと master と middleman ブランチに差分が出てしまうので要注意！
+- make deploy は Makefile があるルートディレクトリに cd で移動してからやりましょう！
+
