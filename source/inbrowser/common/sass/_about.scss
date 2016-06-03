@@ -192,6 +192,9 @@
         margin-left: 10px;
         width: 215px;
       }
+      a{
+        text-decoration: underline;
+      }
     }
 
     @include respond-to('pc-normal'){
