@@ -52,6 +52,14 @@
 
   }
 
+  #slackin-badge {
+    position: absolute;
+    bottom: 17px;
+    right: 50%;
+    margin-right: -442px;
+    padding: 10px 10px 7px 10px;
+  }
+
   #copyright{
     position: absolute;
     bottom: 17px;
@@ -118,6 +126,15 @@
         }
       }
 
+    }
+
+    #slackin-badge {
+      position: absolute;
+      bottom: 45px;
+      right: 0;
+      margin-right: 0;
+      padding: 10px 10px 7px 10px;
+      width: auto;
     }
 
     #copyright{
