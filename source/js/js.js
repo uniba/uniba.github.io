@@ -319,7 +319,7 @@ function setmap(_lat, _lang){
 		addressControl : false,
 		linksControl : false,
 		enableCloseButton : false,
-		motionTracking: false,
+		motionTracking: true,
 		motionTrackingControl: false
 	});
 	//map.setStreetView(panorama);
@@ -335,9 +335,9 @@ function setmap(_lat, _lang){
 
 function review(){
 	//chromeだとzoomしても重くないよ！
-	//if(device != "sp"){
+	if(device != "sp"){
 		panorama.setPov({heading:-cam_angle1, pitch:90+cam_angle2/*, zoom:cam_distance_norm*2*/});
-	//}
+	}
 }
 
 //getpos();
