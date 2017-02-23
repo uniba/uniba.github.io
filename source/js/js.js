@@ -274,7 +274,6 @@ function animate() {
 	camera.position.set( camx, camy, camz );
 	camera.lookAt({x:0,y:0,z:0});
 
-
 	renderer.render( scene, camera );
 	renderer2.render( scene2, camera );
 
@@ -319,7 +318,9 @@ function setmap(_lat, _lang){
 		zoomControl : false,
 		addressControl : false,
 		linksControl : false,
-		enableCloseButton : false
+		enableCloseButton : false,
+		motionTracking: true,
+		motionTrackingControl: false
 	});
 	//map.setStreetView(panorama);
 	panorama.setPov({heading:0, pitch:90, zoom:1.8});
@@ -333,9 +334,10 @@ function setmap(_lat, _lang){
 }
 
 function review(){
-//chromeだとzoomしても重くないよ！
-panorama.setPov({heading:-cam_angle1, pitch:90+cam_angle2/*, zoom:cam_distance_norm*2*/});
-
+	//chromeだとzoomしても重くないよ！
+	if(device != "sp"){
+		panorama.setPov({heading:-cam_angle1, pitch:90+cam_angle2/*, zoom:cam_distance_norm*2*/});
+	}
 }
 
 //getpos();
