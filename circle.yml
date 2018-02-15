@@ -12,6 +12,4 @@ deployment:
   production:
     branch: middleman
     commands:
-      - git config --global user.name "deploy-bot"
-      - git config --global user.email "deploy-bot@uniba.jp"
       - make deploy
