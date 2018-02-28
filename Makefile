@@ -1,7 +1,6 @@
 
 deploy: clean build
 	bundle exec rake deploy
-	open http://uniba.jp
 
 server: bundle
 	( cd ./source/inbrowser && bundle exec compass watch ) &

@@ -9,7 +9,7 @@ require 'slack-notifier'
 task :deploy do
   puts "Deploying to uniba.jp"
   @notifier.ping(Slack::Notifier::LinkFormatter.format(":up: UNIBA.JP 更新中..."))
-  system 'bundle exec middleman deploy'
+  system 'bundle exec middleman deploy && bundle exec middleman s3_sync && bundle exec middleman invalidate'
   url = 'http://uniba.jp/'
   @notifier.ping(Slack::Notifier::LinkFormatter.format(":tani_hello: UNIBA.JP 更新完了 CHECK IT OUT [#{url}](#{url}) :tada::tada::tada:"))
 end

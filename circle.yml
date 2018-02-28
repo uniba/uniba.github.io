@@ -2,7 +2,7 @@
 machine:
   timezone: Asia/Tokyo
   ruby:
-    version: 2.1.2
+    version: 2.3.1
 
 test:
   post:
@@ -12,6 +12,4 @@ deployment:
   production:
     branch: middleman
     commands:
-      - git config --global user.name "deploy-bot"
-      - git config --global user.email "deploy-bot@uniba.jp"
       - make deploy

@@ -39,13 +39,9 @@ Sass -> CSS (cssをアップデートするときは)
 
 ## Deployment
 
-masterブランチへコピーする。http://uniba.jp から見えるようになる
-
-    make deploy
+CircleCI がいい感じに反映してくれます。
 
 ## Notice
 
 - middleman ブランチで作業し、middleman ブランチにpushすること。  
-※ middleman ブランチに push せずに、make deploy してしまうと master と middleman ブランチに差分が出てしまうので要注意！
-- make deploy は Makefile があるルートディレクトリに cd で移動してからやりましょう！
 
