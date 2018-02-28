@@ -92,7 +92,7 @@ activate :s3_sync do |s3_sync|
 end
 
 activate :cloudfront do |cf|
-  cf.access_key_id = ENV.fetch('AWS_ACCESS_KEY_ID')
-  cf.secret_access_key = ENV.fetch('AWS_SECRET_ACCESS_KEY')
+  cf.access_key_id = ENV.fetch('AWS_ACCESS_KEY_ID', '')
+  cf.secret_access_key = ENV.fetch('AWS_SECRET_ACCESS_KEY', '')
   cf.distribution_id = 'EDVJRRM7U37CZ'
 end
