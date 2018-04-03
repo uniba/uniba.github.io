@@ -13,7 +13,7 @@ body {
 	overflow: hidden;
 	z-index: 1;
 	background: url(../image/safari_head.png) no-repeat;
-	background-size:1024px 39px;
+	background-size: 1024px 39px;
 }
 .iframe_wrap iframe{
 	width: 1024px;
@@ -24,15 +24,16 @@ body {
 }
 .sp .iframe_wrap{
 	width: 375px;
-	height: 627px;
+	height: 820px;
 	overflow: hidden;
 	z-index: 1;
-	background: url(../image/iphone_head.png) no-repeat;
-	background-size:375px 40px;
+	background: url(../image/iphone_x_head.png) no-repeat;
+	background-size: 375px 94px;
 }
 .sp .iframe_wrap iframe{
 	width: 375px;
 	height: 667px;
+	padding-top: 94px;
 	position: relative;
 	overflow: hidden;
 	z-index:99;
@@ -46,7 +47,7 @@ canvas{
 .sp canvas{
 	z-index: 99;
 }
-#svp { 
+#svp {
 	width:100%;
 	height:100%;
 	position: absolute;
@@ -84,7 +85,7 @@ canvas{
 	animation-duration: 1000ms;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
-	
+
 }
 @-ms-keyframes spin {
 	from { -ms-transform: rotate(0deg); }
@@ -107,7 +108,7 @@ canvas{
 	}
 }
 #progress{
-	text-align: center;			
+	text-align: center;
 	position:absolute;
 	background:#3126f5;
 	top:0%;

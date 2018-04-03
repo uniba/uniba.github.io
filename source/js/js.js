@@ -107,14 +107,24 @@ $(function(){
 function kick(){
 
 	if(device == "pc" || device == "tab"){
-		loader.load( 'model/macbook.dae', function ( collada ) {
+		loader.load( 'model/macbookpro.dae', function ( collada ) {
+		// loader.load( 'model/macbook.dae', function ( collada ) {
 			dae = collada.scene;
-			dae.scale.x = dae.scale.y = dae.scale.z = 100;
+
+			dae.scale.x = dae.scale.y = dae.scale.z = 1.82;
 			dae.updateMatrix();
 			dae.rotation.x = 15 * (Math.PI/180);
-			dae.position.y = 0;
-			dae.position.z = 0;
+			dae.rotation.y = 180 * (Math.PI/180);
+			dae.position.y = -580;
+			dae.position.z = 390;
 			dae.position.x = 0;
+
+			// dae.scale.x = dae.scale.y = dae.scale.z = 100;
+			// dae.updateMatrix();
+			// dae.rotation.x = 15 * (Math.PI/180);
+			// dae.position.y = 0;
+			// dae.position.z = 0;
+			// dae.position.x = 0;
 
 			loader2.load( 'model/arm1.dae', function ( collada ) {
 				dae2 = collada.scene;
@@ -122,9 +132,11 @@ function kick(){
 				dae2.updateMatrix();
 				dae2.rotation.x = 15 * (Math.PI/180);
 
-				dae2.position.y = -650;
+				dae2.position.y = -450;
+				// dae2.position.y = -350;
+
 				dae2.position.z = 900;
-				dae2.position.x = 0;
+				dae2.position.x = -200;
 
 				init();
 				animate();
@@ -133,14 +145,16 @@ function kick(){
 		},onProgress1);
 	}else if(device == "sp"){
 		$("body").addClass("sp");
-		loader.load( 'model/iphone.dae', function ( collada ) {
+		loader.load( 'model/iphone_x.dae', function ( collada ) {
 			dae = collada.scene;
-			dae.scale.x = dae.scale.y = dae.scale.z = 162;
+			dae.scale.x = dae.scale.y = dae.scale.z = 1.4;
 			dae.updateMatrix();
-			dae.rotation.y = 180 * (Math.PI/180);
-			dae.position.y = 0;
-			dae.position.z = 0;
-			dae.position.x = 0;
+
+			dae.rotation.x = 90 * (Math.PI/180);
+
+			dae.position.y = -95;
+			dae.position.z = -22;
+			dae.position.x = -1;
 
 			loader2.load( 'model/arm2.dae', function ( collada ) {
 				dae2 = collada.scene;
@@ -179,7 +193,7 @@ function init() {
 	element.style.height = '600px';
 	if(device == "sp"){
 		element.style.width = '375px';
-		element.style.height = '667px';
+		element.style.height = '820px';
 	}
 
 	element.style.opacity = 1;
@@ -199,8 +213,6 @@ function init() {
 	mesh.scale.copy( object.scale );
 	scene.add( dae );
 	scene.add( dae2 );
-	//scene.add( mesh );
-
 
 	scene.add( new THREE.AmbientLight( 0x000000 ) );
 
@@ -210,7 +222,6 @@ function init() {
 	directionalLight.position.z = 1000;
 	directionalLight.position.normalize();
 	scene.add( directionalLight );
-
 
 	renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
 	renderer.setClearColor( 0x000000,0 );
@@ -230,7 +241,7 @@ function init() {
 		if(device == "pc" || device == "tab"){
 			$("div.p_0").append("<div class ='iframe_wrap'><iframe src='/inbrowser/' style='width:1024px;height:600px; border:0;'></iframe></div>");
 		}else if(device == "sp"){
-			$("div.p_0").append("<div class ='iframe_wrap'><iframe src='/inbrowser/' style='width:375px;height:627px; border:0;'></iframe></div>");
+			$("div.p_0").append("<div class ='iframe_wrap'><iframe src='/inbrowser/' style='width:375px;height:726px; border:0;'></iframe></div>");
 		}
 		setcursor();
 	},0);
