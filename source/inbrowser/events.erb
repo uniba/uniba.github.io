@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+
+    <!--Meta-->
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width" id="viewport-meta" name="viewport">
+    <title>EVENTS - ユニバ株式会社 UNIBA INC.</title>
+    <meta content="ユニバ株式会社は「さわれるインターネット(Embodied Virtuality)」の会社です。" name="description">
+
+    <!--Favicon-->
+    <link href="/share/favicon.png" rel="shortcut icon">
+    <link href="/share/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+
+    <!--Og-->
+    <meta content="UNIBA INC." property="og:title">
+    <meta content="ユニバ株式会社は「さわれるインターネット(Embodied Virtuality)」の会社です。" property="og:description">
+    <meta content="website" property="og:type">
+    <meta content="https://uniba.jp/" property="og:url">
+    <meta content="https://uniba.jp/share/share.png" property="og:image">
+
+    <!--Itemprop-->
+    <meta content="uniba.jp" itemprop="name">
+    <meta content="ユニバ株式会社は「さわれるインターネット(Embodied Virtuality)」の会社です。" itemprop="description">
+    <meta content="https://uniba.jp/share/share.png" itemprop="image">
+
+    <!--Twitter-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@UnibaInc" />
+    <meta name="twitter:title" content="ユニバ株式会社 UNIBA INC.">
+    <meta name="twitter:description" content="ユニバ株式会社は「さわれるインターネット(Embodied Virtuality)」の会社です。">
+    <meta name="twitter:image" content="https://uniba.jp/share/share.png">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="common/css/style.css" />
+
+    <!--JS_HTML5-->
+    <!--[if lt IE 9]><script src="common/js/libs/html5shiv.min.js"></script><![endif]-->
+
+    <!--JS_jQuery-->
+    <script src="common/js/libs/jquery-1.10.1.min.js"></script>
+    <script src="common/js/libs/jquery.easing.1.3.js"></script>
+    <script src="common/js/libs/jquery.color.js"></script>
+    <script src="common/js/class/textDisplay.js"></script>
+
+    <!--CrazyEgg-->
+    <script type="text/javascript">
+      setTimeout(function () {
+        var a = document.createElement("script");
+        var b = document.getElementsByTagName("script")[0];
+        a.src = document.location.protocol + "//script.crazyegg.com/pages/scripts/0023/0342.js?" + Math.floor(new Date().getTime() / 3600000);
+        a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)
+      }, 1);
+    </script>
+
+  </head>
+
+  <body>
+
+    <div id="events">
+
+      <div id="wrap-inner">
+
+        <header id="header">
+
+          <h1 class="background-blue"><a href="https://uniba.jp">UNIBA INC.</a></h1>
+          <div class="clearfix"></div>
+          <nav id="glb-nav">
+            <ul>
+              <li class="background-blue"><a href="home.html">HOME</a></li>
+              <li class="background-blue"><a href="about.html">ABOUT</a></li>
+              <li class="background-blue"><a href="service.html">SERVICE</a></li>
+              <li class="background-blue"><a href="events.html">EVENTS</a></li>
+              <li class="background-blue"><a href="recruit.html">RECRUIT</a></li>
+            </ul>
+            <div class="clearfix"></div>
+          </nav>
+
+        </header>
+
+        <div id="contents">
+          <div id="events-text" class="background-blue">
+            UNIBAではアルスエレクトロニカを軸に勉強会を開催したり、各メンバー自身が興味があるもの・こんなことやっているよ！を披露し合うSkill MTGを定期的に開始しています。🍣や🍕などを片手に○○を××しています。<br/>UNIBAでは様々なイベントをオープンな場として利用しています。興味がある方は参加してみてください。ここには素晴らしい文章が書かれる
+            by Haruma
+          </div>
+
+          <div id="events-lists">
+
+            <h2 class="background-blue">2018</h2>
+
+            <% data.events.each do |event| %>
+
+              <div class="event-item">
+                <figure>
+                  <a href="<%= event.primary_url %>" target="_blank">
+                    <% if !event.thumb_url %>
+                      <img src="common/img/events/events_thumb.jpg" alt="">
+                    <% else %>
+                      <img src="common/img/events/<%= event.thumb_url %>" alt="">
+                    <% end %>
+                  </a>
+                </figure>
+                <div class="item-content">
+                  <a href="<%= event.primary_url %>" target="_blank">
+                    <div class="item-summary">
+                      <h3><span class="background-blue"><%= event.title %></span></h3>
+                      <p><span class="background-blue"><%= event.date.gsub("/", ".") %> <%= event.description %></span></p>
+                    </div>
+                  </a>
+                  <span class="background-blue">
+                  <% if event.document.present? %>
+                    <ul>
+                      <% event.document.each do |item| %>
+                        <li class="background-blue">
+                          <a href="<%= item.url %>" target="_blank"><%= item.title %></a>
+                        </li>
+                      <% end %>
+                    </ul>
+                  <% end %>
+                </div>
+              </div>
+            <% end %>
+
+            <div class="event-item">
+              <figure>
+                <a href="" target="_blank">
+                  <img src="common/img/events/events_thumb.jpg" alt="">
+                </a>
+              </figure>
+              <div class="item-content">
+                <a href="" target="_blank">
+                  <div class="item-summary">
+                    <h3><span class="background-blue">ARSOMORO (アルス・エレクトロニカおもろーの会) 2018</span></h3>
+                    <p><span class="background-blue">2018.09.28 @haruma 「ユニバとアルスエレクトロニカ」 @yoppa 「Algorave as Live-coding」</span></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="event-item">
+              <figure>
+                <a href="https://soundcloud.com/user-325778170/launch" target="_blank">
+                  <img src="common/img/events/20180725_thumb.jpg" alt="Skill MTG #20180725">
+                </a>
+              </figure>
+              <div class="item-content">
+                <a href="https://soundcloud.com/user-325778170/launch" target="_blank">
+                  <div class="item-summary">
+                    <h3><span class="background-blue">Skill MTG #20180725</span></h3>
+                    <p><span class="background-blue">2018.07.25 @keiichi 「音声入力について」 @daichi 「ロジカルシンキング」</span></p>
+                  </div>
+                </a>
+                <ul>
+                  <li class="background-blue"><a href="http://esa-pages.io/p/sharing/47/posts…338c050677fcc.html" target="_blank">ロジカルシンキング(daichi)</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="event-item">
+              <figure>
+                <a href="https://soundcloud.com/user-325778170/skill-mtg-20181024" target="_blank">
+                  <img src="common/img/events/20180530_thumb.jpg" alt="Skill MTG #20180725">
+                </a>
+              </figure>
+              <div class="item-content">
+                <a href="https://soundcloud.com/user-325778170/skill-mtg-20181024" target="_blank">
+                  <div class="item-summary">
+                    <h3><span class="background-blue">Skill MTG #20180530</span></h3>
+                    <p><span class="background-blue">2018.05.30 @moxus 「Plot with Functional Programming」 @haruma 「」 @yon 「分子ガストロノミー」</span></p>
+                  </div>
+                </a>
+                <ul>
+                  <li class="background-blue"><a href="">Plotter</a></li>
+                  <li class="background-blue"><a href="http://esa-pages.io/p/sharing/47/posts…338c050677fcc.html" target="_blank">分子ガストロノミー(yon)</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <h2 class="background-blue">2017</h2>
+
+            <div class="event-item">
+              <figure>
+                <a href="http://rdd.tokyo/rdd12/" target="_blank">
+                  <img src="common/img/events/20171228_thumb.jpg" alt="">
+                </a>
+              </figure>
+              <div class="item-content">
+                <a href="http://rdd.tokyo/rdd12/" target="_blank">
+                  <div class="item-summary">
+                    <h3><span class="background-blue">Random Digit Dialogue #12</span></h3>
+                    <p><span class="background-blue">2017.12.28 RDD 2017年 全12回ハイライト振り返り</span></p>
+                  </div>
+                </a>
+                <ul>
+                  <li><a href="https://www.facebook.com/events/184377615469773/" target="_blank">Random Digit Dialogue #12
+                      Year End Party</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="event-item">
+              <figure>
+                <a href="http://rdd.tokyo/rdd11/" target="_blank">
+                  <img src="common/img/events/20171206_thumb.jpg" alt="">
+                </a>
+              </figure>
+              <div class="item-content">
+                <a href="http://rdd.tokyo/rdd11/" target="_blank">
+                  <div class="item-summary">
+                    <h3><span class="background-blue">Random Digit Dialogue #11</span></h3>
+                    <p><span class="background-blue">2017.12.06 RDD #11 コパイロツト吉岡さん＆ユニバ菊地 総会大反省会</span></p>
+                  </div>
+                </a>
+                <ul>
+                  <li><a href="https://www.facebook.com/events/719863974878656/" target="_blank">Random Digit Dialogue #11</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="event-item">
+              <figure>
+                <a href="http://rdd.tokyo/rdd10/" target="_blank">
+                  <img src="common/img/events/20171101_thumb.jpg" alt="">
+                </a>
+              </figure>
+              <div class="item-content">
+                <a href="http://rdd.tokyo/rdd10/" target="_blank">
+                  <div class="item-summary">
+                    <h3><span class="background-blue">Random Digit Dialogue #10</span></h3>
+                    <p><span class="background-blue">2017.11.01 RDD #10 RDD #09.1 "ARS ELECTRONICA 2017 特集" ふりかえり</span></p>
+                  </div>
+                </a>
+                <ul>
+                  <li><a href="https://www.facebook.com/events/719863974878656/" target="_blank">Random Digit Dialogue #10</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="event-item">
+              <figure>
+                <a href="http://rdd.tokyo/rdd09_1/" target="_blank">
+                  <img src="common/img/events/20170929_thumb.jpg" alt="">
+                </a>
+              </figure>
+              <div class="item-content">
+                <a href="http://rdd.tokyo/rdd09_1/" target="_blank">
+                  <div class="item-summary">
+                    <h3><span class="background-blue">Random Digit Dialogue #09.1</span></h3>
+                    <p><span class="background-blue">2017.09.29 RDD #09.1 Ars Electronica Festival 2017 のレポートと交流会イベント</span></p>
+                  </div>
+                </a>
+                <ul>
+                  <li><a href="" target="_blank">Impact Hub Tokyo</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="event-item">
+              <figure>
+                <a href="http://rdd.tokyo/rdd09/" target="_blank">
+                  <img src="common/img/events/20170911_thumb.jpg" alt="">
+                </a>
+              </figure>
+              <div class="item-content">
+                <a href="http://rdd.tokyo/rdd09/" target="_blank">
+                  <div class="item-summary">
+                    <h3><span class="background-blue">Random Digit Dialogue #09</span></h3>
+                    <p><span class="background-blue">2017.09.11 RDD #09 オーストリア・リンツ市の現地チームとのビデオチャット</span></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="event-item">
+              <figure>
+                <a href="http://rdd.tokyo/rdd08/" target="_blank">
+                  <img src="common/img/events/20170830_thumb.jpg" alt="">
+                </a>
+              </figure>
+              <div class="item-content">
+                <a href="http://rdd.tokyo/rdd08/" target="_blank">
+                  <div class="item-summary">
+                    <h3><span class="background-blue">Random Digit Dialogue #08</span></h3>
+                    <p><span class="background-blue">2017.08.30 RDD #08 ライブコーディング・ユニット ecco - GRAIN noir & moxus</span></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="event-item">
+              <figure>
+                <a href="http://rdd.tokyo/rdd07/" target="_blank">
+                  <img src="common/img/events/20170726_thumb.jpg" alt="">
+                </a>
+              </figure>
+              <div class="item-content">
+                <a href="http://rdd.tokyo/rdd07/" target="_blank">
+                  <div class="item-summary">
+                    <h3><span class="background-blue">Random Digit Dialogue #07</span></h3>
+                    <p><span class="background-blue">2017.07.26 RDD #07 ライトニングトーク特集 Yuichiro Inoue from RYDEN Inc.</span></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="event-item">
+              <figure>
+                <a href="http://rdd.tokyo/rdd06/" target="_blank">
+                  <img src="common/img/events/20170628_thumb.jpg" alt="">
+                </a>
+              </figure>
+              <div class="item-content">
+                <a href="http://rdd.tokyo/rdd06/" target="_blank">
+                  <div class="item-summary">
+                    <h3><span class="background-blue">Random Digit Dialogue #06</span></h3>
+                    <p><span class="background-blue">2017.06.28 RDD #06 ユニバ株式会社に発注したら○○○○○して草wwww</span></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="event-item">
+              <figure>
+                <a href="http://rdd.tokyo/rdd05/" target="_blank">
+                  <img src="common/img/events/20170531_thumb.jpg" alt="">
+                </a>
+              </figure>
+              <div class="item-content">
+                <a href="http://rdd.tokyo/rdd05/" target="_blank">
+                  <div class="item-summary">
+                    <h3><span class="background-blue">Random Digit Dialogue #05</span></h3>
+                    <p><span class="background-blue">2017.05.30 RDD #05 Hyper Spicy Curry with Rice versus Hyper Hot Peperoncino</span></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="event-item">
+              <figure>
+                <a href="http://rdd.tokyo/rdd04/" target="_blank">
+                  <img src="common/img/events/20170412_thumb.jpg" alt="">
+                </a>
+              </figure>
+              <div class="item-content">
+                <a href="http://rdd.tokyo/rdd04/" target="_blank">
+                  <div class="item-summary">
+                    <h3><span class="background-blue">Random Digit Dialogue #04</span></h3>
+                    <p><span class="background-blue">2017.04.12 RDD #04 CNC 回路加工実演</span></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="event-item">
+              <figure>
+                <a href="http://rdd.tokyo/rdd03/" target="_blank">
+                  <img src="common/img/events/20170315_thumb.jpg" alt="">
+                </a>
+              </figure>
+              <div class="item-content">
+                <a href="http://rdd.tokyo/rdd03/" target="_blank">
+                  <div class="item-summary">
+                    <h3><span class="background-blue">Random Digit Dialogue #03</span></h3>
+                    <p><span class="background-blue">2017.03.15 RDD #03 代表取締役菊地玄摩が創業期から現在に至るまでの売上高と費用をプレゼン</span></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+        <footer id="footer">
+
+          <ul class="links-grid">
+            <li class="background-blue"><a target="_blank" href="https://www.facebook.com/UnibaInc">Facebook</a></li>
+            <li class="background-blue"><a target="_blank" href="https://twitter.com/unibainc">Twitter</a></li>
+            <li class="background-blue"><a target="_blank" href="https://vimeo.com/uniba">Vimeo</a></li>
+            <li class="background-blue"><a target="_blank" href="http://www.youtube.com/user/unibajp">YouTube</a></li>
+            <li class="background-blue"><a target="_blank" href="http://blog.uniba.jp/">Tumblr</a></li>
+            <li class="background-blue"><a target="_blank" href="https://github.com/uniba">GitHub</a></li>
+            <li class="background-blue"><a target="_blank" href="http://qiita.com/organizations/uniba">Qiita</a></li>
+            <li class="background-blue"><a target="_blank" href="https://chat.uniba.jp/slackin.js/">
+                <script src="https://chat.uniba.jp/slackin.js" async defer></script></a></li>
+          </ul>
+          <div class="clearfix"></div>
+          <address>
+            <ul>
+              <li class="background-blue"><a href="mailto:info@uniba.jp">info@uniba.jp</a></li>
+              <li class="background-blue">TEL 03 3486 9337</li>
+              <li class="background-blue">FAX 03 6427 4787</li>
+            </ul>
+            <ul>
+              <li class="background-blue">150-0001 東京都渋谷区神宮前5-34-4 ジェイハウス B1F</li>
+              <li class="background-blue">J.HAUS B1F, 5-34-4 Jingumae, Shibuya-ku Tokyo, 150-0001 JAPAN</li>
+              <li class="background-blue"><a target="_blank" href="https://goo.gl/maps/8wFlG">Google Map</a></li>
+            </ul>
+          </address>
+          <div class="clearfix"></div>
+          <div id="copyright">
+            <p class="background-blue">UNIBA INC. 2003 - 2018</p>
+            <p id="site-designer" class="background-blue">Cover Art: HYPER INTERNET 3D by <a target="_blank" href="http://okikata.org/">Akihiko
+                Taniguchi
+              </a>, Site Design: <a target="_blank" href="http://tkmab.com/">Takumi Abe</a></p>
+          </div>
+          <div class="clearfix"></div>
+
+        </footer>
+
+      </div>
+
+    </div>
+
+  </body>
+  <script>
+    var _gaq = [['_setAccount', 'UA-22139995-1'], ['_setDomainName', 'uniba.jp'], ['_trackPageview']];
+    (function (d, t) {
+      var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      g.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+      s.parentNode.insertBefore(g, s)
+    }(document, 'script'));
+  </script>
+
+</html>
