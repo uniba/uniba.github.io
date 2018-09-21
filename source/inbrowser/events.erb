@@ -98,10 +98,10 @@
 
                 <div class="event-item">
                   <figure>
-                    <% if !event.thumb_url %>
+                    <% if event.thumb_url == "false" %>
                       <img src="common/img/events/events_thumb.jpg" alt="">
                     <% else %>
-                      <img src="common/img/events/<%= event.thumb_url %>" alt="">
+                      <img src="common/img/events/<%= event.date.gsub("/", "")+"_thumb.jpg" %>" alt="">
                     <% end %>
                   </figure>
                   <div class="item-content">
@@ -114,7 +114,7 @@
                       <ul>
                         <% event.documents.each do |item| %>
                           <li class="background-blue">
-                            <a href="<%= item.url %>" target="_blank"><%= item.title %></a>
+                            <a href="<%= item.url %>" target="_blank"><%= item.title ? item.title : item.url %></a>
                           </li>
                         <% end %>
                       </ul>
