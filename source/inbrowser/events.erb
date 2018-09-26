@@ -98,10 +98,10 @@
 
                 <div class="event-item">
                   <figure>
-                    <% if event.thumb_url == "false" %>
+                    <% if event.is_thumb == "false" %>
                       <img src="common/img/events/events_thumb.jpg" alt="">
                     <% else %>
-                      <img src="common/img/events/<%= event.date.gsub("/", "")+"_thumb.jpg" %>" alt="">
+                      <img src="common/img/events/<%= event.thumb_url %>" alt="">
                     <% end %>
                   </figure>
                   <div class="item-content">
