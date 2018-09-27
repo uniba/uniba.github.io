@@ -29,11 +29,10 @@ class Converter
         primary_url: row[4],
         description: row[5],
         thumb_url: row[7],
-        is_thumb: row[8],
         documents: [
-          { title: row[9], url: row[10] },
-          { title: row[11], url: row[12] },
-          { title: row[13], url: row[14] }
+          { title: row[8], url: row[9] },
+          { title: row[10], url: row[11] },
+          { title: row[12], url: row[13] }
         ]
       }
     end
