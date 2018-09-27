@@ -6,6 +6,7 @@
     "primary_url": "https://soundcloud.com/skillmtg/oct2018",
     "description": "2018年10月24日に開催されたSKILL MTGのPodcast",
     "thumb_url": "20181102_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "Soundcloud",
@@ -28,6 +29,7 @@
     "primary_url": "https://www.facebook.com/events/312679712799750/",
     "description": "アルス・エレクトロニカ フェスティバルに行ってみた人が面白かった話をする会です。",
     "thumb_url": "20180928_thumb.jpg",
+    "is_thumb": "true",
     "documents": [
       {
         "title": "facebook",
@@ -50,6 +52,7 @@
     "primary_url": "https://www.youtube.com/watch?v=p0AEm6Kifoo",
     "description": null,
     "thumb_url": "20180814_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": null,
@@ -72,6 +75,7 @@
     "primary_url": "https://www.youtube.com/watch?v=3W9vh22xXuY",
     "description": null,
     "thumb_url": "20180717_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": null,
@@ -94,6 +98,7 @@
     "primary_url": "http://rdd.tokyo/rdd12",
     "description": "RDD #12 2017年 全12回ハイライト振り返り",
     "thumb_url": "20171228_thumb.jpg",
+    "is_thumb": "true",
     "documents": [
       {
         "title": "rdd.tokyo",
@@ -116,6 +121,7 @@
     "primary_url": "http://rdd.tokyo/rdd11",
     "description": "RDD #11 コパイロツト吉岡さん＆ユニバ菊地 総会大反省会",
     "thumb_url": "20171206_thumb.jpg",
+    "is_thumb": "true",
     "documents": [
       {
         "title": "rdd.tokyo",
@@ -138,6 +144,7 @@
     "primary_url": "http://rdd.tokyo/rdd10",
     "description": "RDD #10 \"ARS ELECTRONICA 2017 特集\" ふりかえり",
     "thumb_url": "20171101_thumb.jpg",
+    "is_thumb": "true",
     "documents": [
       {
         "title": "rdd.tokyo",
@@ -160,6 +167,7 @@
     "primary_url": "http://rdd.tokyo/rdd09_1/",
     "description": "RDD #09.1 Ars Electronica Festival 2017 のレポートと交流会イベント",
     "thumb_url": "20170929_thumb.jpg",
+    "is_thumb": "true",
     "documents": [
       {
         "title": "rdd.tokyo",
@@ -182,6 +190,7 @@
     "primary_url": "http://rdd.tokyo/rdd09",
     "description": "RDD #09 オーストリア・リンツ市の現地チームとのビデオチャット",
     "thumb_url": "20170911_thumb.jpg",
+    "is_thumb": "true",
     "documents": [
       {
         "title": "rdd.tokyo",
@@ -204,6 +213,7 @@
     "primary_url": "http://rdd.tokyo/rdd08",
     "description": "RDD #08 ライブコーディング・ユニット ecco - GRAIN noir & moxus",
     "thumb_url": "20170830_thumb.jpg",
+    "is_thumb": "true",
     "documents": [
       {
         "title": "rdd.tokyo",
@@ -226,6 +236,7 @@
     "primary_url": "http://rdd.tokyo/rdd07",
     "description": "RDD #07 ライトニングトーク特集 Yuichiro Inoue from RYDEN Inc.",
     "thumb_url": "20170726_thumb.jpg",
+    "is_thumb": "true",
     "documents": [
       {
         "title": "rdd.tokyo",
@@ -248,6 +259,7 @@
     "primary_url": "http://rdd.tokyo/rdd06",
     "description": "RDD #06 ユニバ株式会社に発注したら○○○○○して草wwww",
     "thumb_url": "20170628_thumb.jpg",
+    "is_thumb": "true",
     "documents": [
       {
         "title": "rdd.tokyo",
@@ -270,6 +282,7 @@
     "primary_url": "http://rdd.tokyo/rdd05",
     "description": "RDD #05 Hyper Spicy Curry with Rice versus Hyper Hot Peperoncino",
     "thumb_url": "20170531_thumb.jpg",
+    "is_thumb": "true",
     "documents": [
       {
         "title": "rdd.tokyo",
@@ -292,6 +305,7 @@
     "primary_url": "http://rdd.tokyo/rdd04/",
     "description": "RDD #04 CNC 回路加工実演",
     "thumb_url": "20170412_thumb.jpg",
+    "is_thumb": "true",
     "documents": [
       {
         "title": "rdd.tokyo",
@@ -314,6 +328,7 @@
     "primary_url": "http://rdd.tokyo/rdd03/",
     "description": "RDD #03 代表取締役菊地玄摩が創業期から現在に至るまでの売上高と費用をプレゼン",
     "thumb_url": "20170315_thumb.jpg",
+    "is_thumb": "true",
     "documents": [
       {
         "title": "rdd.tokyo",
@@ -336,6 +351,7 @@
     "primary_url": "http://rdd.tokyo/rdd02/",
     "description": "RDD #02「眺めのよい部屋」鷲尾怜さんが企画展や、今年の武蔵野美術大学の卒展レポート",
     "thumb_url": "20170222_thumb.jpg",
+    "is_thumb": "true",
     "documents": [
       {
         "title": "rdd.tokyo",
@@ -358,6 +374,7 @@
     "primary_url": "https://www.facebook.com/events/426664604382043",
     "description": "UNIBA SOUND JAPAN は、UNIBA INC. が開催する音楽クラブイベントです。[DJ] Mincer,nulltask,TEAM 西永福 [LIVE] ecco",
     "thumb_url": "20170713_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "facebook",
@@ -380,6 +397,7 @@
     "primary_url": "http://rdd.tokyo/rdd01/",
     "description": "THE OPEN UNIBA (ジ・オープン・ユニバ) で開催されるサイバネティック・セレンディピティ・パーティー。",
     "thumb_url": "20170118_thumb.jpg",
+    "is_thumb": "true",
     "documents": [
       {
         "title": "rdd.tokyo",
@@ -402,6 +420,7 @@
     "primary_url": "http://sound.jp/uniba/archive/",
     "description": "UNIBA SOUND JAPAN は、UNIBA INC. が開催する音楽クラブイベントです。[DJ] Keiichi Tanifuji (from STRLabel),SMDJ,Hideyuki Saito,nulltask,Takahiro Maehara (GUEST),MINCER [LIVE] ギヨムピカレタ [Live]",
     "thumb_url": "20161219_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "BALL SHIBUYA",
@@ -424,6 +443,7 @@
     "primary_url": "https://www.facebook.com/events/1179437228769398/",
     "description": "Ars Electronica 2016、Berlin Biennale 2016、インターネットヤミ市 東京 2016、INTERNET YAMI-ICHI NY 2 の面白い話",
     "thumb_url": "20161109_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "facebook",
@@ -446,6 +466,7 @@
     "primary_url": "http://yami-ichi.biz/tokyo/",
     "description": "秋葉原の3331 Arts Chiyodaで開催された、明るいヤミ市",
     "thumb_url": "20161016_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "yami-ichi.biz",
@@ -468,6 +489,7 @@
     "primary_url": "https://www.facebook.com/events/473417656192394/",
     "description": "UNIBA SOUND JAPAN は、UNIBA INC. が開催する音楽クラブイベントです。[DJ] MINCER,nulltask,yukanakura,Genkiota [LIVE] moxus,GRAIN noir,Keisuke Ogawa",
     "thumb_url": "20160831_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "facebook",
@@ -490,6 +512,7 @@
     "primary_url": "http://works.uniba.jp/posts/2016-07-mft2016/",
     "description": "Pebble Time Watch用 充電スタンド&充電アダプター、UNIBA PLATE、導入したCNCフライスで何かを作ってみる試み",
     "thumb_url": "20160806_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "works.uniba.jp",
@@ -512,6 +535,7 @@
     "primary_url": "http://works.uniba.jp/posts/2015-10-real-dropbox/",
     "description": "日本のコンテンツ(実物)をオーストリアに(手荷物持ち込みで)アップロード、現地の方々ににダウンロードして(持ち帰って)もらうという作品です。",
     "thumb_url": "20151031_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "works.uniba.jp",
@@ -534,6 +558,7 @@
     "primary_url": "http://works.uniba.jp/posts/2015-10-arsomoro-2015/",
     "description": "アルス・エレクトロニカの本拠地であるオーストリア・リンツ市に初めて行ってみた、毎年行っている、作家として招待された、たまたま通りかかった、いつか行ってみたい、などいろいろな立場の人の体験談をする会です。",
     "thumb_url": "20151030_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "works.uniba.jp",
@@ -556,6 +581,7 @@
     "primary_url": "https://mlt.connpass.com/event/10584/",
     "description": "SHIFTBRAIN/Uniba/LIGの3社エンジニアがLTを行います。 技術的な内容からマネジメントの話まで、制作に纏わる内容をそろえる予定です。",
     "thumb_url": "20150212_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "connpass",
@@ -578,6 +604,7 @@
     "primary_url": "https://mlt.connpass.com/event/10225/",
     "description": "今回はいいオフィスにて、テーマ完全フリーの LT 大会を行います。技術的な内容はもちろん、技術に関係のないテーマでも大歓迎です！",
     "thumb_url": "20141212_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "connpass",
@@ -600,6 +627,7 @@
     "primary_url": "https://mlt.connpass.com/event/8580/",
     "description": "今回は IoT (Internet of Things) をテーマに、ArduinoやRaspberry Piなどの界隈だったりモノやデバイスとインターネットに関する LT を募集します！",
     "thumb_url": "20141007_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "connpass",
@@ -622,6 +650,7 @@
     "primary_url": "https://mlt.connpass.com/event/7779/",
     "description": "今回は LIG さんの会場をお借りして MEAN (MongoDB / Express / AngularJS / NodeJS) っぽいもの特集の予定です！",
     "thumb_url": "20140826_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "connpass",
@@ -644,6 +673,7 @@
     "primary_url": "https://mlt.connpass.com/event/7493/",
     "description": "今回は SHIFTBRAIN さんと SONICJAM さんの方を交えてフロントエンド系祭りです！",
     "thumb_url": "20140724_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "connpass",
@@ -666,6 +696,7 @@
     "primary_url": "https://mlt.connpass.com/event/6346/",
     "description": "月刊ライトニングトークとは、きになったコト、試してみたことをみんなで共有する会です。Web 系の技術ネタを軸足に据えつつも、ごった煮な勉強会を目指しております。",
     "thumb_url": "20140519_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "connpass",
@@ -688,6 +719,7 @@
     "primary_url": "http://works.uniba.jp/posts/2013-09-homepagerobot/",
     "description": "ホームページロボットはユニバが示す「さわれるインターネット」をまさに具現化したものです。",
     "thumb_url": "20130826_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "works.uniba.jp",
@@ -710,6 +742,7 @@
     "primary_url": "https://www.youtube.com/watch?v=ER1zI3PF2sw&list=PLEUcYExmVwCUIFw4S6s4eNuFquEhClnl0&index=6",
     "description": "話題の6軸センサー内蔵ヘッドセット「Oculus」を、RYDEN INC.の松本さまにレクチャーしてもらいました。",
     "thumb_url": "20130711_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "YouTube",
@@ -732,6 +765,7 @@
     "primary_url": "https://www.youtube.com/watch?v=MZ42ah5G4iQ&index=62&list=PLEUcYExmVwCVT7wdLDke0JsbRKWnjLMvf",
     "description": "ユニバ創立10周年企画の映像作品、屋外での撮影風景です。",
     "thumb_url": "20130710_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "YouTube",
@@ -754,6 +788,7 @@
     "primary_url": "https://www.youtube.com/watch?v=dw6eR3EbPpg&index=5&list=PLEUcYExmVwCUIFw4S6s4eNuFquEhClnl0",
     "description": "Kinnectを使って深度情報を取得・ビジュアライズするワークショップ。",
     "thumb_url": "20130630_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "YouTube",
@@ -776,6 +811,7 @@
     "primary_url": "https://www.youtube.com/watch?v=RfBBQYZ68lQ&index=4&list=PLEUcYExmVwCUIFw4S6s4eNuFquEhClnl0",
     "description": "ユニバ社内で開催した、Backbone.jsの勉強会。",
     "thumb_url": "20130628_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "YouTube",
@@ -798,6 +834,7 @@
     "primary_url": "https://www.youtube.com/watch?v=OseS3IWG-EM&index=2&list=PLEUcYExmVwCUIFw4S6s4eNuFquEhClnl0",
     "description": "ユニバ社内で開催した、Arduinoの勉強会。",
     "thumb_url": "20130614_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "YouTube",
@@ -820,6 +857,7 @@
     "primary_url": "https://www.facebook.com/events/475219129223972/",
     "description": "第3回は、5/21 (火) 19:00より ユニバ2F会議室にて行います。今回のゲストは、HACKist ( http://hackist.jp ) より一階武史さん、貴田達也さんのお二人。聞き手となるのはユニバの菊地玄摩と今野聖也です。",
     "thumb_url": "events_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "facebook",
@@ -842,6 +880,7 @@
     "primary_url": "https://www.facebook.com/events/383631208413036/",
     "description": "第2回は飯田橋文明 http://bun-mei.org/ に場所を移して、谷口暁彦さん http://okikata.org/ のお話を伺います！聞き手はユニバの菊地玄摩、森浩一郎です。",
     "thumb_url": "events_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "facebook",
@@ -864,6 +903,7 @@
     "primary_url": "https://www.facebook.com/events/161358854030632/",
     "description": "ユニバ社にて「10年後のインターネットってどんな感じ会議」を開催します。毎回ゲストをお招きして、10年後のインターネットについて思いを巡らせながら色々とお話できればと思います。第１回のゲストは、谷上周史さんと櫻井寿遙さんで、聞き手は菊地玄摩です。参加は無料・自由です。",
     "thumb_url": "events_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "facebook",
@@ -886,6 +926,7 @@
     "primary_url": "http://works.uniba.jp/posts/2013-04-future-semaphore-exhibition/",
     "description": "2013年4月18日から21日までの4日間にわたって、過去のクライアントワークと、Circuit Lab.の活動の成果を複数展示しました。会場のみどり荘に協力いただいて、レセプションパーティーや、UNIBA INC.の活動についてのプレゼンテーションも行いました。",
     "thumb_url": "20130418_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "works.uniba.jp",
@@ -908,6 +949,7 @@
     "primary_url": "https://www.youtube.com/watch?v=fVfkZQ2dM7A&list=PLEUcYExmVwCUIFw4S6s4eNuFquEhClnl0&index=1",
     "description": "ユニバ社内で開催した、Raspberry Piのランチミーティング。",
     "thumb_url": "20130117_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "YouTube",
@@ -930,6 +972,7 @@
     "primary_url": "https://vimeo.com/56083432",
     "description": "Glue Machine (from Untitled), mimi.Neuro-Gun, Scratch Sewing, Piston Machine",
     "thumb_url": "20121205_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "vimeo",
@@ -952,6 +995,7 @@
     "primary_url": "https://atnd.org/events/31886",
     "description": "ユニバではアルスに派遣された「現地組」が様々な会場からストリーム中継を行い、今年のアルスの生の魅力をお伝えしたり、視聴者からのリクエストにリアルタイムにお応えするなど、アルスと渋谷をつないでメディアアートを楽しく鑑賞する会を行いたいと思います。",
     "thumb_url": "events_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "ATND",
@@ -974,6 +1018,7 @@
     "primary_url": "https://vimeo.com/49137156",
     "description": "Sentry Gun (Arduino, openFrameworks, OpenCV, Servo Motor), kaina (Node.js, WebSocket), The Sound of The Internet (Arduino, MAX/MSP, Glocken, Solenoid)",
     "thumb_url": "20120825_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "vimeo",
@@ -996,6 +1041,7 @@
     "primary_url": "https://atnd.org/events/31176",
     "description": "SHIFTBRAIN 社の方をお招きし、ワークショップ形式で WebGL, Three.js 関連の技術を学んでいく予定です。実際に手を動かしながらになりますので、各自エディタと WebGL の動作するブラウザ (Google Chrome 推薦) をご準備ください。",
     "thumb_url": "events_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "ATND",
@@ -1018,6 +1064,7 @@
     "primary_url": "http://works.uniba.jp/posts/2012-08-unibahouse/",
     "description": "ブラウザ上で体験できるインターネットお化け屋敷を制作",
     "thumb_url": "20120801_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "works.uniba.jp",
@@ -1040,6 +1087,7 @@
     "primary_url": "https://atnd.org/events/30071",
     "description": "「jQuery はやっているけど、JavaScript の文法についてはあまり詳しくない」「別の言語をやっていて、JavaScript も覚えたい」という人向けのコースです。初回なので、難しいことはあまりやりません！第一回目はひたすら文法について学びます。",
     "thumb_url": "events_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "ATND",
@@ -1062,6 +1110,7 @@
     "primary_url": "https://atnd.org/events/29525",
     "description": "MadMapper http://www.madmapper.com/ を使って、みんなでプロジェクションマッピングをやってみる会です。",
     "thumb_url": "20120608_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "ATND",
@@ -1084,6 +1133,7 @@
     "primary_url": "https://atnd.org/events/28814",
     "description": "Web 系フロントエンドエンジニア向けのベストプラクティス集 HTML5 Boilerplate の読書会を行います！参加者の皆さんのお知恵を拝借しつつ、どうしてこのようになっているのか、というところにフォーカスを当てながら読み進められればと考えております。",
     "thumb_url": "events_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "ATND",
@@ -1106,6 +1156,7 @@
     "primary_url": "https://atnd.org/events/28319",
     "description": "Socket.IO を詠む会、Part 2 を実施します！前回のおさらいもありますので Part 1 に出席されていない方も是非！Node.js で Socket.IO を使ったアプリケーションを作ったことのある人向けの内容になります。",
     "thumb_url": "events_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "ATND",
@@ -1128,6 +1179,7 @@
     "primary_url": "https://atnd.org/events/27279",
     "description": "Perfume Dev Team が公開しているモーションデータを使ってハッカソンをしましょう！",
     "thumb_url": "events_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "ATND",
@@ -1150,6 +1202,7 @@
     "primary_url": "https://atnd.org/events/27471",
     "description": "Socket.IOのAPIをたのしく読む会です。",
     "thumb_url": "events_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "ATND",
@@ -1172,6 +1225,7 @@
     "primary_url": "http://aef2011.uniba.jp/",
     "description": "ユニバによる Ars Electronica Festival 2011 レポート",
     "thumb_url": "20110902_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "aef2011.uniba.jp",
@@ -1194,6 +1248,7 @@
     "primary_url": "https://www.facebook.com/events/1084645638216011/",
     "description": "リンツで取材を行うユニバのスタッフからリアルタイムに送られてくる様々なセンサーの情報を使った、リアルタイム・データ・ビジュアライジングの展示のほか、公開開発、リンツ滞在スタッフとのビデオチャットなどを行います。",
     "thumb_url": "20110901_thumb.jpg",
+    "is_thumb": "false",
     "documents": [
       {
         "title": "facebook",
@@ -1216,6 +1271,7 @@
     "primary_url": "https://uniba.esa.io/posts/1789",
     "description": null,
     "thumb_url": null,
+    "is_thumb": "false",
     "documents": [
       {
         "title": null,
