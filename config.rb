@@ -58,6 +58,8 @@ set :relative_link, true
 
 activate :relative_assets
 
+ignore 'inbrowser/service.html'
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment

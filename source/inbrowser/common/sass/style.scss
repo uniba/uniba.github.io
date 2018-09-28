@@ -9,7 +9,6 @@
 @import "compass/css3";
 @import "./_variables";
 
-
 ////////////////////////////////////////////////////////
 // COMMON
 ////////////////////////////////////////////////////////
@@ -35,58 +34,56 @@ body {
 
   //NAV
   //メニューの選択済み効果用mixin
-  @mixin nav-select($nav_id){
-    #glb-nav{
-      .nav-btn:nth-child(#{$nav_id+1}) a{
+  @mixin nav-select($nav_id) {
+    #glb-nav {
+      .nav-btn:nth-child(#{$nav_id + 1}) a {
         //border-bottom: 1px solid #000;
       }
     }
   }
 
-  &#firstpage{
+  &#firstpage {
     @import "_canvas";
   }
 
-  div{
+  div {
     //各ページ用scssのimport
-    &#top{
+    &#top {
       @import "_top";
     }
-    &#home{
+    &#home {
       @import "_inner";
       @import "_home";
-      @include nav-select(0);
     }
-    &#about{
+    &#about {
       @import "_inner";
       @import "_about";
-      @include nav-select(1);
     }
-    &#service{
+    &#service {
       @import "_inner";
       @import "_service";
-      @include nav-select(2);
     }
-    &#recruit{
+    &#recruit {
       @import "_inner";
       @import "_recruit";
-      @include nav-select(3);
+    }
+    &#events {
+      @import "_inner";
+      @import "_events";
     }
 
-    #wrap-inner{
-      .background-blue{
-        background-color: #FFFFFF;
-        color: #FFFFFF;
+    #wrap-inner {
+      .background-blue {
+        background-color: #ffffff;
+        color: #ffffff;
       }
     }
-
   }
-
 }
 
 // --- A ---
 a {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   &:hover {
     @include opacity(0.8);
