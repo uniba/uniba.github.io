@@ -24,8 +24,36 @@
           margin-right: 10px;
           margin-bottom: 10px;
           padding: 9px 10px 4px 10px;
+          &:last-child {
+            a {
+              padding-right: 10px;
+            }
+          }
           a{
             font-size: 20px;
+            &[target="_blank"] {
+              position: relative;
+              &::before,
+              &::after {
+                position: absolute;
+              }
+              &::before {
+                top: -2px;
+                right: -5px;
+                transform: rotate(-45deg);
+                content: "→";
+                font-size: 12px;
+              }
+              &::after {
+                top: -1px;
+                right: -6px;
+                content: "";
+                width: 10px;
+                height: 10px;
+                border: 1px solid #fff;
+                border-radius: 2px;
+              }
+            }
           }
         }
       }
