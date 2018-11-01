@@ -9,6 +9,12 @@
     line-height: 32px;
     padding: 3px 10px 0px 10px;
   }
+  .video-wrap {
+    video {
+      width: 100%;
+      height: auto;
+    }
+  }
   .recruit-column{
     font-size: 14px;
     h3{
