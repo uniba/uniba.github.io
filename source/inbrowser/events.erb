@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ja">
-
   <head>
 
     <!--Meta-->
@@ -63,22 +62,7 @@
 
       <div id="wrap-inner">
 
-        <header id="header">
-
-          <h1 class="background-blue"><a href="https://uniba.jp">UNIBA INC.</a></h1>
-          <div class="clearfix"></div>
-          <nav id="glb-nav">
-            <ul>
-              <li class="background-blue"><a href="home.html">HOME</a></li>
-              <li class="background-blue"><a href="about.html">ABOUT</a></li>
-              <li class="background-blue"><a href="events.html">EVENTS</a></li>
-              <li class="background-blue"><a href="recruit.html">RECRUIT</a></li>
-              <li class="background-blue"><a href="http://works.uniba.jp/" target="_blank" >WORKS</a></li>
-            </ul>
-            <div class="clearfix"></div>
-          </nav>
-
-        </header>
+        <%= partial "_partial/header" %>
 
         <div id="contents">
           <div id="events-text" class="background-blue">
@@ -127,39 +111,7 @@
           </div>
         </div>
 
-        <footer id="footer">
-
-          <ul class="links-grid">
-            <li class="background-blue"><a target="_blank" href="https://www.facebook.com/UnibaInc">Facebook</a></li>
-            <%# <li class="background-blue"><a target="_blank" href="https://twitter.com/unibainc">Twitter</a></li>
-            <li class="background-blue"><a target="_blank" href="https://vimeo.com/uniba">Vimeo</a></li>
-            <li class="background-blue"><a target="_blank" href="http://www.youtube.com/user/unibajp">YouTube</a></li>
-            <li class="background-blue"><a target="_blank" href="https://github.com/uniba">GitHub</a></li>
-            <li class="background-blue"><a target="_blank" href="http://qiita.com/organizations/uniba">Qiita</a></li> %>
-          </ul>
-          <div class="clearfix"></div>
-          <address>
-            <ul>
-              <li class="background-blue"><a href="mailto:info@uniba.jp">info@uniba.jp</a></li>
-              <li class="background-blue">TEL 03 3486 9337</li>
-              <li class="background-blue">FAX 03 6427 4787</li>
-            </ul>
-            <ul>
-              <li class="background-blue">150-0001 東京都渋谷区神宮前5-34-4 ジェイハウス B1F</li>
-              <li class="background-blue">J.HAUS B1F, 5-34-4 Jingumae, Shibuya-ku Tokyo, 150-0001 JAPAN</li>
-              <li class="background-blue"><a target="_blank" href="https://goo.gl/maps/8wFlG">Google Map</a></li>
-            </ul>
-          </address>
-          <div class="clearfix"></div>
-          <div id="copyright">
-            <p class="background-blue">UNIBA INC. 2003 - 2018</p>
-            <p id="site-designer" class="background-blue">Cover Art: HYPER INTERNET 3D by <a target="_blank" href="http://okikata.org/">Akihiko
-                Taniguchi
-              </a>, Site Design: <a target="_blank" href="http://tkmab.com/">Takumi Abe</a></p>
-          </div>
-          <div class="clearfix"></div>
-
-        </footer>
+        <%= partial "_partial/footer" %>
 
       </div>
 

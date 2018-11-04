@@ -51,86 +51,99 @@
 
       <div id="wrap-inner">
 
-        <header id="header">
-
-          <h1 class="background-blue"><a href="https://uniba.jp">UNIBA INC.</a></h1>
-          <div class="clearfix"></div>
-          <nav id="glb-nav">
-            <ul>
-              <li class="background-blue"><a href="home.html">HOME</a></li>
-              <li class="background-blue"><a href="about.html">ABOUT</a></li>
-              <li class="background-blue"><a href="events.html">EVENTS</a></li>
-              <li class="background-blue"><a href="recruit.html">RECRUIT</a></li>
-              <li class="background-blue"><a href="http://works.uniba.jp/" target="_blank" >WORKS</a></li>
-            </ul>
-            <div class="clearfix"></div>
-          </nav>
-
-        </header>
+        <%= partial "_partial/header" %>
 
         <div id="contents">
 
           <div id="recruit-about" class="background-blue">
-            <p>ユニバ株式会社は、デザイナーとデベロッパが在籍する少人数のチームです。<br>
-              渋谷区のオフィスでは、数多くのクライアントとブランディング、広告キャンペーン、ウェブサービスのプロジェクトを進めています。またワークショップや勉強会を開き、新しい技術とユーザエクスペリエンスについて意見交換を行っています。また「サーキット・ラボ」では、リアルタイム映像、Arduino等を用いた回路実装、リアルタイムウェブをはじめとした、メディアアートと隣接する分野の研究をしています。</p>
-            <p>それぞれ異なる得意分野をもった10数名のメンバーと共に、新しい技術、新しい表現、新しいアイディアを追求できる方を募集します。</p>
+            <p>UNIBA のチームに興味がある方からのご連絡をお待ちしています。<br/>
+              現在はエンジニア・デザイナーをサポートしてくれるメンバーを募集中です。機材の管理や買いもの etc. などがメインで、特別なスキルは必要ありません。<br/>
+              サポートの仕事をしながらスキルアップをしたい方も歓迎します。</p>
+          </div>
+
+          <div class="recruit-column size-wide">
+            <div class="background-blue">
+              <h3 class="background-blue">面談の様子</h3>
+              <div class="video-wrap">
+                <video controls autoplay loop playsinline muted src="./common/video/mendan.mp4"></video>
+              </div>
+            </div>
           </div>
 
           <div class="recruit-column size-wide">
             <h3 class="background-blue">募集する職種</h3>
             <div class="clearfix"></div>
             <div class="background-blue">
+              <%# <p>ユニバ株式会社はメンバーのほぼ全員が実際の制作業務に関わるプロダクションですが、プロダクションメンバーが制作業務に専念し、その能力をプロジェクトの中で十分に発揮していけるようにするために、仕事環境の整備や、間接業務の代行などを一手に引き受けるOtasuketaiというチームがあります。<br/>
+Otasuketaiのメンバーとして、ユニバのプロダクションチームをお助けしてくれる方を募集します。ご応募お待ちしております。</p> %>
               <dl>
-                  <dt>バックオフィスアシスタント</dt>
+                  <dt>Otasuketaiメンバー</dt>
                   <dd>
-                    ・オフィス・プロダクションの設備・備品・機材等の管理業務全般（備品の調達、メンテナンス等）<br />
-                    ・契約書・請求書等の書類発行などの事務業務全般<br />
-                    ・経理・労務・法務等の管理業務のサポート<br />
+                    ・オフィス環境・設備・備品・機材等のファシリティ管理業務全般<br/>
+                    ・契約書・請求書等の書類発行などの事務業務全般<br/>
+                    ・経理・労務・法務等の管理業務のサポート<br/>
                     ・プロダクション業務の一部サポート
                   </dd>
               </dl>
             </div>
           </div>
 
-          <div class="recruit-column size-wide">
+          <%# <div class="recruit-column size-wide">
             <h3 class="background-blue">必要なスキル</h3>
             <div class="clearfix"></div>
             <p class="background-blue">
               ・PC・インターネットに関する基本的な知識・利用スキル<br />
               ・デザイン・HTML・CSS・プログラミング等に関する知識・スキル
             </p>
-          </div>
+          </div> %>
 
           <div class="recruit-column">
             <h3 class="background-blue">雇用形態</h3>
             <div class="clearfix"></div>
-            <p class="background-blue">契約社員・アルバイト</p>
+            <p class="background-blue">アルバイト</p>
           </div>
 
           <div class="recruit-column">
             <h3 class="background-blue">勤務地</h3>
             <div class="clearfix"></div>
-            <p class="background-blue">東京都渋谷区神宮前5-34-4 ジェイハウス B1F</p>
+            <p class="background-blue"><a target="_blank" href="https://goo.gl/maps/8wFlG">東京都渋谷区神宮前5-34-4 ジェイハウス B1F</a></p>
           </div>
 
           <div class="recruit-column">
             <h3 class="background-blue">勤務時間</h3>
             <div class="clearfix"></div>
             <dl class="background-blue">
-              <dd>シフト制</dd>
-                <dd>週2日〜3日程度、10時~19時</dd>
+              <dd>シフト制<br/>
+              週2日~3日程度、9時~18時</dd>
             </dl>
           </div>
 
-          <div class="recruit-column size-wide">
+          <div class="recruit-column">
             <h3 class="background-blue">給与</h3>
             <div class="clearfix"></div>
+            <dl class="background-blue">
+              <dd>
+                ・1100円以上、応相談<br/>
+                ・交通費実費支給<br/>
+                ・有給休暇・雇用保険あり
+              </dd>
+            </dl>
+          </div>
+
+          <div class="recruit-column">
+            <h3 class="background-blue">応募方法</h3>
+            <div class="clearfix"></div>
             <div class="background-blue">
-              <p>時給1,100円以上、相談により決定、交通費全額支給、賞与なし、福利厚生は一部</p>
+              <p>メールにてご応募ください。<br>
+                件名を「採用希望（Otasuketaiメンバー）」とし、</p>
+              <ul>
+                <li>氏名、連絡先、志望動機</li>
+              </ul>
+              <p>を書いて、<a href="mailto:recruit@uniba.jp">recruit@uniba.jp</a>まで、メールにてご連絡ください。<p>
             </div>
           </div>
 
-          <div class="recruit-column size-narrow pull-left">
+          <%# <div class="recruit-column size-narrow pull-left">
             <h3 class="background-blue">待遇</h3>
             <div class="clearfix"></div>
             <dl class="background-blue">
@@ -186,64 +199,9 @@
             </div>
           </div>
 
-          <div class="recruit-column clearfix">
-            <h3 class="background-blue">ワークスタイル</h3>
-            <div class="clearfix"></div>
-            <div class="workstyle-column pull-left background-blue">
-              <img src="common/img/office/jhaus01.jpg" alt="ジェイハウス">
-              <p>出社時間はそれぞれ個人が決めるスタイルです。チャットのオンライン、オフラインで出勤を管理したり、Google Calendarの自動集計で時間管理を行っています。</p>
-              <div class="clearfix"></div>
-            </div>
-            <div class="workstyle-column pull-right background-blue">
-              <img src="common/img/office/jhaus02.jpg" alt="ジェイハウス">
-              <p>作業場所はオフィス内のソファ、こたつ、フリーアドレスのデスクを使うことができます。カフェや自宅作業も可能です。</p>
-              <div class="clearfix"></div>
-            </div>
-            <div class="workstyle-column pull-left background-blue">
-              <img src="common/img/office/jhaus03.jpg" alt="駐輪場">
-              <p>自転車通勤をするスタッフも多いです。自転車保険にしっかり入っていることが条件です。</p>
-              <div class="clearfix"></div>
-            </div>
-            <div class="workstyle-column pull-right background-blue">
-              <img src="common/img/office/jhaus04.jpg" alt="サーキット・ラボ">
-              <p>オフィスから徒歩3分の場所にあるサーキット・ラボには、電子工作に必要な装備や、3Dプリンタ、レーザーカッターなどが揃えてあります。</p>
-              <div class="clearfix"></div>
-            </div>
-          </div>
+        </div> %>
 
-        </div>
-
-        <footer id="footer">
-
-          <ul class="links-grid">
-            <li class="background-blue"><a target="_blank" href="https://www.facebook.com/UnibaInc">Facebook</a></li>
-            <!-- <li class="background-blue"><a target="_blank" href="https://twitter.com/unibainc">Twitter</a></li>
-            <li class="background-blue"><a target="_blank" href="https://vimeo.com/uniba">Vimeo</a></li>
-            <li class="background-blue"><a target="_blank" href="http://www.youtube.com/user/unibajp">YouTube</a></li>
-            <li class="background-blue"><a target="_blank" href="https://github.com/uniba">GitHub</a></li>
-            <li class="background-blue"><a target="_blank" href="http://qiita.com/organizations/uniba">Qiita</a></li> -->
-          </ul>
-          <div class="clearfix"></div>
-          <address>
-            <ul>
-              <li class="background-blue"><a href="mailto:info@uniba.jp">info@uniba.jp</a></li>
-              <li class="background-blue">TEL 03 3486 9337</li>
-              <li class="background-blue">FAX 03 6427 4787</li>
-            </ul>
-            <ul>
-              <li class="background-blue">150-0001 東京都渋谷区神宮前5-34-4 ジェイハウス B1F</li>
-              <li class="background-blue">J.HAUS B1F, 5-34-4 Jingumae, Shibuya-ku Tokyo, 150-0001 JAPAN</li>
-              <li class="background-blue"><a target="_blank" href="https://goo.gl/maps/8wFlG">Google Map</a></li>
-            </ul>
-          </address>
-          <div class="clearfix"></div>
-          <div id="copyright">
-            <p class="background-blue">UNIBA INC. 2003 - 2018</p>
-            <p id="site-designer" class="background-blue">Cover Art: HYPER INTERNET 3D by <a target="_blank" href="http://okikata.org/">Akihiko Taniguchi</a>, Site Design: <a target="_blank" href="http://tkmab.com/">Takumi Abe</a></p>
-          </div>
-          <div class="clearfix"></div>
-
-        </footer>
+        <%= partial "_partial/footer" %>
 
       </div>
 
