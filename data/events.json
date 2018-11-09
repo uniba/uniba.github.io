@@ -1,15 +1,37 @@
 [
   {
-    "published": "false",
-    "date": "2018/11/02",
-    "title": "SKILL MTG #20181024",
-    "primary_url": "https://soundcloud.com/skillmtg/oct2018",
-    "description": "2018年10月24日に開催した SKILL MTG の Podcast 配信、第1回",
-    "thumb_url": "20181102_thumb.jpg",
+    "published": "true",
+    "date": "2018/11/09",
+    "title": "SKILL MTG #201811 Materialize out of Nowhere",
+    "primary_url": "https://soundcloud.com/skillmtg/201811-materialize-out-of-nowhere",
+    "description": "Unityの話 (Genki Ota)、ランニングをいかに楽しむか (Ryo Murayama)、Make a cube (Satoshi Mochizuki)",
+    "thumb_url": "20181109_thumb.jpg",
     "documents": [
       {
         "title": "Soundcloud",
-        "url": "https://soundcloud.com/skillmtg/oct2018"
+        "url": "https://soundcloud.com/skillmtg/201811-materialize-out-of-nowhere"
+      },
+      {
+        "title": null,
+        "url": null
+      },
+      {
+        "title": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "published": "false",
+    "date": "2018/11/06",
+    "title": "SKILL MTG",
+    "primary_url": "https://soundcloud.com/skillmtg/",
+    "description": "手がけた案件の事例紹介や最近興味を持っている事柄をプレゼンテーション形式で発表する、UNIBAのPodcast",
+    "thumb_url": "20181106_thumb.jpg",
+    "documents": [
+      {
+        "title": "Soundcloud",
+        "url": "https://soundcloud.com/skillmtg/"
       },
       {
         "title": null,
