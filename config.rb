@@ -58,7 +58,7 @@ set :relative_link, true
 
 activate :relative_assets
 
-ignore 'inbrowser/service.html'
+# ignore 'inbrowser/service.html'
 
 # Build-specific configuration
 configure :build do
