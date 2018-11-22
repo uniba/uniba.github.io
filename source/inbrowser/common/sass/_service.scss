@@ -80,6 +80,16 @@
         font-size: 14px;
         line-height: 2;
       }
+
+      .more {
+        font-size: 12px;
+        text-align: right;
+        line-height: 1.5;
+
+        a {
+          text-decoration: underline;
+        }
+      }
     }
   }
 
