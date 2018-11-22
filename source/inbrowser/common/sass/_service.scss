@@ -4,10 +4,23 @@
     margin-bottom: 15px;
   }
 
+  h2 {
+    @include transform(rotate(90deg));
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
   #service-text{
+    margin-bottom: 40px;
     font-size: 18px;
     line-height: 32px;
     padding: 3px 10px 0px 10px;
+  }
+
+  #service-lists {
+    padding: 4px 10px 3px 10px;
   }
 
   .service-column{
@@ -34,6 +47,39 @@
     }
     &:hover{
       border-right: 5px solid #ffffff;
+    }
+  }
+
+  .project-item{
+    display: flex;
+    margin-bottom: 70px;
+    figure {
+      img {
+        max-width: 270px;
+        height: auto;
+        vertical-align: top;
+      }
+    }
+    .item-detail {
+      padding-left: 35px;
+      h3 {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.5;
+        a {
+          text-decoration: underline;
+        }
+      }
+      span {
+        display: block;
+        padding: 5px 0;
+        font-size: 14px;
+        font-weight: 300;
+      }
+      p {
+        font-size: 14px;
+        line-height: 2;
+      }
     }
   }
 

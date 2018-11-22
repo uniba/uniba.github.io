@@ -69,47 +69,40 @@
 ここに紹介するようなプロジェクトは、UNIBA INC. と一緒にプロジェクトをやろうと思ってくれる方々にとっても、同様に可能性へのチャレンジの場であり、新しい経験の場であってほしいと思っています。</p>
           </div>
 
-          <div class="service-column background-blue">
-            <h3>プランニング・デザイン</h3>
-            <p>システム開発のテクニカルディレクション、UX・UIの設計、コンテンツの企画を行っています。<br>ウェブサービス、アプリ、オンラインキャンペーン、イベントの演出装置、サイネージの領域で実績があります。</p>
-            <div class="more mb15"><a href="http://works.uniba.jp/posts/2016-12-defwill-official-2016/">Def Will official web site ></a></div>
-          </div>
+          <div id="service-lists">
 
-          <div class="service-column background-blue">
-            <h3>ウェブアプリケーション開発</h3>
-            <p>数万人規模のユーザのアクセス集中に耐える、テレビ番組やイベントと連動したシステムを開発しています。<br>
-              ECサイトやウェブサービスのバックエンド開発も行います。</p>
-            <div class="more mb15"><a href="http://works.uniba.jp/posts/2017-07-utada-lyric/">宇多田ヒカル lyrics visualization ></a></div>
-            <div class="more mb15"><a href="http://works.uniba.jp/posts/2017-04-molbum/">卒業盛ルバム ></a></div>
-            <div class="more mb15"><a href="https://uniba.jp/datara/">DATARA Ultra-high Capacity Interactive Illusion Platform ></a></div>
-          </div>
+            <h2 class="background-blue">2018</h2>
 
-          <div class="service-column background-blue">
-            <h3>ネイティブアプリケーション開発</h3>
-            <p>iOS、Androidを中心に、ウェブサービスやサイネージで用いるユーザインターフェイスを開発しています。</p>
-            <div class="more mb15"><a href="http://works.uniba.jp/posts/2017-02-smm-supporter/">スマート・マタニティマーク サポーターアプリ ></a></div>
-          </div>
+             <% data.articles.each do |article| %>
 
-          <div class="service-column background-blue">
-            <h3>インスタレーション開発</h3>
-            <p>ウェブと連携したサイネージや、ブースを開発しています。</p>
-            <div class="more mb15"><a href="http://works.uniba.jp/posts/2016-12-allstarhack/">ALL STAR HACK ></a></div>
-            <div class="more mb15"><a href="http://works.uniba.jp/posts/2016-09-yumetairiku/">お台場みんなの夢大陸 トルネードボール ></a></div>
-          </div>
+              <div class="project-item">
 
-          <div class="service-column background-blue">
-            <h3>デバイス開発</h3>
-            <p>センサーやアクチュエーター、通信を統合したデバイスを開発しています。</p>
-            <div class="more mb15"><a href="http://works.uniba.jp/posts/2017-02-yahoo-search-buzzooka/">Yahoo! Search Buzzooka ></a></div>
-            <div class="more mb15"><a href="http://works.uniba.jp/posts/2016-06-cho-umeee/">鴨の超うめえぇぇぇぇ ></a></div>
-            <div class="more mb15"><a href="http://works.uniba.jp/posts/2016-03-wacoal-herstory/">Her True Story ></a></div>
-          </div>
 
-          <div class="service-column background-blue">
-            <h3>その他</h3>
-            <div class="more mb15"><a href="http://works.uniba.jp/posts/2016-07-virtual-somen/">ヴァーチャル素麺 ></a></div>
-            <div class="more mb15"><a href="http://works.uniba.jp/posts/2016-07-namecard-2016/">UNIBA Namecard 2016 ></a></div>
-          </div>
+                <figure class="background-blue">
+                  <a href="http://works.uniba.jp<%= article.href %>" target="_blank">
+                    <img src="http://works.uniba.jp<%= article.thumbnail %>" alt="" />
+                  </a>
+                </figure>
+
+                <div class="item-detail">
+
+                  <h3 class="background-blue">
+                    <a href="http://works.uniba.jp<%= article.href %>" target="_blank">
+                      <%= article.title %>
+                    </a>
+                  </h3>
+
+                  <span class="background-blue"><%= article.published_at.slice(0, 10).gsub("-", ".") %></span>
+
+                  <p class="background-blue">
+                    開発者コメントを公開しました。FONTPLUS のリニューアルはひとつのサイト制作のようでいて、シフトブレインさんと弊社が入り乱れて実装していたり、特殊フォーメーションで面白かったですね。
+                  </p>
+
+                </div>
+
+              </div>
+
+            <% end %>
 
         </div>
 
