@@ -75,44 +75,40 @@
 
               <div class="project-item">
 
-
-                <figure class="background-blue">
+                <div class="background-blue">
                   <a href="http://works.uniba.jp<%= article.href %>" target="_blank">
-                    <img src="http://works.uniba.jp<%= article.thumbnail %>" alt="" />
+                    <figure>
+                      <img src="http://works.uniba.jp<%= article.thumbnail %>" alt="" />
+                    </figure>
                   </a>
-                </figure>
+                </div>
 
                 <div class="item-detail">
 
                   <h3 class="background-blue">
                     <a href="http://works.uniba.jp<%= article.href %>" target="_blank">
                       <%= article.title %>
+                      <span class="external-icon"></span>
                     </a>
                   </h3>
-
-                  <ul class="background-blue">
-                    <% article.tags.each do |tag| %>
-                      <li><%= tag %></li>
-                    <% end %>
-                  </ul>
-
-                  <ul class="background-blue">
-                    <% article.clients.each do |client| %>
-                      <li><%= client %></li>
-                    <% end %>
-                  </ul>
-
-                  <p class="more background-blue">
-                    <a href="http://works.uniba.jp<%= article.href %>" target="_blank">
-                      works >
-                    </a>
-                  </p>
 
                 </div>
 
               </div>
 
             <% end %>
+          </div>
+
+          <div class="background-blue">
+            <div class="more-button">
+              <div class="button">
+                <a href="http://works.uniba.jp" target="_blank">
+                  more works
+                  <span class="external-icon"></span>
+                </a>
+              </div>
+            </div>
+          </div>
 
         </div>
 
