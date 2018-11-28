@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta content="width=device-width" id="viewport-meta" name="viewport">
-    <title>SERVICE - ユニバ株式会社 UNIBA INC.</title>
+    <title>PROJECTS - ユニバ株式会社 UNIBA INC.</title>
     <meta content="ユニバ株式会社は「さわれるインターネット(Embodied Virtuality)」の会社です。" name="description">
 
     <!--Favicon-->
@@ -71,9 +71,7 @@
 
           <div id="service-lists">
 
-            <h2 class="background-blue">2018</h2>
-
-             <% data.articles.each_with_index do |article, i| %>
+            <% data.articles_select.each_with_index do |article, i| %>
 
               <div class="project-item">
 
@@ -92,23 +90,15 @@
                     </a>
                   </h3>
 
-                  <span class="background-blue"><%= article.published_at.slice(0, 10).gsub("-", ".") %></span>
-
-                  <p class="background-blue">
-                    <% j = i%4 %>
-                    <%=
-                      [
-                        "このサイトでは企画の早期の段階から関わらせて頂いた上に、実際の制作にあたっては、おそらく関係各社全てで通常のフローとは異なる流れになるであろうプロトタイプドリブン方式での実装を許容して頂くなど、制作する立場としての自由度を最大限にお預かりしました。その重責を感じながらの仕事でしたが、第三者を入れてのユーザーテストの機会を何度か頂いて徐々にプロダクトとして形作っていくなど得難い経験を積む事ができたと思います。",
-                        "NIBA INC.は、オーストリア・リンツで毎年開かれているアート・テクノロジー・社会の祭典である「アルス・エレクトロニカ」に関心のある人びとの交流機会をつくることを目的に、「ARSOMORO (アルス・エレクトロニカおもろーの会) 2018」を SHIBUYA CAST. で開催します。",
-                        "MASKMAN Inc.さんと共に、サッポロ黒ラベルのキャンペーンサイト「星に願いを！」を制作し、弊社は主に技術面での開発を担当致しました。\n缶に貼られたシールから特設サイトにアクセスすると、3D空間に表現された星空からラッキースターを探して特製スピーカーや黒ラベル六缶パックをゲットする事ができます。",
-                        "マートフォン向けRPG「Fate/Grand Order」の公式リアルイベントである「Fate/Grand Order Fes. 2018 ～3rd Anniversary～」にて\n株式会社マーベラスさまブース内、「水着サーヴァントふれあい体験コーナー」のシステム実装を担当いたしました。\nブース内の大型スクリーンに手をかざすとビーチでくつろぐ「ネロ」「玉藻の前」「アルテラ」が様々な反応を返してくれます。"
-                      ][j]
-                    %>
-                  </p>
+                  <ul class="background-blue">
+                    <% article.tags.each do |tag| %>
+                      <li><%= tag %></li>
+                    <% end %>
+                  </ul>
 
                   <p class="more background-blue">
                     <a href="http://works.uniba.jp<%= article.href %>" target="_blank">
-                      more >>>
+                      works >
                     </a>
                   </p>
 
