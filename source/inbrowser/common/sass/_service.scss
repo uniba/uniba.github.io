@@ -67,7 +67,7 @@
     .item-detail {
 
       h3 {
-        padding: 8px 0;
+        padding: 8px 0 3px;
         font-size: 14px;
         font-weight: 600;
         line-height: 1.5;
@@ -82,8 +82,13 @@
         font-weight: 300;
       }
 
+      ul {
+        padding: 3px 0;
+      }
+
       li {
         display: inline;
+        line-height: 1.25;
 
         &::after {
           content: ", "

@@ -96,6 +96,12 @@
                     <% end %>
                   </ul>
 
+                  <ul class="background-blue">
+                    <% article.clients.each do |client| %>
+                      <li><%= client %></li>
+                    <% end %>
+                  </ul>
+
                   <p class="more background-blue">
                     <a href="http://works.uniba.jp<%= article.href %>" target="_blank">
                       works >
