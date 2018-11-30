@@ -92,6 +92,16 @@
                     </a>
                   </h3>
 
+                  <ul class="background-blue">
+                    <% article.services.each do |service| %>
+                      <li><%= service %></li>
+                    <% end %>
+                  </ul>
+
+                  <p class="background-blue">
+                    <%= article.description %>
+                  </p>
+
                 </div>
 
               </div>
@@ -103,7 +113,7 @@
             <div class="more-button">
               <div class="button">
                 <a href="http://works.uniba.jp" target="_blank">
-                  more works
+                  more Projects
                   <span class="external-icon"></span>
                 </a>
               </div>

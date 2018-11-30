@@ -3,113 +3,67 @@
     "title":"FONTPLUS ためし書き",
     "href":"/posts/2018-11-fontplus-tameshigaki/",
     "thumbnail":"/posts/2018-11-fontplus-tameshigaki/media/thumb-03362aec.png",
-    "tags":[
-      "Web application"
-    ],
-    "clients":[
-      "ソフトバンク・テクノロジー株式会社",
-      "Nippon Design Center, Inc."
+    "description": "「フォントを選ぶ・試す・共有する」体験を凝縮したウェブアプリケーション構築",
+    "services": [
+      "ウェブアプリケーション開発"
     ]
   },
   {
     "title":"「Fate/EXTELLA LINK」 水着サーヴァントふれあい体験コーナー",
     "href":"/posts/2018-07-fgofes-3rd-anniv/",
     "thumbnail":"/posts/2018-07-fgofes-3rd-anniv/media/image01-ba29f8dc.jpg",
-    "tags":[
-      "Installation",
-      "Device"
-    ],
-    "clients":[
-      "株式会社マーベラス"
+    "description": "「Fate/Grand Order Fes. 2018 ～3rd Anniversary～」イベントブース内インスタレーション開発",
+    "services": [
+      "インスタレーション開発"
     ]
   },
   {
     "title":"ONE TOKYO APP",
     "href":"/posts/2017-12-one-tokyo/",
     "thumbnail":"/posts/2017-12-one-tokyo/media/img01-42e420b1.jpg",
-    "tags":[
-      "native app",
-      "Android",
-      "iOS"
-    ],
-    "clients":[
-      "Tokyo Marathon Foundation",
-      "DENTSU INC.",
-      "DENTSU SPORTS PARTNERS INC."
+
+    "description": "ランニングの記録と共有が可能なiOS・Androidアプリ開発、サーバ構築運用、毎月開催のマンスリーバーチャルマラソンの運営サポート",
+    "services": [
+      "プランニング・デザイン",
+      "ウェブアプリケーション開発",
+      "ネイティブアプリケーション開発"
     ]
   },
   {
     "title":"あなたもMステ階段デビュー",
     "href":"/posts/2017-09-m-sta/",
     "thumbnail":"/posts/2017-09-m-sta/media/msta-572c4f9c.gif",
-    "tags":[
-      "Installation",
-      "Campaign",
-      "Web application"
-    ],
-    "clients":[
-      "テレビ朝日",
-      "DENTSU INC"
+    "description": "テレビ朝日･六本木ヒルズ 夏祭り SUMMER STATION 2017で体験できるインスタレーションのシステム制作",
+    "services": [
+      "インスタレーション開発",
+      "ウェブアプリケーション開発"
     ]
   },
   {
     "title":"宇多田ヒカル lyrics visualization",
     "href":"/posts/2017-07-utada-lyric/",
     "thumbnail":"/posts/2017-07-utada-lyric/media/3-2cc06794.jpg",
-    "tags":[
-      "Web",
-      "Campaign"
-    ],
-    "clients":[
-      "EPIC Records Japan",
-      "Sony Music Communications Inc."
+    "description": "リリースキャンペーンサイトの構築、楽曲の歌詞を“歌詞／可視化／声“とシームレスに移動する3Dグラフィック演出",
+    "services": [
+      "ウェブアプリケーション開発"
     ]
   },
   {
-    "title":"ボッシュを知らないなんて、もったいない",
-    "href":"/posts/2017-04-bosch-branding/",
-    "thumbnail":"/posts/2017-04-bosch-branding/media/01-493d5f77.gif",
-    "tags":[
-      "Web"
-    ],
-    "clients":[
-      "Sony Music Communications Inc."
+    "title":"#MYBETA by new balance",
+    "href":"/posts/2017-04-mybeta/",
+    "thumbnail":"/posts/2017-04-mybeta/media/mybeta_thumb-6819604c.jpg",
+    "description": "new balanceが掲げるブランドプラットフォーム「ALWAYS IN BETA」Webサイト構築",
+    "services": [
+      "ウェブアプリケーション開発"
     ]
   },
   {
-    "title":"Bosch 2018 RECRUITING SITE",
-    "href":"/posts/2017-04-bosch-recruiting/",
-    "thumbnail":"/posts/2017-04-bosch-recruiting/media/01-c4018913.jpg",
-    "tags":[
-      "Web"
-    ],
-    "clients":[
-      "Sony Music Communications Inc."
+    "title":"鴨の超うめえぇぇぇぇ",
+    "href":"/posts/2016-06-cho-umeee/",
+    "thumbnail":"/posts/2016-06-cho-umeee/media/cho-umeee-thumb-5ecf4705.jpg",
+    "description": "日清 どん兵衛と鴨長明のコラボ企画で、「鴨の、超うめえぇぇぇぇ!」と叫ぶと同時に服がはだける鴨長明タイマー人形の内部製作",
+    "services": [
+      "デバイス開発"
     ]
-  },
-  {
-    "title":"卒業盛ルバム",
-    "href":"/posts/2017-04-molbum/",
-    "thumbnail":"/posts/2017-04-molbum/media/molbum01-6110e95f.gif",
-    "tags":[
-      "Web application",
-      "Campaign"
-    ],
-    "clients":[
-      "Tokyu Agency",
-      "monopo"
-    ]
-  },
-  {
-    "title":"SENSING SHOES",
-    "href":"/posts/2017-11-ag-shoes-sensor/",
-    "thumbnail":"/posts/2017-11-ag-shoes-sensor/media/img00-a33a14aa.png",
-    "tags":[
-      "Interaction",
-      "Device",
-      "Android",
-      "Unity"
-    ],
-    "clients":[]
   }
 ]

@@ -47,33 +47,34 @@
   }
 
   #service-lists {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
     padding: 4px 10px 3px 10px;
   }
 
   .project-item{
-    width: calc(33.3333% - 30px);
-    // display: flex;
+    // width: calc(33.3333% - 30px);
+    display: flex;
     margin-bottom: 35px;
     figure {
       position: relative;
       overflow: hidden;
-      height: 0;
-      padding-bottom: 65%;
-      background-color: #fff;
+      // height: 0;
+      // padding-bottom: 65%;
+      // background-color: #fff;
 
       img {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 100%;
+        // position: absolute;
+        // top: 50%;
+        // transform: translateY(-50%);
+        width: 270px;
         height: auto;
         vertical-align: top;
       }
     }
     .item-detail {
+      padding-left: 30px;
 
       .external-icon {
         position: relative;
@@ -104,8 +105,8 @@
       }
 
       h3 {
-        padding: 8px 0 3px;
-        font-size: 14px;
+        padding: 0 0 5px;
+        font-size: 18px;
         font-weight: 600;
         line-height: 1.5;
         a {
@@ -120,35 +121,36 @@
       //   font-weight: 300;
       // }
 
-      // ul {
-      //   padding: 3px 0;
-      // }
+      ul {
+        padding: 3px 0 10px;
+      }
 
-      // li {
-      //   display: inline;
-      //   line-height: 1.25;
+      li {
+        display: inline;
+        font-size: 14px;
+        line-height: 1.25;
 
-      //   &::after {
-      //     content: ", "
-      //   }
+        &::after {
+          content: ", "
+        }
 
-      //   &:last-child {
-      //     &::after {
-      //       display: none;
-      //     }
-      //   }
-      // }
+        &:last-child {
+          &::after {
+            display: none;
+          }
+        }
+      }
 
       p {
-        font-size: 14px;
-        line-height: 2;
+        font-size: 16px;
+        line-height: 1.5;
       }
     }
   }
 
   .more-button {
-    width: calc(33.3333% - 30px);
-    margin: 0 auto;
+    width: 270px;
+    margin-left: 10px;
 
     .button {
       position: relative;
