@@ -30,6 +30,17 @@
     ]
   },
   {
+    "title":"SKY TREK フライトシミュレータ",
+    "href":"/posts/2017-09-skytrek/",
+
+    "thumbnail":"/posts/2017-09-skytrek/media/sp-c3111d6f.jpg",
+    "description": "日本初の会員制小型航空機チャーターサービス・SKY TREKのオフィシャルコンテンツ「フライトシミュレータ」のウェブアプリケーション構築",
+    "services": [
+      "プランニング・デザイン",
+      "ウェブアプリケーション開発"
+    ]
+  },
+  {
     "title":"あなたもMステ階段デビュー",
     "href":"/posts/2017-09-m-sta/",
     "thumbnail":"/posts/2017-09-m-sta/media/msta-572c4f9c.gif",
