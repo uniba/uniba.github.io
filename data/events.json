@@ -1,6 +1,28 @@
 [
   {
     "published": "true",
+    "date": "2018/12/10",
+    "title": "SKILL MTG #201812 Records of the Three Craftsmen",
+    "primary_url": "https://soundcloud.com/skillmtg/201812-records-of-the-three-craftsmen",
+    "description": "Qratesの話 (Jun Komatsu)、数学再入門：三角関数編 (Takahiro Yasui)、デザインフェスタに出た (Noriyuki Shimizu)",
+    "thumb_url": "201812skill_thumb.jpg",
+    "documents": [
+      {
+        "title": "Soundcloud",
+        "url": "https://soundcloud.com/skillmtg/201812-records-of-the-three-craftsmen"
+      },
+      {
+        "title": null,
+        "url": null
+      },
+      {
+        "title": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "published": "true",
     "date": "2018/11/09",
     "title": "SKILL MTG #201811 Materialize out of Nowhere",
     "primary_url": "https://soundcloud.com/skillmtg/201811-materialize-out-of-nowhere",
