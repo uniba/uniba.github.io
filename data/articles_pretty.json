@@ -629,7 +629,7 @@
     "published_year":"2017"
   },
   {
-    "title":"Bosch 2018 RECRUITING SITE",
+    "title":"Bosch 2018 careersING SITE",
     "full_title":null,
     "display_title":null,
     "default_image":"media/01.jpg",
@@ -637,7 +637,7 @@
     "published":true,
     "pinned":false,
     "category":"web",
-    "href":"/posts/2017-04-bosch-recruiting/",
+    "href":"/posts/2017-04-bosch-careersing/",
     "urls":[
       {
         "title":null,
@@ -646,9 +646,9 @@
         "available":true
       }
     ],
-    "thumbnail":"/posts/2017-04-bosch-recruiting/media/01-c4018913.jpg",
+    "thumbnail":"/posts/2017-04-bosch-careersing/media/01-c4018913.jpg",
     "media":{
-      "thumbnail":"/posts/2017-04-bosch-recruiting/media/01-c4018913.jpg"
+      "thumbnail":"/posts/2017-04-bosch-careersing/media/01-c4018913.jpg"
     },
     "tags":[
       "web"
@@ -691,7 +691,7 @@
     "tags":[
       "web"
     ],
-    "summary":"<!-- undefined -->\n\n<p>130年以上の歴史を持つグローバル企業「Bosch」のブランドイメージを表現する特設サイトの構築を担当しました。TOPページではブランドの持つテクノロジーやソリューションを3Dで動くキービジュアルで表現。また「ボッシュを知らないなんて、もったいない」をテーマに、7つの魅力をなめらかなアニメーションで紹介しています。\n同時に公開した<a href=\"/posts/2017-04-bosch-recruiting\">採用情報サイト</a>もチェックしてみてください。</p>\n\n<p>(文：<a href=\"/members/keiichi/\">Keiichi Tanifuji</a>)</p>\n",
+    "summary":"<!-- undefined -->\n\n<p>130年以上の歴史を持つグローバル企業「Bosch」のブランドイメージを表現する特設サイトの構築を担当しました。TOPページではブランドの持つテクノロジーやソリューションを3Dで動くキービジュアルで表現。また「ボッシュを知らないなんて、もったいない」をテーマに、7つの魅力をなめらかなアニメーションで紹介しています。\n同時に公開した<a href=\"/posts/2017-04-bosch-careersing\">採用情報サイト</a>もチェックしてみてください。</p>\n\n<p>(文：<a href=\"/members/keiichi/\">Keiichi Tanifuji</a>)</p>\n",
     "members":[
       "keiichi",
       "seiya",
@@ -1284,23 +1284,23 @@
     "title":"アドブレーン 新卒リクルート2017 \"ブレイクする！\"",
     "full_title":null,
     "display_title":null,
-    "default_image":"media/adbrain-recruit2017-thumb.jpg",
+    "default_image":"media/adbrain-careers2017-thumb.jpg",
     "description":null,
     "published":true,
     "pinned":false,
     "category":"web",
-    "href":"/posts/2016-07-adbrain-recruit2017/",
+    "href":"/posts/2016-07-adbrain-careers2017/",
     "urls":[
       {
         "title":null,
-        "url":"http://www.adbrain.co.jp/recruit/2017/",
+        "url":"http://www.adbrain.co.jp/careers/2017/",
         "notes":null,
         "available":true
       }
     ],
-    "thumbnail":"/posts/2016-07-adbrain-recruit2017/media/adbrain-recruit2017-thumb-29a73df7.jpg",
+    "thumbnail":"/posts/2016-07-adbrain-careers2017/media/adbrain-careers2017-thumb-29a73df7.jpg",
     "media":{
-      "thumbnail":"/posts/2016-07-adbrain-recruit2017/media/adbrain-recruit2017-thumb-29a73df7.jpg"
+      "thumbnail":"/posts/2016-07-adbrain-careers2017/media/adbrain-careers2017-thumb-29a73df7.jpg"
     },
     "tags":[
       "html",
@@ -1308,7 +1308,7 @@
       "javascript",
       "css animation"
     ],
-    "summary":"<p>アドブレーン2017年度新卒Web採用サイトの構築</p>\n\n<h2 id=\"section\">概要</h2>\n\n<p>株式会社アドブレーン(以下アドブレーン)の2017年度新卒用のリクルートページの構築を担当しました。表現面と技術面での折り合いをつけつつも最大限の工夫を盛り込んだサイトとなりました。</p>\n\n<h2 id=\"section-1\">フロントエンド解説</h2>\n\n<p>リクルートサイトは以前「<a href=\"http://works.uniba.jp/posts/2016-03-recruit2017/\">RECRUIT DNA</a>」で培った構築経験があり、要所でその知識が役に立ちました。実装環境は Middleman を採用し、レスポンシブ対応ではなくPC・SPで別々のソースを自動的に切り替える仕様にしま...</p>",
+    "summary":"<p>アドブレーン2017年度新卒Web採用サイトの構築</p>\n\n<h2 id=\"section\">概要</h2>\n\n<p>株式会社アドブレーン(以下アドブレーン)の2017年度新卒用のリクルートページの構築を担当しました。表現面と技術面での折り合いをつけつつも最大限の工夫を盛り込んだサイトとなりました。</p>\n\n<h2 id=\"section-1\">フロントエンド解説</h2>\n\n<p>リクルートサイトは以前「<a href=\"http://works.uniba.jp/posts/2016-03-careers2017/\">careers DNA</a>」で培った構築経験があり、要所でその知識が役に立ちました。実装環境は Middleman を採用し、レスポンシブ対応ではなくPC・SPで別々のソースを自動的に切り替える仕様にしま...</p>",
     "members":[
       "mj",
       "koide",
@@ -1594,26 +1594,26 @@
     "published_year":"2016"
   },
   {
-    "title":"RECRUIT DNA Website",
+    "title":"careers DNA Website",
     "full_title":null,
     "display_title":null,
-    "default_image":"media/recruit2017-thumb.jpg",
+    "default_image":"media/careers2017-thumb.jpg",
     "description":null,
     "published":true,
     "pinned":false,
     "category":"web",
-    "href":"/posts/2016-03-recruit2017/",
+    "href":"/posts/2016-03-careers2017/",
     "urls":[
       {
         "title":null,
-        "url":"http://r.recruit-jinji.jp/",
+        "url":"http://r.careers-jinji.jp/",
         "notes":null,
         "available":true
       }
     ],
-    "thumbnail":"/posts/2016-03-recruit2017/media/recruit2017-thumb-fe716538.jpg",
+    "thumbnail":"/posts/2016-03-careers2017/media/careers2017-thumb-fe716538.jpg",
     "media":{
-      "thumbnail":"/posts/2016-03-recruit2017/media/recruit2017-thumb-fe716538.jpg"
+      "thumbnail":"/posts/2016-03-careers2017/media/careers2017-thumb-fe716538.jpg"
     },
     "tags":[
       "html",
