@@ -1,6 +1,50 @@
 [
   {
     "published": "true",
+    "date": "2019/02/18",
+    "title": "SKILL MTG #201902 Lifelong Continuous Delivery",
+    "primary_url": "https://soundcloud.com/skillmtg/201902-lifelong-continuous-delivery",
+    "description": "デッサンの話 (Haruma Kikuchi)、Daily drawingの話 (Noriyuki Shimizu)、ボルダリングの話 (Satoshi Mochizuki)",
+    "thumb_url": "201902skill_thumb.jpg",
+    "documents": [
+      {
+        "title": "Soundcloud",
+        "url": "https://soundcloud.com/skillmtg/201902-lifelong-continuous-delivery"
+      },
+      {
+        "title": null,
+        "url": null
+      },
+      {
+        "title": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "published": "true",
+    "date": "2019/01/15",
+    "title": "SKILL MTG #201901 Intrinsic Motivations",
+    "primary_url": "https://soundcloud.com/skillmtg/201901-intrinsic-motivations",
+    "description": "空気環境のモニタリング (Yasuaki Yamana)、コーヒーについて (Keiichi Tanifuji​)、What's DJ (Yu Koide​)",
+    "thumb_url": "201901skill_thumb.jpg",
+    "documents": [
+      {
+        "title": "Soundcloud",
+        "url": "https://soundcloud.com/skillmtg/201901-intrinsic-motivations"
+      },
+      {
+        "title": null,
+        "url": null
+      },
+      {
+        "title": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "published": "true",
     "date": "2018/12/10",
     "title": "SKILL MTG #201812 Records of the Three Craftsmen",
     "primary_url": "https://soundcloud.com/skillmtg/201812-records-of-the-three-craftsmen",
