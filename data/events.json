@@ -1,6 +1,28 @@
 [
   {
     "published": "true",
+    "date": "2019/04/11",
+    "title": "SKILL MTG #201904 Skill is Omnipresent",
+    "primary_url": "https://soundcloud.com/skillmtg/201904skill_is_omnipresent",
+    "description": "サッカー観戦のスキル (Haruma Kikuchi)、古文漢文見聞気分 (Rei Kawai)",
+    "thumb_url": "201904skill_thumb.jpg",
+    "documents": [
+      {
+        "title": "Soundcloud",
+        "url": "https://soundcloud.com/skillmtg/201904skill_is_omnipresent"
+      },
+      {
+        "title": null,
+        "url": null
+      },
+      {
+        "title": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "published": "true",
     "date": "2019/02/18",
     "title": "SKILL MTG #201902 Lifelong Continuous Delivery",
     "primary_url": "https://soundcloud.com/skillmtg/201902-lifelong-continuous-delivery",
