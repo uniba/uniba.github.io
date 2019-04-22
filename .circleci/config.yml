@@ -2,12 +2,12 @@ version: 2
 jobs:
   build:
     docker:
-    - image: circleci/ruby:2.3-jessie
+    - image: circleci/ruby:2.6.3-node
     steps:
     - checkout
     - run:
-        name: 'Middleman build'
-        command: make build
+        name: 'Middleman deploy'
+        command: make deploy
 
 workflows:
   version: 2
