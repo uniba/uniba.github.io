@@ -151,11 +151,11 @@ DEPENDENCIES
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)
   middleman-cloudfront (~> 0.3.0)
-  middleman-s3_sync (~> 4.0, >= 4.0.3)
+  middleman-s3_sync
   rake
   slack-notifier
   tzinfo-data
   wdm (~> 0.1)
 
 BUNDLED WITH
-   1.17.2
+   2.0.1
