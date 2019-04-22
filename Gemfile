@@ -1,24 +1,15 @@
+source 'https://rubygems.org'
 
-# If you have OpenSSL installed, we recommend updating
-# the following line to use "https"
-source 'http://rubygems.org'
+gem 'middleman', '~> 4.2'
+gem 'middleman-autoprefixer', '~> 2.7'
+gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
+gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 
-gem "middleman", "~>3.2.0"
+gem 'middleman-s3_sync'
 
-# Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
-
-# For faster file watcher updates on Windows:
-gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw, :x64_mingw]
-
-gem 'middleman-s3_sync', '~> 3'
-gem 'mime-types'
-gem 'middleman-cloudfront', '~> 0.2.1'
-
-gem "haml"
-
+gem 'middleman-cloudfront', '~> 0.3.0'
 gem "slack-notifier"
-
 gem "rake"
 
-gem "compass"
+# gem 'sassc', '~> 2.0', '>= 2.0.1'
+# gem "compass"

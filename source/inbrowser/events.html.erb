@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+
+    <!--Meta-->
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width" id="viewport-meta" name="viewport">
+    <title>EVENTS - ユニバ株式会社 UNIBA INC.</title>
+    <%= partial "_partial/meta" %>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="common/css/style.css" />
+
+    <!--JS_jQuery-->
+    <script src="common/js/libs/jquery-1.10.1.min.js"></script>
+    <script src="common/js/libs/jquery.easing.1.3.js"></script>
+    <script src="common/js/libs/jquery.color.js"></script>
+    <script src="common/js/class/textDisplay.js"></script>
+
+  </head>
+  <body>
+
+    <div id="events">
+
+      <div id="wrap-inner">
+
+        <%= partial "_partial/header" %>
+
+        <div id="contents">
+          <div id="events-text" class="background-blue">
+            時々、イベントを開催しています。面白いと感じたことや、やってみたことを話したり触ってみるための場を作ってみると、思いのほか一緒に面白がってくれる方々が多くいて、本当にびっくりします。イベントに来て下さる方々と話すことで、また新しいことをやってみようという気持ちになります。
+          </div>
+
+          <div id="events-lists">
+
+            <% year = false %>
+            <% data.events.each do |event| %>
+
+              <% unless event.published == "false" %>
+                <% if event.date.include?(year.to_s) %>
+                <% else year = event.date.slice(0, 4) %>
+                  <h2 class="background-blue"><%= year %></h2>
+                <% end %>
+
+                <div class="event-item">
+                  <figure>
+                    <% if event.is_thumb == "false" %>
+                      <img src="common/img/events/events_thumb.jpg" alt="">
+                    <% else %>
+                      <img src="common/img/events/<%= event.thumb_url %>" alt="">
+                    <% end %>
+                  </figure>
+                  <div class="item-content">
+                    <div class="item-summary">
+                      <a href="<%= event.primary_url %>" target="_blank" rel="noopner"><h3><span class="background-blue"><%= event.title %></span></h3></a>
+                      <p><span class="background-blue"><%= event.date.gsub("/", ".") %> <%= event.description %></span></p>
+                    </div>
+                    <span class="background-blue">
+                    <% if event.documents.present? %>
+                      <ul>
+                        <% event.documents.each do |item| %>
+                          <li class="background-blue">
+                            <a href="<%= item.url %>" target="_blank" rel="noopner"><%= item.title ? item.title : item.url %></a>
+                          </li>
+                        <% end %>
+                      </ul>
+                    <% end %>
+                  </div>
+                </div>
+              <% end %>
+            <% end %>
+
+          </div>
+        </div>
+
+        <%= partial "_partial/footer" %>
+
+      </div>
+
+    </div>
+
+  </body>
+  <%= partial "_partial/ga" %>
+
+</html>

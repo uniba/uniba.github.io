@@ -32,19 +32,15 @@
     #enter-container{
       a{
         z-index:500;
-        // position: absolute;
         .enter-button{
           z-index: 500;
-          // position: absolute;
           width: 413px;
           height: 64px;
-          // float: right;
           font-size: 78px;
           padding: 9px 10px 8px 0px;
           &:hover{
             z-index:500;
-            @include opacity(0.8);
-            // position: absolute;
+            opacity: 0.8;
           }
         }
       }
