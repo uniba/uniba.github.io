@@ -3,10 +3,7 @@
 ////////////////////////////////////////////////////////
 // --- COMPASS ---
 @charset "UTF-8";
-@import "compass";
-@import "compass/reset/";
-@import "compass/utilities/sprites";
-@import "compass/css3";
+@import "./_reset/";
 @import "./_variables";
 
 ////////////////////////////////////////////////////////
@@ -30,7 +27,7 @@ body {
   font-size: $font-size;
   // -webkit-font-smoothing: antialiased;
   -webkit-font-smoothing: none;
-  // @include box-sizing(border-box);
+  // box-sizing: border-box;
 
   //NAV
   //メニューの選択済み効果用mixin
@@ -40,10 +37,6 @@ body {
         //border-bottom: 1px solid #000;
       }
     }
-  }
-
-  &#firstpage {
-    @import "_canvas";
   }
 
   div {
@@ -71,6 +64,10 @@ body {
       @import "_inner";
       @import "_events";
     }
+    &#notfound {
+      @import "_inner";
+      @import "_notfound";
+    }
 
     #wrap-inner {
       .background-blue {
@@ -86,6 +83,6 @@ a {
   color: #ffffff;
   text-decoration: none;
   &:hover {
-    @include opacity(0.8);
+    opacity: 0.8;
   }
 }
