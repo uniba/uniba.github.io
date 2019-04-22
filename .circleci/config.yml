@@ -8,6 +8,9 @@ jobs:
     - run:
         name: 'Middleman deploy'
         command: make deploy
+    # - run:
+    #     name: 'cloudfront create-invalidation'
+    #     command: aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_ID --paths '/*'
 
 workflows:
   version: 2
