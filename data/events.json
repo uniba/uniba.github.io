@@ -1,5 +1,49 @@
 [
   {
+    "published": "false",
+    "date": null,
+    "title": "SKILL MTG #201906 Performative Coding",
+    "primary_url": "https://soundcloud.com/skillmtg/201906a",
+    "description": "作品で見るORCA入門 (Koichiro Mori)、Nuxt.js を使ってみた (Seiya Konno)",
+    "thumb_url": "201906skill_thumb.jpg",
+    "documents": [
+      {
+        "title": "Soundcloud",
+        "url": "https://soundcloud.com/skillmtg/201906a"
+      },
+      {
+        "title": null,
+        "url": null
+      },
+      {
+        "title": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "published": "true",
+    "date": null,
+    "title": "SKILL MTG #201905 There is a Try",
+    "primary_url": "https://soundcloud.com/skillmtg/201905a",
+    "description": "神前式やってみた (Keiichi Tanifuji)、Unity 多人数開発研究 & Firebase for Unity (Satoshi Motizuki)",
+    "thumb_url": "201905skill_thumb.jpg",
+    "documents": [
+      {
+        "title": "Soundcloud",
+        "url": "https://soundcloud.com/skillmtg/201905a"
+      },
+      {
+        "title": null,
+        "url": null
+      },
+      {
+        "title": null,
+        "url": null
+      }
+    ]
+  },
+  {
     "published": "true",
     "date": "2019/04/11",
     "title": "SKILL MTG #201904 Skill is Omnipresent",
