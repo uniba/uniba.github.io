@@ -246,7 +246,7 @@ GEM
     nokogiri (1.8.2-x64-mingw32)
       mini_portile2 (~> 2.3.0)
     pmap (1.1.1)
-    rack (1.6.4)
+    rack (1.6.11)
     rack-livereload (0.3.16)
       rack
     rack-test (0.6.3)
