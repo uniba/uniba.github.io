@@ -31,6 +31,39 @@
       padding: 10px 10px 5px 10px;
     }
 
+    &.size-document{
+      dl{
+        margin-top: 20px;
+        dt{
+          float: left;
+          width: 150px;
+          padding: 3px 10px 0 10px;
+        }
+        dd{
+          margin-bottom: 10px;
+          line-height: 21px;
+          padding: 3px 10px 0 0;
+          padding-left: 190px;
+        }
+      }
+    }
+
+    &.size-work{
+      dl{
+        dt{
+          float: left;
+          width: 225px;
+          padding: 10px 10px 7px 10px;
+        }
+        dd{
+          margin-bottom: 10px;
+          line-height: 21px;
+          padding: 10px 10px 7px 10px;
+          padding-left: 245px;
+        }
+      }
+    }
+
     &.size-wide{
       dl{
         dt{
