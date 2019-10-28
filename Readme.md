@@ -39,7 +39,11 @@ Sass -> CSS (cssをアップデートするときは)
 
 ## Deployment
 
-CircleCI がいい感じに反映してくれます。
+    $ make deploy
+
+- middleman ブランチで作業し、middleman ブランチにpushすること。
+  - middleman ブランチに push せずに、make deploy してしまうと master と middleman ブランチに差分が出てしまうので要注意！
+  - make deploy は Makefile があるルートディレクトリに cd で移動してからやりましょう！
 
 ## Notice
 
