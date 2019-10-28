@@ -15,5 +15,11 @@ jobs:
 workflows:
   version: 2
   workflow:
+    triggers:
+      - schedule:
+        filters:
+          branches:
+            only:
+              - middleman
     jobs:
     - build
