@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build:
+  build_deploy:
     docker:
       - image: circleci/ruby:2.3.4-node
     steps:
@@ -16,7 +16,7 @@ workflows:
   version: 2
   deploy:
     jobs:
-      - build:
+      - build_deploy:
         filters:
           branches:
             only: middleman
