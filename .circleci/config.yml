@@ -16,7 +16,7 @@ workflows:
   version: 2
   deploy:
     jobs:
-      - build_deploy:
+      build_deploy:
         filters:
           branches:
             only:
