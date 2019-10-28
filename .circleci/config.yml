@@ -6,8 +6,8 @@ jobs:
     steps:
       - checkout
       - run:
-        name: 'Middleman deploy'
-        command: make deploy
+          name: 'Middleman deploy'
+          command: make deploy
     # - run:
     #     name: 'cloudfront create-invalidation'
     #     command: aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_ID --paths '/*'
@@ -17,8 +17,8 @@ jobs:
     steps:
       - checkout
       - run:
-        name: 'Middleman build'
-        command: make build
+          name: 'Middleman build'
+          command: make build
 
 workflows:
   version: 2
@@ -26,8 +26,8 @@ workflows:
     jobs:
       - build
       - deploy:
-        requires:
-          - build
-        filters:
-          branches:
-            only: middleman
+          requires:
+            - build
+          filters:
+            branches:
+              only: middleman
