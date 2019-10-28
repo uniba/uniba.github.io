@@ -1,22 +1,19 @@
 version: 2
 jobs:
-  build_deploy:
+  build:
     docker:
       - image: circleci/ruby:2.3.4-node
     steps:
       - checkout
       - run:
-        name: 'Middleman deploy'
-        command: make deploy
-      # - run:
-      #     name: 'cloudfront create-invalidation'
-      #     command: aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_ID --paths '/*'
+          name: 'Middleman deploy'
+          command: make deploy
+    # - run:
+    #     name: 'cloudfront create-invalidation'
+    #     command: aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_ID --paths '/*'
 
 workflows:
   version: 2
-  deploy:
+  workflow:
     jobs:
-      - build_deploy
-        # filters:
-        #   branches:
-        #     only: middleman
+      - build
