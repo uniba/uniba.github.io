@@ -6,8 +6,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: 'Middleman deploy'
-          command: make deploy
+        name: 'Middleman deploy'
+        command: make deploy
       # - run:
       #     name: 'cloudfront create-invalidation'
       #     command: aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_ID --paths '/*'
