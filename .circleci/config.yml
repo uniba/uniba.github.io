@@ -14,8 +14,9 @@ jobs:
 
 workflows:
   version: 2
-  jobs:
-    - build:
-      filters:
-        branches:
-          only: middleman
+  deploy:
+    jobs:
+      - build:
+        filters:
+          branches:
+            only: middleman
