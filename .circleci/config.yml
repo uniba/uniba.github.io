@@ -19,4 +19,5 @@ workflows:
       - build_deploy:
         filters:
           branches:
-            only: middleman
+            only:
+              - middleman
