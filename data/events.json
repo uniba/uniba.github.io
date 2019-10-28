@@ -1,6 +1,72 @@
 [
   {
     "published": "true",
+    "date": "2019/10/18",
+    "title": "SKILL MTG #201909 maker fairで展示してきた / Artisan Keycap / 映像に実在感を与える",
+    "primary_url": "https://soundcloud.com/skillmtg/201909a/s-iJ7OZ",
+    "description": "maker fairで展示してきた (Yasuaki Yamana)、Artisan Keycap (Noriyuki Shimizu)、 映像に実在感を与える (Kohji Matsumoto)",
+    "thumb_url": "201909skill_thumb.jpg",
+    "documents": [
+      {
+        "title": "SoundCloud",
+        "url": "https://soundcloud.com/skillmtg/201909a/s-iJ7OZ"
+      },
+      {
+        "title": null,
+        "url": null
+      },
+      {
+        "title": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "published": "true",
+    "date": "2019/10/01",
+    "title": "ARSOMORO (アルス・エレクトロニカおもろーの会) 2019",
+    "primary_url": "https://www.facebook.com/events/2310336515886874/",
+    "description": "アルス・エレクトロニカを面白がる人種、2019年度アルスオモラーたちの集まり。",
+    "thumb_url": "20191001_thumb.jpg",
+    "documents": [
+      {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/events/2310336515886874/"
+      },
+      {
+        "title": null,
+        "url": null
+      },
+      {
+        "title": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "published": "true",
+    "date": "2019/09/20",
+    "title": "SKILL MTG #201908 Let's Start to Create the Game / Kusabi is the New Editor for Creative Coding",
+    "primary_url": "https://soundcloud.com/skillmtg/201908-lets-start-to-create-the-game-kusabi-is-the-new-editor-for-creative-coding/s-Kd85l",
+    "description": "Let's Start to Create the Game / Kusabi is the New Editor for Creative Coding by SKILL MTG",
+    "thumb_url": "201908skill_thumb.jpg",
+    "documents": [
+      {
+        "title": "SoundCloud",
+        "url": "https://soundcloud.com/skillmtg/201908-lets-start-to-create-the-game-kusabi-is-the-new-editor-for-creative-coding/s-Kd85l"
+      },
+      {
+        "title": null,
+        "url": null
+      },
+      {
+        "title": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "published": "true",
     "date": "2019/06/19",
     "title": "SKILL MTG #201906 Performative Coding",
     "primary_url": "https://soundcloud.com/skillmtg/201906a",
@@ -8,7 +74,7 @@
     "thumb_url": "201906skill_thumb.jpg",
     "documents": [
       {
-        "title": "Soundcloud",
+        "title": "SoundCloud",
         "url": "https://soundcloud.com/skillmtg/201906a"
       },
       {
@@ -30,7 +96,7 @@
     "thumb_url": "201905skill_thumb.jpg",
     "documents": [
       {
-        "title": "Soundcloud",
+        "title": "SoundCloud",
         "url": "https://soundcloud.com/skillmtg/201905a"
       },
       {
@@ -52,7 +118,7 @@
     "thumb_url": "201904skill_thumb.jpg",
     "documents": [
       {
-        "title": "Soundcloud",
+        "title": "SoundCloud",
         "url": "https://soundcloud.com/skillmtg/201904skill_is_omnipresent"
       },
       {
@@ -74,7 +140,7 @@
     "thumb_url": "201902skill_thumb.jpg",
     "documents": [
       {
-        "title": "Soundcloud",
+        "title": "SoundCloud",
         "url": "https://soundcloud.com/skillmtg/201902-lifelong-continuous-delivery"
       },
       {
@@ -96,7 +162,7 @@
     "thumb_url": "201901skill_thumb.jpg",
     "documents": [
       {
-        "title": "Soundcloud",
+        "title": "SoundCloud",
         "url": "https://soundcloud.com/skillmtg/201901-intrinsic-motivations"
       },
       {
@@ -118,7 +184,7 @@
     "thumb_url": "201812skill_thumb.jpg",
     "documents": [
       {
-        "title": "Soundcloud",
+        "title": "SoundCloud",
         "url": "https://soundcloud.com/skillmtg/201812-records-of-the-three-craftsmen"
       },
       {
@@ -140,7 +206,7 @@
     "thumb_url": "20181109_thumb.jpg",
     "documents": [
       {
-        "title": "Soundcloud",
+        "title": "SoundCloud",
         "url": "https://soundcloud.com/skillmtg/201811-materialize-out-of-nowhere"
       },
       {
@@ -162,7 +228,7 @@
     "thumb_url": "20181106_thumb.jpg",
     "documents": [
       {
-        "title": "Soundcloud",
+        "title": "SoundCloud",
         "url": "https://soundcloud.com/skillmtg/"
       },
       {
@@ -184,7 +250,7 @@
     "thumb_url": "20180928_thumb.jpg",
     "documents": [
       {
-        "title": "facebook",
+        "title": "Facebook",
         "url": "https://www.facebook.com/events/312679712799750/"
       },
       {
@@ -514,7 +580,7 @@
     "thumb_url": "20170713_thumb.jpg",
     "documents": [
       {
-        "title": "facebook",
+        "title": "Facebook",
         "url": "https://www.facebook.com/events/426664604382043"
       },
       {
@@ -580,7 +646,7 @@
     "thumb_url": "20161109_thumb.jpg",
     "documents": [
       {
-        "title": "facebook",
+        "title": "Facebook",
         "url": "https://www.facebook.com/events/1179437228769398/"
       },
       {
@@ -606,7 +672,7 @@
         "url": "http://yami-ichi.biz/tokyo/"
       },
       {
-        "title": "facebook",
+        "title": "Facebook",
         "url": "https://www.facebook.com/events/1096037057132813/"
       },
       {
@@ -624,7 +690,7 @@
     "thumb_url": "20160831_thumb.jpg",
     "documents": [
       {
-        "title": "facebook",
+        "title": "Facebook",
         "url": "https://www.facebook.com/events/473417656192394/"
       },
       {
@@ -848,7 +914,7 @@
         "url": "http://works.uniba.jp/posts/2013-09-homepagerobot/"
       },
       {
-        "title": "vimeo",
+        "title": "Vimeo",
         "url": "https://vimeo.com/73190175"
       },
       {
@@ -976,7 +1042,7 @@
     "thumb_url": "events_thumb.jpg",
     "documents": [
       {
-        "title": "facebook",
+        "title": "Facebook",
         "url": "https://www.facebook.com/events/475219129223972/"
       },
       {
@@ -998,7 +1064,7 @@
     "thumb_url": "events_thumb.jpg",
     "documents": [
       {
-        "title": "facebook",
+        "title": "Facebook",
         "url": "https://www.facebook.com/events/383631208413036/"
       },
       {
@@ -1020,7 +1086,7 @@
     "thumb_url": "events_thumb.jpg",
     "documents": [
       {
-        "title": "facebook",
+        "title": "Facebook",
         "url": "https://www.facebook.com/events/161358854030632/"
       },
       {
@@ -1046,7 +1112,7 @@
         "url": "http://works.uniba.jp/posts/2013-04-future-semaphore-exhibition/"
       },
       {
-        "title": "vimeo",
+        "title": "Vimeo",
         "url": "https://vimeo.com/65720665"
       },
       {
@@ -1086,7 +1152,7 @@
     "thumb_url": "20121205_thumb.jpg",
     "documents": [
       {
-        "title": "vimeo",
+        "title": "Vimeo",
         "url": "https://vimeo.com/56083432"
       },
       {
@@ -1130,7 +1196,7 @@
     "thumb_url": "20120825_thumb.jpg",
     "documents": [
       {
-        "title": "vimeo",
+        "title": "Vimeo",
         "url": "https://vimeo.com/49137156"
       },
       {
@@ -1350,7 +1416,7 @@
     "thumb_url": "20110901_thumb.jpg",
     "documents": [
       {
-        "title": "facebook",
+        "title": "Facebook",
         "url": "https://www.facebook.com/events/1084645638216011/"
       },
       {
