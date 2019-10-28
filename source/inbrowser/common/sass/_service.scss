@@ -208,8 +208,17 @@
       display: block;
     }
     .project-item{
+      display: block;
       width: 100%;
       margin-bottom: 30px;
+      figure {
+        img {
+          width: 100%;
+        }
+      }
+      .item-detail {
+        padding: 15px 0 0 0;
+      }
     }
     .more-button {
       width: auto;
