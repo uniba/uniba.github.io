@@ -22,3 +22,5 @@ gem "slack-notifier"
 gem "rake"
 
 gem "compass"
+
+gem 'json', github: 'flori/json', branch: 'v1.8'
