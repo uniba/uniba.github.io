@@ -1,6 +1,50 @@
 [
   {
     "published": "true",
+    "date": "2019/12/23",
+    "title": "SKILL MTG #201911 最近のAR動向 / Lazurite 初めて使ってみて",
+    "primary_url": "https://soundcloud.com/skillmtg/201911-arlazurite",
+    "description": "最近のAR動向(Takahiro Yasui) Lazurite 初めて使ってみて(Satoshi Mochizuki)",
+    "thumb_url": "201911skill_thumb.jpg",
+    "documents": [
+      {
+        "title": "SoundCloud",
+        "url": "https://soundcloud.com/skillmtg/201911-arlazurite"
+      },
+      {
+        "title": null,
+        "url": null
+      },
+      {
+        "title": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "published": "true",
+    "date": "2019/12/17",
+    "title": "SKILL MTG #201910 いい写真の作り方",
+    "primary_url": "https://soundcloud.com/skillmtg/201901a",
+    "description": "いい写真の作り方(Cazunari Muraho)",
+    "thumb_url": "201910skill_thumb.jpg",
+    "documents": [
+      {
+        "title": "SoundCloud",
+        "url": "https://soundcloud.com/skillmtg/201901a"
+      },
+      {
+        "title": null,
+        "url": null
+      },
+      {
+        "title": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "published": "true",
     "date": "2019/10/18",
     "title": "SKILL MTG #201909 maker fairで展示してきた / Artisan Keycap / 映像に実在感を与える",
     "primary_url": "https://soundcloud.com/skillmtg/201909a/s-iJ7OZ",
