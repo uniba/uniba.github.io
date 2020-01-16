@@ -1,0 +1,91 @@
+////////////////////////////////////////////////////////
+// import
+////////////////////////////////////////////////////////
+// --- COMPASS ---
+@charset "UTF-8";
+@import "compass";
+@import "compass/reset/";
+@import "compass/utilities/sprites";
+@import "compass/css3";
+@import "./_variables";
+
+////////////////////////////////////////////////////////
+// COMMON
+////////////////////////////////////////////////////////
+// --- HTML&BODY ---
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  height: auto !important;
+  min-height: 100%;
+  color: #3126f5;
+  background-color: #3126f5;
+  // background-color: #FFF;
+  @include font-helvetica;
+  font-size: $font-size;
+  // -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: none;
+  // @include box-sizing(border-box);
+
+  //NAV
+  //メニューの選択済み効果用mixin
+  @mixin nav-select($nav_id) {
+    #glb-nav {
+      .nav-btn:nth-child(#{$nav_id + 1}) a {
+        //border-bottom: 1px solid #000;
+      }
+    }
+  }
+
+  &#firstpage {
+    @import "_canvas";
+  }
+
+  div {
+    //各ページ用scssのimport
+    &#top {
+      @import "_top";
+    }
+    &#home {
+      @import "_inner";
+      @import "_home";
+    }
+    &#about {
+      @import "_inner";
+      @import "_about";
+    }
+    &#service {
+      @import "_inner";
+      @import "_service";
+    }
+    &#careers {
+      @import "_inner";
+      @import "_careers";
+    }
+    &#events {
+      @import "_inner";
+      @import "_events";
+    }
+
+    #wrap-inner {
+      .background-blue {
+        background-color: #ffffff;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+// --- A ---
+a {
+  color: #ffffff;
+  text-decoration: none;
+  &:hover {
+    @include opacity(0.8);
+  }
+}

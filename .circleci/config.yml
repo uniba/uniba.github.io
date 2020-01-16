@@ -1,0 +1,19 @@
+version: 2
+jobs:
+  deploy:
+    docker:
+      - image: circleci/ruby:2.3.4-node
+    steps:
+      - checkout
+      - run:
+          name: 'Middleman deploy'
+          command: make deploy
+
+workflows:
+  version: 2
+  workflow:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only: middleman

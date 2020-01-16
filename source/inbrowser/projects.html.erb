@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+
+    <!--Meta-->
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width" id="viewport-meta" name="viewport">
+    <title>PROJECTS - ユニバ株式会社 UNIBA INC.</title>
+    <%= partial "_partial/meta" %>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="common/css/style.css" />
+
+    <!--JS_jQuery-->
+    <script src="common/js/libs/jquery-1.10.1.min.js"></script>
+    <script src="common/js/libs/jquery.easing.1.3.js"></script>
+    <script src="common/js/libs/jquery.color.js"></script>
+    <script src="common/js/class/textDisplay.js"></script>
+
+  </head>
+  <body>
+
+    <div id="service">
+
+      <div id="wrap-inner">
+
+        <%= partial "_partial/header" %>
+
+        <div id="contents">
+
+          <div id="service-text" class="background-blue">
+            <p>毎日、縁のある方々と一緒に、多くのプロジェクトを進めています。<br/>
+ソフトウェアとネットワークの新しい可能性を見たい、面白いことを経験したいという好奇心と、それを実現するためにチャレンジしてエンジニアやデザイナーとして成長したいというモチベーションが出会うことで、時として、ほんとうにすごいことを達成できたなと思える瞬間が訪れます。<br/>
+ここに紹介するようなプロジェクトは、UNIBA INC. と一緒にプロジェクトをやろうと思ってくれる方々にとっても、同様に可能性へのチャレンジの場であり、新しい経験の場であってほしいと思っています。</p>
+          </div>
+
+          <div id="service-lists">
+
+            <% data.articles_select.each_with_index do |article, i| %>
+
+              <div class="project-item">
+
+                <div class="background-blue">
+                  <a href="http://works.uniba.jp<%= article.href %>" target="_blank">
+                    <figure>
+                      <img src="<%= article.thumbnail %>" alt="<%= article.title %>" />
+                    </figure>
+                  </a>
+                </div>
+
+                <div class="item-detail">
+
+                  <h3 class="background-blue">
+                    <a href="http://works.uniba.jp<%= article.href %>" target="_blank">
+                      <%= article.title %>
+                      <span class="external-icon"></span>
+                    </a>
+                  </h3>
+
+                  <ul class="background-blue">
+                    <% article.services.each do |service| %>
+                      <li><%= service %></li>
+                    <% end %>
+                  </ul>
+
+                  <p class="background-blue">
+                    <%= article.description %>
+                  </p>
+
+                </div>
+
+              </div>
+
+            <% end %>
+          </div>
+
+          <div class="background-blue">
+            <div class="more-button">
+              <div class="button">
+                <a href="http://works.uniba.jp" target="_blank">
+                  more Projects
+                  <span class="external-icon"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <%= partial "_partial/footer" %>
+
+      </div>
+
+    </div>
+
+  </body>
+  <%= partial "_partial/ga" %>
+
+</html>
