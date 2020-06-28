@@ -2,7 +2,7 @@
 
 スタッフの入社時および退職時のやることリスト。
 
-## [入社時手続き](https://github.com/uniba/uniba.github.io/blob/feature/documents/documents/入社時・退職時手続き/入社時手続き.md)
+## [入社時手続き](https://github.com/uniba/uniba.github.io/blob/middleman/documents/入社時・退職時手続き/入社時手続き.md)
 * 雇用契約書の締結
 * 提出書類
 * 各種サービスのアカウント作成
