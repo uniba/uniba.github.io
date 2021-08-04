@@ -19,39 +19,17 @@
     <script src="common/js/class/textDisplay.js"></script>
 
     <style>
-      .wrapper{
-        width:100%;
-        justify-content;center;
-      }
-      .main{
-        width:60%;
-      }
-      .archive {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-      }
-
-      .archive tent {
-        display:flex;
-        margin-bottom: 3rem;
-        padding: 3rem;
-        width: 50%;
-      }
-
-      .archive img {
-        display: block;
-        margin-bottom: 3rem;
-        width: 50%;
-        height: auto;
-      }
-
-      .archive p{
-        width:50%;
-        height: auto
-        margin-bottom:3rem;
-        color: white;
-      }
+    .list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    .item {
+      color: white;
+      margin: 5px;
+      float: left;
+      width: calc(50% - 10px);
+    }
     </style>
 
   </head>
@@ -77,29 +55,26 @@
             <div class="clearfix"></div>
           </div>
 
-          <div class="wrapper">
-            <section class="main">
-              <h1>メインコンテンツ</h1>
-              <div class="archive">
-                <div "tent">
-                  <img src="no-image.gif" alt="no-img">
-                  <p>見出しや文章</p>
-                </div>
-                <div "tent">
-                  <img src="no-image.gif" alt="no-img">
-                  <p>見出しや文章</p>
-                </div>
-                <div "tent">
-                  <img src="no-image.gif" alt="no-img">
-                  <p>見出しや文章</p>
-                </div>
-                <div "tent">
-                  <img src="no-image.gif" alt="no-img">
-                  <p>見出しや文章</p>
-                </div>
-              </div>
-            </section>
-          </div>
+          <ul class="list">
+            <li class="item">
+              商品A
+            </li>
+            <li class="item">
+              商品B
+            </li>
+            <li class="item">
+              商品C
+            </li>
+            <li class="item">
+              商品D
+            </li>
+            <li class="item">
+              商品E
+            </li>
+            <li class="item">
+              商品F
+            </li>
+            </ul>
 
           <div id="members">
 
