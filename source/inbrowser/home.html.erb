@@ -18,6 +18,42 @@
     <script src="common/js/libs/jquery.color.js"></script>
     <script src="common/js/class/textDisplay.js"></script>
 
+    <style>
+      .wrapper{
+        width:100%;
+        justify-content;center;
+        background:blue;
+      }
+      .main{
+        width:60%;
+      }
+      .archive {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+      .archive contents {
+        display:flex;
+        margin-bottom: 3rem;
+        padding: 3rem;
+        width: 35%;
+      }
+
+      .archive img {
+        display: block;
+        margin-bottom: 3rem;
+        width: 30%;
+        height: auto;
+      }
+
+      .archive p{
+        width:70%;
+        height: auto
+        margin-bottom:3rem;
+      }
+    </style>
+
   </head>
   <body>
 
@@ -39,6 +75,30 @@
               <% end %>
             </dl>
             <div class="clearfix"></div>
+          </div>
+
+          <div class="wrapper">
+            <section class="main">
+              <h1>メインコンテンツ</h1>
+              <div class="archive">
+                <div "contents">
+                  <img src="no-image.gif" alt="no-img">
+                  <p>見出しや文章</p>
+                </div>
+                <div "contents">
+                  <img src="no-image.gif" alt="no-img">
+                  <p>見出しや文章</p>
+                </div>
+                <div "contents">
+                  <img src="no-image.gif" alt="no-img">
+                  <p>見出しや文章</p>
+                </div>
+                <div "contents">
+                  <img src="no-image.gif" alt="no-img">
+                  <p>見出しや文章</p>
+                </div>
+              </div>
+            </section>
           </div>
 
           <div id="members">
