@@ -164,6 +164,7 @@
         width:80px;
         height: 80px;
       }
+      
     }
   }
 
@@ -225,6 +226,12 @@
       }
       .image{
         padding-top: 0px;
+      }
+      .item h3{
+        font-size: 2px;
+        padding: 1px;
+        border: double 3px #FFFFFF;
+        float: right;
       }
     }
 
