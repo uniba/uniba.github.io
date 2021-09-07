@@ -66,7 +66,7 @@
       font-size: 1px;
       padding: 3px;
       border: double 3px #FFFFFF;
-      position: absolute;
+      text-align: right;
     }
 
     .image{
@@ -221,7 +221,7 @@
 
     #teams{
       .item{
-        width: 100%;
+        width: 90%;
       }
       .image{
         padding-top: 0px;
