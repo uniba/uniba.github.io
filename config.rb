@@ -11,6 +11,9 @@ compass_config do |config|
   config.output_style = :expanded
 end
 
+ignore 'inbrowser/common/sass/screen.scss'
+ignore 'inbrowser/common/sass/style.scss'
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
