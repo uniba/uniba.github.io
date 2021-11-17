@@ -9,10 +9,11 @@ gem "middleman-livereload"
 gem 'middleman-s3_sync'
 gem 'mime-types'
 gem 'middleman-cloudfront'
+gem 'slack-ruby-client'
 
 gem "haml"
 
-gem "slack-notifier"
+# gem "slack-notifier"
 
 gem "rake"
 

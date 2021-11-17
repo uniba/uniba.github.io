@@ -41,7 +41,9 @@ page "/inbrowser/**",
 
 preferred_syntax = :scss
 
-
+# Slack.configure do |config|
+#   config.token = 
+# end
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'

@@ -48,6 +48,27 @@ GEM
     eventmachine (1.2.7)
     excon (0.88.0)
     execjs (2.8.1)
+    faraday (1.8.0)
+      faraday-em_http (~> 1.0)
+      faraday-em_synchrony (~> 1.0)
+      faraday-excon (~> 1.1)
+      faraday-httpclient (~> 1.0.1)
+      faraday-net_http (~> 1.0)
+      faraday-net_http_persistent (~> 1.1)
+      faraday-patron (~> 1.0)
+      faraday-rack (~> 1.0)
+      multipart-post (>= 1.2, < 3)
+      ruby2_keywords (>= 0.0.4)
+    faraday-em_http (1.0.0)
+    faraday-em_synchrony (1.0.0)
+    faraday-excon (1.1.0)
+    faraday-httpclient (1.0.1)
+    faraday-net_http (1.0.1)
+    faraday-net_http_persistent (1.2.0)
+    faraday-patron (1.0.0)
+    faraday-rack (1.0.0)
+    faraday_middleware (1.2.0)
+      faraday (~> 1.0)
     fast_blank (1.0.1)
     fastimage (2.2.5)
     ffi (1.15.4)
@@ -68,6 +89,7 @@ GEM
       fog-core
       nokogiri (>= 1.5.11, < 2.0.0)
     formatador (0.3.0)
+    gli (2.20.1)
     haml (5.2.2)
       temple (>= 0.8.0)
       tilt
@@ -147,6 +169,7 @@ GEM
     mini_portile2 (2.6.1)
     minitest (5.14.4)
     multi_json (1.15.0)
+    multipart-post (2.1.1)
     nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
@@ -170,11 +193,17 @@ GEM
       ffi (~> 1.0)
     rexml (3.2.5)
     ruby-progressbar (1.11.0)
+    ruby2_keywords (0.0.5)
     sass (3.4.25)
     sassc (2.4.0)
       ffi (~> 1.9)
     servolux (0.13.0)
-    slack-notifier (2.4.0)
+    slack-ruby-client (0.17.0)
+      faraday (>= 1.0)
+      faraday_middleware
+      gli
+      hashie
+      websocket-driver
     temple (0.8.2)
     thor (1.1.0)
     tilt (2.0.10)
@@ -188,6 +217,9 @@ GEM
       unf_ext
     unf_ext (0.0.8)
     webrick (1.7.0)
+    websocket-driver (0.7.5)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
     zeitwerk (2.5.1)
 
 PLATFORMS
@@ -206,7 +238,7 @@ DEPENDENCIES
   middleman-s3_sync
   mime-types
   rake
-  slack-notifier
+  slack-ruby-client
   tzinfo-data
   wdm (~> 0.1)
 
