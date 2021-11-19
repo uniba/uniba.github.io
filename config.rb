@@ -60,9 +60,9 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-after_configuration do
-  sprockets.append_path "#{root}/bower_components/"
-end
+# after_configuration do
+#   sprockets.append_path "#{root}/bower_components/"
+# end
 
 activate :s3_sync do |s3_sync|
   s3_sync.bucket = 'uniba.jp'
