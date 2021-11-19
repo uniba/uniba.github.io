@@ -41,51 +41,41 @@ page "/inbrowser/**",
 
 preferred_syntax = :scss
 
-# Slack.configure do |config|
-#   config.token = 
-# end
-
-# With alternative layout
-# page '/path/to/file.html', layout: 'other_layout'
-
-# Proxy pages
-# https://middlemanapp.com/advanced/dynamic-pages/
-
-# proxy(
-#   '/this-page-has-no-template.html',
-#   '/template-file.html',
-#   locals: {
-#     which_fake_page: 'Rendering a fake page with a local variable'
-#   },
-# )
-
-# Helpers
-# Methods defined in the helpers block are available in templates
-# https://middlemanapp.com/basics/helper-methods/
-
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
-
 # Build-specific configuration
-# https://middlemanapp.com/advanced/configuration/#environment-specific-settings
+configure :build do
+  # For example, change the Compass output style for deployment
+  activate :minify_css
 
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
-# end
+  # Minifyするとエラーする
+  # Minify Javascript on build
+  # activate :minify_javascript
 
-# activate :external_pipeline,
-#   name: :webpack,
-#   command: build? ?
-#     "./node_modules/webpack/bin/webpack.js --bail -p" :
-#     "./node_modules/webpack/bin/webpack.js --watch --color --mode development",
-#   source: ".tmp/dist",
-#   latency: 1
+  # Enable cache buster
+  # activate :asset_hash
 
-# # Dev environment
-# configure :development do
-#   config[:js_dir] = ".tmp/dist"
-# end
+  # Use relative URLs
+  # activate :relative_assets
+
+  # Or use a different image path
+  # set :http_prefix, "/Content/images/"
+end
+
+after_configuration do
+  sprockets.append_path "#{root}/bower_components/"
+end
+
+activate :s3_sync do |s3_sync|
+  s3_sync.bucket = 'uniba.jp'
+  s3_sync.region = 'ap-northeast-1'
+  s3_sync.delete = true
+  s3_sync.prefer_gzip = true
+  s3_sync.path_style = true
+  s3_sync.reduced_redundancy_storage = false
+  s3_sync.acl = 'public-read'
+end
+
+activate :cloudfront do |cf|
+  cf.access_key_id = ENV.fetch('AWS_ACCESS_KEY_ID', '')
+  cf.secret_access_key = ENV.fetch('AWS_SECRET_ACCESS_KEY', '')
+  cf.distribution_id = 'EDVJRRM7U37CZ'
+end
