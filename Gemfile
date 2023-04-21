@@ -1,26 +1,23 @@
+source 'https://rubygems.org'
 
-# If you have OpenSSL installed, we recommend updating
-# the following line to use "https"
-source 'http://rubygems.org'
+gem 'middleman', '~> 4.2'
+gem 'middleman-autoprefixer', '~> 2.7'
+gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby, :x64_mingw]
+gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw, :x64_mingw]
+gem "middleman-livereload"
 
-gem "middleman", "~>3.2.0"
-
-# Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
-
-# For faster file watcher updates on Windows:
-gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw, :x64_mingw]
-
-gem 'middleman-s3_sync', '~> 3'
+gem 'middleman-s3_sync'
 gem 'mime-types'
-gem 'middleman-cloudfront', '~> 0.2.1'
+gem 'middleman-cloudfront'
+gem 'slack-ruby-client'
 
 gem "haml"
 
-gem "slack-notifier"
+# gem "slack-notifier"
 
 gem "rake"
 
 gem "compass"
+gem "middleman-compass"
 
 gem 'json', github: 'flori/json', branch: 'v1.8'

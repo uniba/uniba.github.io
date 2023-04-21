@@ -8,7 +8,7 @@ server: bundle data
 	bundle exec middleman server
 
 build: bundle
-	cd ./source/inbrowser && bundle exec compass compile --time
+	cd ./source/inbrowser && bundle exec compass compile --time --config="./config-for-style"
 	bundle exec middleman build --verbose
 
 clean:

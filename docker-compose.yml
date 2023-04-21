@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  middleman_web:
+    build: .
+    command: bundle exec middleman server
+    volumes:
+      - ".:/app"
+      - "node_modules:/app/node_modules"
+    ports:
+      - "4567:4567"
+      - "1234:1234"
+volumes:
+  node_modules:

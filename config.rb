@@ -1,64 +1,45 @@
-###
-# Compass
-###
+# Activate and configure extensions
+# https://middlemanapp.com/advanced/configuration/#configuring-extensions
+
+# activate :autoprefixer do |prefix|
+#   prefix.browsers = "last 2 versions"
+# end
 
 # Change Compass configuration
+# activate :compass
 compass_config do |config|
   config.output_style = :expanded
 end
 
-# data.works.each do |project|
-#   proxy "/works/#{project.page_name}/index.html", "/works/template.html", :locals => { :project => project }, :ignore => true
-# end
+ignore 'inbrowser/common/sass/screen.scss'
+ignore 'inbrowser/common/sass/style.scss'
 
-###
-# Page options, layouts, aliases and proxies
-###
+# Layouts
+# https://middlemanapp.com/basics/layouts/
 
-# Per-page layout changes:
-#
-# With no layout
-# page "/path/to/file.html", :layout => false
-#
-# With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
-#
-# A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
+# Per-page layout changes
+page '/*.xml', layout: false
+page '/*.json', layout: false
+page '/*.txt', layout: false
 
-# Proxy pages (http://middlemanapp.com/dynamic-pages/)
-# proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
-#  :which_fake_page => "Rendering a fake page with a local variable" }
 
-###
-# Helpers
-###
+activate :livereload, host: '0.0.0.0', port: '1234'
 
-# Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
-
-# Reload the browser automatically whenever files change
-# activate :livereload
-
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
-
-set :css_dir, 'stylesheets'
-set :js_dir, 'javascripts'
-set :images_dir, 'images'
 
 set :haml, { :attr_wrapper => "\"" }
 set :relative_link, true
 
 activate :relative_assets
 
-# ignore 'inbrowser/service.html'
+page "/inbrowser/**", 
+  :css_dir => "inbrowser/common/css", 
+  :sass_dir => "inbrowser/common/sass", 
+  :images_dir => "inbrowser/common/img", 
+  :javascripts_dir => "inbrowser/common/js", 
+  :fonts_dir => "inbrowser/common/fonts"
+
+
+preferred_syntax = :scss
 
 # Build-specific configuration
 configure :build do
@@ -79,9 +60,9 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-after_configuration do
-  sprockets.append_path "#{root}/bower_components/"
-end
+# after_configuration do
+#   sprockets.append_path "#{root}/bower_components/"
+# end
 
 activate :s3_sync do |s3_sync|
   s3_sync.bucket = 'uniba.jp'
